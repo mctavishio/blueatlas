@@ -430,7 +430,7 @@ div.absolute {
 }
 main {
 	position: relative;
-	padding: 1em;
+	padding: 2em;
 	/*padding-top: 2em;*/
 	transition: opacity 1s ease-in-out;
 	/*overflow-y: scroll;
@@ -559,19 +559,9 @@ ul.circle li, ol.circle li, dl.circle dt {
 ul.stanza {
 	margin-bottom: 1em;
 	font-weight: bold;
+	font-family: 'Andale Mono', AndaleMono, Monaco, Courier, monospace;
+	font-family: var(--monospace_zerodot);
 }
-/*ul[data-role="archive"] {
-	padding-left: 1em;
-	border-left: 4px solid var(--warmblack);
-}
-ul[data-role="rider"] {
-	padding-left: 1em;
-	border-left: 4px solid var(--red);
-}
-ul[data-role="narrator"] {
-	padding-left: 1em;
-	border-left: 4px solid var(--warmwhite);
-}*/
 
 *[data-role="rider"]  li {
 	font-family: Verdana, Helvetica, Arial, Tahoma, 'Trebuchet MS', sans-serif;
@@ -659,13 +649,17 @@ ul.after13 > li::after {
 	font-family: var(--monospace_zerodot);
 	content: " ::: ";
 }
-
-/*main.expand ul.stanza > li::after {
-	font-family: Courier, 'Andale Mono', AndaleMono, Monaco, monospace;
-	font-family: var(--monospace_zerodot);
-	content: "";
-}*/
-
+*.countsuffix, *.countprefix {
+	counter-reset: countitem;
+}
+*.countprefix  *.countitem::before {
+    counter-increment: countitem;
+    content: " # " counter(countitem) " ";
+}
+*.countsuffix  *.countitem::after {
+    counter-increment: countitem;
+    content: " # " counter(countitem);
+}
 main.expand ul > li {
 	display: block;
 	line-height: 2em;
@@ -739,14 +733,13 @@ ul.afterbluegreen > li::after {
 
 
 /* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
-nav ul {
+/*nav ul {
 	position: relative;
 	list-style-type: none;
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
 	flex-direction: row;
-	/* justify-content: space-between || space-around || flex-start || flex-end*/
 	justify-content: flex-start;
 	padding: 1em 0em;
 	margin: 0;
@@ -760,6 +753,16 @@ nav ul li {
 }
 nav ul li.title {
 	flex-grow: 2;
+}*/
+
+nav ul {
+    padding: 1.4em 0.4em;
+      /*box-shadow: 0px 10px 13px -7px var(--warmwhite), 5px 5px 15px 5px var(--red);*/
+      /*box-shadow: 0px 8px 4px -8px var(--warmwhite), 0px 9px 16px -9px var(--warmblack);*/
+}
+nav ul:hover {
+	background-color: rgba(25,25,24,0.5);
+	/*box-shadow: 0px 10px 13px -7px var(--warmwhite), 5px 5px 15px 5px var(--warmblack);*/
 }
 
 p {
@@ -884,7 +887,7 @@ main a.corelink:after {
 	font-weight:bolder;
 	content: " <<";
 }*/
-a:hover {
+/*a:hover {
 	z-index: 8888;
 	z-index: var(--zhighest);
 	text-decoration: underline;
@@ -893,11 +896,20 @@ a:hover {
 	color: #fcfbe3;
 	color: var(--warmwhite);
 	background-color: var(--warmblack);
+}*/
+a:hover, a:focus {
+	z-index: 8888;
+	z-index: var(--zhighest);
+	color: var(--warmwhite);
+	text-decoration: underline solid 2px var(--red);
+	outline: solid 4px var(--warmblack);
+  outline-offset: 0.5em;
 }
+
 svg.icon {
 	width: 50px;
 }
-nav ul li a {
+/*nav ul li a {
 	z-index: 8888;
 	z-index: var(--zhighest);
 	text-decoration: none;
@@ -934,7 +946,7 @@ nav ul li.active a:hover {
 	color: var(--warmblack);
 	fill: var(--warmblack);
 	border-bottom: solid 8px #191918;
-}
+}*/
 @keyframes dash {
   to {
     stroke-dashoffset: 0;
