@@ -2372,8 +2372,8 @@ z.draw = z => {
 z.radio = ( () => { 
 	const soundcorepath = "/data/sound/";
 	const instruments = {
-		bagpipe1a: {clip: "bagpipe1a", minvolume: 0.3, maxvolume: 0.9, playbackRate: () => { return z.tools.randomlowharmonic()/10 } }, //6.4
-		bagpipe1ahigh: {clip: "bagpipe1a", minvolume: 0.3, maxvolume: 0.9, playbackRate: () => { return z.tools.randomharmonic()/10 } },
+		// bagpipe1a: {clip: "bagpipe1a", minvolume: 0.3, maxvolume: 0.9, playbackRate: () => { return z.tools.randomlowharmonic()/10 } }, //6.4
+		// bagpipe1ahigh: {clip: "bagpipe1a", minvolume: 0.3, maxvolume: 0.9, playbackRate: () => { return z.tools.randomharmonic()/10 } },
 		bagpipe1e: {clip: "bagpipe1e", minvolume: 0.3, maxvolume: 0.9, playbackRate: () => { return z.tools.randomharmonic()/10 } },
 		bagpipe1f: {clip: "bagpipe1f", minvolume: 0.3, maxvolume: 0.9, playbackRate: () => { return z.tools.randomharmonic()/10 } },
 		bagpipe1g: {clip: "bagpipe1g", minvolume: 0.3, maxvolume: 0.9, playbackRate: () => { return z.tools.randomharmonic()/10 } },
@@ -2385,7 +2385,7 @@ z.radio = ( () => {
 		birdcrylow: {clip: "birdcry", minvolume: 0.3, maxvolume: 0.9, playbackRate: () => { return z.tools.randomlowharmonic()/10} },
 		mctbreathingharmonic: {clip: "mctbreathing0", minvolume: 0.4, maxvolume: 0.9, playbackRate: () => { return z.tools.randomharmonic()/10} },
 		// monksfromouterspacecistern_a: {clip: "monksfromouterspacecistern_a", minvolume: 0.4, maxvolume: 0.8 },
-		monksfromouterspacecistern_f: {clip: "monksfromouterspacecistern_f", minvolume: 0.4, maxvolume: 0.8 },
+		// monksfromouterspacecistern_f: {clip: "monksfromouterspacecistern_f", minvolume: 0.4, maxvolume: 0.8 },
 		// traffickcorebirds1_a: {clip: "traffickcorebirds1_a", minvolume: 0.8, maxvolume: 1.0  },
 		// traffickcorebirds1_c: {clip: "traffickcorebirds1_c", minvolume: 0.8, maxvolume: 1.0  },
 		// coffepot1eminor: {clip: "coffepot1eminor", minvolume: 0.4, maxvolume: 0.8, playbackRate: () => { return z.tools.randomhighharmonic()/10 } },
@@ -2586,7 +2586,6 @@ z.radio = ( () => {
 				((dt=10000, n=2, graindt=5000, chance=0.8) => { return {dt:dt, chance:chance, graindt: graindt, n: n, duration: graindt, fadetime: 2, instruments: ["tornadosirenharmonic"] } })(),
 				((dt=11000, n=1, graindt=10000, chance=0.8) => { return {dt:dt, chance:chance, graindt: graindt, n: n, duration: graindt, fadetime: 2, instruments: ["train1"] } })(),
 				((dt=22000, n=1, graindt=7000, chance=0.8) => { return {dt:dt, chance:chance, graindt: graindt, n: n, duration: graindt, fadetime: 2, instruments: ["mctbreathingharmonic"] } })(),
-
 
 			];
 			score.forEach( (part,j) => {
