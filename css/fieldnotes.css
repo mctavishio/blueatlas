@@ -448,6 +448,9 @@ main {
   	border-left: .5em var(--warmgray) dashed;
   	border-right: .5em var(--warmwhite) dashed;*/
 }
+main.readabletext {
+	background-color:rgba(25, 25, 24, 0.8); /*warmblack*/
+}
 main.narrow {
 	width: 90%; max-width: 600px;
 }
