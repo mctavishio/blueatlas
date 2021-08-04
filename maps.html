@@ -56,7 +56,7 @@
 	<li><a href="#" id="soundlink" class="corelink">turn on sound</a></li>
 	<li><a href="index.html" id="maplink" class="corelink">field notes</a></li>
 	<li><a href="maps.html" id="maplink" class="corelink">maps</a></li>
-	<li><a href="about.html" id="aboutlink" class="corelink">about</a></li>
+	<!-- <li><a href="about.html" id="aboutlink" class="corelink">about</a></li> -->
 	<li><a href="https://www.mctavish.io/index.html" id="homelink" class="corelink">mctavish portfolio</a></li>
 </ul>
 </nav>
@@ -921,7 +921,7 @@ z.radio = ( () => {
 				if(clip.loaded && (z.radio.nbuffersplaying<z.radio.maxbuffersplaying-1 || z.radio.nbuffersplaying>z.radio.maxbuffersplaying+2)) {
 					let rate = instrument.playbackRate ? instrument.playbackRate() : 1.0;
 					try {
-						z.tools.logmsg("clip = " + clip.url + " fadetime = " + fadetime  + " rate = " + rate + " ::: volume = " + volume + " ::: duration = " + clip.duration*rate + " || " + duration*rate);
+						z.tools.logmsg("clip = " + clip.url + " fadetime = " + fadetime  + " rate = " + rate + " ::: volume = " + volume + " ::: orig duration = " + clip.duration + " ::: duration = " + clip.duration/rate + " || " + duration/rate);
 						let vca = z.radio.player.context.createGain(); 
 						let source = z.radio.player.context.createBufferSource();
 						source.buffer = clip.buffer;

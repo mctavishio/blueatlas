@@ -228,7 +228,7 @@ z.streams = {
 				state.grid.sw = Math.floor(Math.max(state.grid.dx*.03, state.grid.dy*.03, 4));
 				return state
 			}, state0) 
-	})( ),
+	})( )
 };
 
 z.draw = z => {
@@ -375,13 +375,13 @@ z.draw = z => {
 	( dt => {
 		const nwords = [[0,1],[0,1,2,3]][v];
 		const words = ["_.._._+ . < +=_.._._+ . < +=_.._._+ . < +=: :  . < > '",
-		". . . . . .& | { . . ::: x",
+		". . . . . .& | | | + & + . . ::: x ",
 		// "it was like this every morning", ".. - / .-- .- ... / .-.. .. -.- . / - .... .. ... / . ...- . .-. -.-- / -- --- .-. -. .. -. --.", //it was like this every morning
 		// "aXQgd2FzIGxpa2UgdGhpcyBldmVyeSBtb3JuaW5n", //it was like this every morning
 		"01101000 01100101 01101100 01101100 01101111 00100000 01110111 01101111 01110010 01101100 01100100", //hello world
 		// "aGVsbG8gd29ybGQ=", //hello world
 		"i0i000i0000iiii0i000i0000iii", //i
-		"_.._._+ . < +=_.._._+ . < +=_.._._+ . < +=: :  . < > '",". . . . . .& | { . . ::: x",
+		"_.._._+ . < +=_.._._+ . < +=_.._._+ . < +=: :  . < > '",". . . . . .& |  . . ::: x",
 		// "#thecount ‰ 0 1 2 3 4 5 6 7 8 9 iº #aftercount #aftertime", //
 		// "høly h0L¥ hølY H0ly ® Å",
 		"Ö x x x ø 0 Ø x X x ø 0 Ø xº3",
@@ -651,31 +651,6 @@ z.draw = z => {
 					})
 				} catch(err) { z.tools.logerror("circles 1 animation ::: " + err ) }
 			},
-			// e => {
-			// 	try {
-			// 		let dx = e.dimensions.grid.dx, dy = e.dimensions.grid.dy;
-			// 		let min = Math.min(dx,dy);
-			// 		let count = e.clock.t/dt;
-			// 		let cys = [e.dimensions.height/3, 2*e.dimensions.height/3, e.dimensions.height/3, 2*e.dimensions.height/3];
-			// 		let cxs = [e.dimensions.width/3, e.dimensions.width/3, 2*e.dimensions.width/3, 2*e.dimensions.width/3];
-			// 		elements.forEach( (element, j) => {
-			// 			if(z.tools.randominteger(0,10)<6) {
-			// 				// let cy = Math.floor(j/(2*e.dimensions.grid.ncols))*dy  + dy/2;
-			// 				// let cx = (j%e.dimensions.grid.ncols)*dx + dx/2;
-			// 				let cx = cxs[j%cxs.length], cy = cys[j%cys.length]
-			// 				let radius = min*z.tools.randominteger(1,6)/10;
-			// 				z.tools.logmsg("circle 2 cx= "+cx+" cy= " + cy + " radius = " + radius); 
-			// 				let color = e.color.choices[z.tools.randominteger(0, e.color.choices.length)];
-			// 				Velocity({	
-			// 					elements: element.el,
-			// 					properties: { fillOpacity: (j+count)%3===0 ? 1.0 : 0.0, strokeOpacity: (j+count)%2===0 ? 0.0 : 1.0, stroke: color, strokeWidth: z.tools.randominteger(10,radius*2), strokeDasharray: z.tools.randominteger(4, radius*4), fill: color, cx: cx, cy: cy, r: radius },
-			// 					options: { duration: z.tools.randominteger(e.dt*400, e.dt*400*4), delay: j*60 },
-			// 				});
-			// 			}
-
-			// 		})
-			// 	} catch(err) { z.tools.logerror("circles 2 animation ::: " + err ) }
-			// },
 			e => {
 				try {
 					let dx = e.dimensions.grid.dx, dy = e.dimensions.grid.dy;
@@ -758,50 +733,53 @@ z.radio = ( () => {
 	const instruments = {
 		// bagpipe1a: {clip: "bagpipe1a", minvolume: 0.3, maxvolume: 0.9, playbackRate: () => { return z.tools.randomlowharmonic()/10 } }, //6.4
 		// bagpipe1ahigh: {clip: "bagpipe1a", minvolume: 0.3, maxvolume: 0.9, playbackRate: () => { return z.tools.randomharmonic()/10 } },
-		bagpipe1e: {clip: "bagpipe1e", minvolume: 0.3, maxvolume: 0.9, playbackRate: () => { return z.tools.randomharmonic()/10 } },
-		bagpipe1f: {clip: "bagpipe1f", minvolume: 0.3, maxvolume: 0.9, playbackRate: () => { return z.tools.randomharmonic()/10 } },
-		bagpipe1g: {clip: "bagpipe1g", minvolume: 0.3, maxvolume: 0.9, playbackRate: () => { return z.tools.randomharmonic()/10 } },
-		bagpipe1h: {clip: "bagpipe1h", minvolume: 0.3, maxvolume: 0.9, playbackRate: () => { return z.tools.randomlowharmonic()/10 } },//0.78366
-		bagpipe1: {clip: "bagpipe1", minvolume: 0.3, maxvolume: 0.9, playbackRate: () => { return z.tools.randomlowharmonic()/4 } },
-		bagpipe1high: {clip: "bagpipe1", minvolume: 0.3, maxvolume: 0.9, playbackRate: () => { return z.tools.randomharmonic()/4 } },
-		birdcry: {clip: "birdcry", minvolume: 0.3, maxvolume: 0.8} ,
-		birdcryhigh: {clip: "birdcry", minvolume: 0.3, maxvolume: 0.8, playbackRate: () => { return z.tools.randomhighharmonic()/10} },
-		birdcrylow: {clip: "birdcry", minvolume: 0.3, maxvolume: 0.9, playbackRate: () => { return z.tools.randomlowharmonic()/10} },
+		// bagpipe1e: {clip: "bagpipe1e", minvolume: 0.7, maxvolume: 0.9, playbackRate: () => { return z.tools.randomharmonic()/10 } },//2.429
+		// bagpipe1f: {clip: "bagpipe1f", minvolume: 0.8, maxvolume: 1.0  },//1.82856
+		bagpipe1g: {clip: "bagpipe1g", minvolume: 0.9, maxvolume: 1.0, playbackRate: () => { return z.tools.randominteger(6,18)/10 } },//1.888
+		bagpipe1h: {clip: "bagpipe1h", minvolume: 0.9, maxvolume: 1.0, playbackRate: () => { return z.tools.randominteger(6,18)/10 } },//0.78366
+		// knocking1: {clip: "knocking1", minvolume: 0.9, maxvolume: 1.0 },//3.0824
+		celloknockcanyon: {clip: "celloknockcanyon", minvolume: 0.8, maxvolume: 1.0, playbackRate: () => { return z.tools.randominteger(6,48)/10 } }, //10.37
+
+		thunk: {clip: "thunk", minvolume: 0.6, maxvolume: 0.9, playbackRate: () => { return z.tools.randomharmonic()/10 } },
+		thunkhighharmonic: {clip: "thunk", minvolume: 0.6, maxvolume: 0.9, playbackRate: () => { return z.tools.randomhighharmonic()/10 } },
+
+		voxmct0: {clip: "voxmct0", minvolume: 0.8, maxvolume: 1.0, playbackRate: () => { return z.tools.randomharmonic()/10 } }, //1.70
+		voxmct0_b: {clip: "voxmct0", minvolume: 0.8, maxvolume: 1.0, playbackRate: () => { return z.tools.randominteger(8,12)/10 } }, //1.70
+
+		// bagpipe1: {clip: "bagpipe1", minvolume: 0.3, maxvolume: 0.9, playbackRate: () => { return z.tools.randomlowharmonic()/4 } },
+		// bagpipe1high: {clip: "bagpipe1", minvolume: 0.3, maxvolume: 0.9, playbackRate: () => { return z.tools.randomharmonic()/4 } },
+		birdcry: {clip: "birdcry", minvolume: 0.5, maxvolume: 0.8} , //12.146 
+		birdcryhigh: {clip: "birdcry", minvolume: 0.5, maxvolume: 0.8, playbackRate: () => { return z.tools.randomhighharmonic()/10} },
+		birdcrylow: {clip: "birdcry", minvolume: 0.5, maxvolume: 0.9, playbackRate: () => { return z.tools.randomlowharmonic()/10} },
 		mctbreathingharmonic: {clip: "mctbreathing0", minvolume: 0.4, maxvolume: 0.9, playbackRate: () => { return z.tools.randomharmonic()/10} },
 		// monksfromouterspacecistern_a: {clip: "monksfromouterspacecistern_a", minvolume: 0.4, maxvolume: 0.8 },
 		// monksfromouterspacecistern_f: {clip: "monksfromouterspacecistern_f", minvolume: 0.4, maxvolume: 0.8 },
 		// traffickcorebirds1_a: {clip: "traffickcorebirds1_a", minvolume: 0.8, maxvolume: 1.0  },
 		// traffickcorebirds1_c: {clip: "traffickcorebirds1_c", minvolume: 0.8, maxvolume: 1.0  },
 		// coffepot1eminor: {clip: "coffepot1eminor", minvolume: 0.4, maxvolume: 0.8, playbackRate: () => { return z.tools.randomhighharmonic()/10 } },
-		clarinetnotes_e: {clip: "clarinetnotes_e", minvolume: 0.3, maxvolume: 0.8, playbackRate: () => { return z.tools.randomharmonic()/10 } },
-		clarinetnotes_b: {clip: "clarinetnotes_b", minvolume: 0.3, maxvolume: 0.8, playbackRate: () => { return z.tools.randomharmonic()/10 } },
+		clarinetnotes_e: {clip: "clarinetnotes_e", minvolume: 0.3, maxvolume: 0.8, playbackRate: () => { return z.tools.randominteger(9,11)/10 } },//14.52
+		clarinetnotes_b: {clip: "clarinetnotes_b", minvolume: 0.3, maxvolume: 0.8, playbackRate: () => { return z.tools.randominteger(8,12)/10 } },//18.2
+		// tornadosirenharmonic: {clip: "tornadosiren", minvolume: 0.8, maxvolume: 1.0, playbackRate: () => { return z.tools.randominteger(8,12)/10 } },//33.59								
 
-
-		thunk: {clip: "thunk", minvolume: 0.3, maxvolume: 0.8, playbackRate: () => { return z.tools.randomharmonic()/10 } },
-		thunkhighharmonic: {clip: "thunk", minvolume: 0.3, maxvolume: 0.8, playbackRate: () => { return z.tools.randomhighharmonic()/10 } },
 		// birds5harmonic: {clip: "birds5",minvolume: 0.2, maxvolume: 0.5, playbackRate: () => { return z.tools.randomhighharmonic()/10 } },
-		knocking1: {clip: "knocking1", minvolume: 0.4, maxvolume: 0.9, playbackRate: () => { return z.tools.randominteger(4,48)/10 } },
 		// cmpb20200708_5harmonic: {clip: "cmpb20200708_5", minvolume: 0.8, maxvolume: 1.0 },//* voice
 		// cello_pitch1: {clip: "cello_pitch1", minvolume: 0.3, maxvolume: 0.8, playbackRate: () => { return z.tools.randomharmonic()/10 } },
 		// cello_pitch1harmonic: {clip: "cello_pitch1", minvolume: 0.3, maxvolume: 0.8, playbackRate: () => { return z.tools.randomharmonic()/10 } },
-		bird1harmonic: {clip: "bird1", minvolume: 0.8, maxvolume: 1.0, playbackRate: () => { return z.tools.randomharmonic()/10 } },
-		bird1low: {clip: "bird1", minvolume: 0.8, maxvolume: 0.9, playbackRate: () => { return z.tools.randomlowharmonic()/10} },
+		// bird1harmonic: {clip: "bird1", minvolume: 0.8, maxvolume: 1.0, playbackRate: () => { return z.tools.randomharmonic()/10 } }, 
+		// bird1low: {clip: "bird1", minvolume: 0.8, maxvolume: 0.9, playbackRate: () => { return z.tools.randomlowharmonic()/10} }, //6.608
 
 		// birdcanyon: {clip: "birdcanyon", minvolume: 0.8, maxvolume: 1.0, playbackRate: () => { return z.tools.randomharmonic()/10 } },
 		// bagpipegeese: {clip: "bagpipegeese", minvolume: 0.8, maxvolume: 1.0, playbackRate: () => { return z.tools.randomharmonic()/10 } },
-		celloknockcanyon: {clip: "celloknockcanyon", minvolume: 0.8, maxvolume: 1.0, playbackRate: () => { return z.tools.randomharmonic()/10 } },
-		voxmct0: {clip: "voxmct0", minvolume: 0.8, maxvolume: 1.0, playbackRate: () => { return z.tools.randomharmonic()/10 } },
 		// stapler: {clip: "stapler", minvolume: 0.8, maxvolume: 1.0, playbackRate: () => { return z.tools.randomharmonic()/10 } },
-		train1: {clip: "train1", minvolume: 0.4, maxvolume: 0.8, playbackRate: () => { return z.tools.randominteger(6,18)/10 } },
-		rubbedpianoharp0: {clip: "rubbedpianoharp0", minvolume: 0.4, maxvolume: 0.8, playbackRate: () => { return z.tools.randominteger(6,18)/10 } },
+		train1: {clip: "train1", minvolume: 0.4, maxvolume: 0.8, playbackRate: () => { return z.tools.randominteger(6,18)/10 } }, //12
+		rubbedpianoharp0: {clip: "rubbedpianoharp0", minvolume: 0.5, maxvolume: 0.9, playbackRate: () => { return z.tools.randominteger(8,28)/10 } },//52.92
 		// weatherradio1: {clip: "weatherradio1", minvolume: 0.4, maxvolume: 0.9, playbackRate: () => { return z.tools.randomharmonic()/10 } },
 		
-		weatherradio1: {clip: "weatherradio1", minvolume: 0.6, maxvolume: 1.0,  playbackRate: () => { return z.tools.randominteger(6,12)/10 } },
+		weatherradio1: {clip: "weatherradio1", minvolume: 0.6, maxvolume: 1.0,  playbackRate: () => { return z.tools.randominteger(6,12)/10 } },//12
 		// longbell: {clip: "longbell", minvolume: 0.4, maxvolume: 0.8, playbackRate: () => { return z.tools.randominteger(9,18)/10 } },
 		// cellothunktelephone: {clip: "cellothunktelephone", minvolume: 0.8, maxvolume: 1.0, playbackRate: () => { return z.tools.randomharmonic()/10 } },
 		// cellothunkradio: {clip: "cellothunkradio", minvolume: 0.8, maxvolume: 1.0, playbackRate: () => { return z.tools.randomharmonic()/10 } },
 		// t0: {clip: "t0", minvolume: 0.8, maxvolume: 1.0, playbackRate: () => { return z.tools.randomharmonic()/10 } },
-		tornadosirenharmonic: {clip: "tornadosiren", minvolume: 0.1, maxvolume: 0.6, playbackRate: () => { return z.tools.randomlowharmonic()/10 } },									
 	};
 	let clips = {};
 	Object.entries(instruments).forEach( instrument => {
@@ -910,7 +888,7 @@ z.radio = ( () => {
 			  	vco.disconnect(); vca.disconnect();
 			}
 		},
-		playbuffer: ( { volume=0.8, delay=0, fadetime=1, duration=2, instrument=z.radio.instruments["bagpipe1f"] } = {} ) =>  {
+		playbuffer: ( { volume=0.8, delay=0, fadetime=1, duration=2, instrument=z.radio.instruments["bagpipe1h"] } = {} ) =>  {
 			try {
 				// let instrument = z.radio.instruments[zinstrument];
 				let clip = z.radio.clips[instrument.clip];
@@ -918,7 +896,7 @@ z.radio = ( () => {
 				if(clip.loaded && (z.radio.nbuffersplaying<z.radio.maxbuffersplaying-1 || z.radio.nbuffersplaying>z.radio.maxbuffersplaying+2)) {
 					let rate = instrument.playbackRate ? instrument.playbackRate() : 1.0;
 					try {
-						z.tools.logmsg("clip = " + clip.url + " fadetime = " + fadetime  + " rate = " + rate + " ::: volume = " + volume + " ::: duration = " + clip.duration*rate + " || " + duration*rate);
+						z.tools.logmsg("clip = " + clip.url + " fadetime = " + fadetime  + " rate = " + rate + " ::: volume = " + volume + " ::: orig duration = " + clip.duration + " ::: duration = " + clip.duration*rate + " || " + duration*rate);
 						let vca = z.radio.player.context.createGain(); 
 						let source = z.radio.player.context.createBufferSource();
 						source.buffer = clip.buffer;
@@ -931,7 +909,8 @@ z.radio = ( () => {
 						};
 						++z.radio.nbuffersplaying;
 						let now = z.radio.player.context.currentTime;
-						let dur = clip.duration < duration ? clip.duration/rate : rate*duration/rate;
+						let dur = clip.duration < duration ? rate*clip.duration : rate*duration;
+						dur = Math.min(dur, clip.duration);
 						let dt = Math.min(fadetime, dur*.25);
 						let offset = z.tools.randominteger(0, (dur-4*dt)*10)/10;
 						// source.start(now, offset, dt*4); //parameters (when,offset,duration)
@@ -952,28 +931,54 @@ z.radio = ( () => {
 		play: z => {
 			const defaultduration = (dt,n,graintdt,clip) => dt/(graindt*2);
 			const defaultfadetime = (dt,n,graintdt,clip) => dt/(graindt*20);
-			const defaultpart = (dt=4000, n=4, graindt=400, chance=0.8, duration=defaultduration, fadetime=defaultfadetime, instruments=["celloknockcanyon"]) => { return {dt:dt, chance:chance, graindt: graindt, n: 5, duration: duration(dt,n,graintdt), fadetime: fadetime(dt,n,graintdt), instruments: ["celloknockcanyon"] } };
+			const defaultpart = (dt=4000, n=4, graindt=400, filter= e=>{return z.tools.randominteger(0,10)<8}, duration=defaultduration, fadetime=defaultfadetime, instruments=["celloknockcanyon"]) => { return {dt:dt, filter:e=>true, graindt: graindt, n: 5, duration: duration(dt,n,graintdt), fadetime: fadetime(dt,n,graintdt), instruments: ["celloknockcanyon"] } };
 			const score = [
-				((dt=4000, n=4, graindt=400, chance=0.8) => { return {dt:dt, chance:chance, graindt: graindt, n: 5, duration: dt/(graindt*2), fadetime: dt/(graindt*20), instruments: [ "birdcrylow", "bird1low"] } })(14000,5,500),
-				((dt=9000, n=8, graindt=400, chance=0.8) => { return {dt:dt, chance:chance, graindt: graindt, n: 5, duration: dt/(graindt*2), fadetime: dt/(graindt*20), instruments: ["voxmct0"] } })(14000,5,500),
-				((dt=4000, n=4, graindt=400, chance=0.8) => { return {dt:dt, chance:chance, graindt: graindt, n: 5, duration: dt/(graindt*2), fadetime: dt/(graindt*20), instruments: ["train1", "tornadosirenharmonic"] } })(4000,6,500),
-				((dt=4000, n=4, graindt=400, chance=0.8) => { return {dt:dt, chance:chance, graindt: graindt, n: 5, duration: dt/(graindt*2), fadetime: dt/(graindt*20), instruments: ["celloknockcanyon", "thunkhighharmonic"] } })(5000,3,500,0.6),
-				((dt=4000, n=4, graindt=400, chance=0.8) => { return {dt:dt, chance:chance, graindt: graindt, n: 5, duration: dt/(graindt*2), fadetime: dt/(graindt*20), instruments: ["knocking1"] } })(17000,6,400,0.8),
-				((dt=4000, n=4, graindt=400, chance=0.8) => { return {dt:dt, chance:chance, graindt: graindt, n: 5, duration: dt/(graindt*2), fadetime: dt/(graindt*20), instruments: ["celloknockcanyon", "mctbreathingharmonic"] } })(5000,4,400,0.8),
-				((dt=4000, n=4, graindt=400, chance=0.8) => { return {dt:dt, chance:chance, graindt: graindt, n: 5, duration: dt/(graindt*2), fadetime: dt/(graindt*20), instruments: ["bagpipe1e","bagpipe1f","bagpipe1g","bagpipe1h"] } })(3000,4,400,0.8),
-				((dt=17000, n=1, graindt=12000, chance=0.8) => { return {dt:dt, chance:chance, graindt: graindt, n: n, duration: graindt, fadetime: 2, instruments: ["rubbedpianoharp0"] } })(),
-				// ((dt=12000, n=2, graindt=11000, chance=0.9) => { return {dt:dt, chance:chance, graindt: graindt, n: n, duration: graindt, fadetime: 2, instruments: ["monksfromouterspacecistern_f"] } })(),
-				((dt=19000, n=2, graindt=18000, chance=0.8) => { return {dt:dt, chance:chance, graindt: graindt, n: n, duration: graindt, fadetime: 2, instruments: ["weatherradio1"] } })(),
-				((dt=38000, n=1, graindt=8000, chance=0.8) => { return {dt:dt, chance:chance, graindt: graindt, n: n, duration: graindt, fadetime: 2, instruments: ["clarinetnotes_e"] } })(),
-				((dt=47000, n=1, graindt=9000, chance=0.8) => { return {dt:dt, chance:chance, graindt: graindt, n: n, duration: graindt, fadetime: 2, instruments: ["clarinetnotes_b"] } })(),
-				((dt=10000, n=2, graindt=5000, chance=0.8) => { return {dt:dt, chance:chance, graindt: graindt, n: n, duration: graindt, fadetime: 2, instruments: ["tornadosirenharmonic"] } })(),
-				((dt=11000, n=1, graindt=10000, chance=0.8) => { return {dt:dt, chance:chance, graindt: graindt, n: n, duration: graindt, fadetime: 2, instruments: ["train1"] } })(),
-				((dt=22000, n=1, graindt=7000, chance=0.8) => { return {dt:dt, chance:chance, graindt: graindt, n: n, duration: graindt, fadetime: 2, instruments: ["mctbreathingharmonic"] } })(),
+
+
+				{dt:9000, graindt:240, n: 5, duration: 2, fadetime: .2, filter: e=>{return z.tools.randominteger(0,10)<10}, instruments: ["bagpipe1g", "birdcrylow"] },
+				{dt:9200, graindt:200, n: 6, duration: 1, fadetime: .2, filter: e=>{return z.tools.randominteger(0,10)<10}, instruments: ["bagpipe1h"] },
+				{dt:10800, graindt:840, n: 4, duration: 6, fadetime: .2, filter: e=>{return z.tools.randominteger(0,10)<10}, instruments: ["celloknockcanyon"] },
+				{dt:18000, graindt:840, n: 1, duration: 10, fadetime: .2, filter: e=>{return z.tools.randominteger(0,10)<10}, instruments: ["weatherradio1"] },
+				
+				{dt:19700, graindt:900, n: 3, duration: 5, fadetime: .2, filter: e=>{return z.tools.randominteger(0,10)<10}, instruments: ["thunk", "mctbreathingharmonic"] },
+				{dt:11700, graindt:900, n: 3, duration: 8, fadetime: .2, filter: e=>{return z.tools.randominteger(0,10)<10}, instruments: ["thunkhighharmonic", "rubbedpianoharp0"] },
+				{dt:53900, graindt:320, n: 5, duration: 3, fadetime: .2, filter: e=>{return z.tools.randominteger(0,10)<9}, instruments: ["voxmct0"] },
+				{dt:55900, graindt:420, n: 5, duration: 3, fadetime: .2, filter: e=>{return z.tools.randominteger(0,10)<9}, instruments: ["voxmct0_b"] },
+				
+				{dt:41000, graindt:2900, n: 3, duration: 8, fadetime: 1, filter: e=>{return z.tools.randominteger(0,10)<8}, instruments: ["clarinetnotes_e"] },
+				{dt:43000, graindt:2300, n: 3, duration: 9, fadetime: 2, filter: e=>{return z.tools.randominteger(0,10)<8}, instruments: ["clarinetnotes_b"] },
+				{dt:61000, graindt:2040, n: 3, duration: 80, fadetime: 1, filter: e=>{return z.tools.randominteger(0,10)<10}, instruments: ["birdcrylow", "birdcry"] },
+				{dt:61900, graindt:3440, n: 3, duration: 70, fadetime: 1, filter: e=>{return z.tools.randominteger(0,10)<10}, instruments: ["birdcrylow"] },
+				{dt:18000, graindt:400, n: 5, duration: 5, fadetime: 1, filter: e=>{return z.tools.randominteger(0,10)<10}, instruments: ["mctbreathingharmonic"] },
+				
+				{dt:16080, graindt:5100, n: 1, duration: 15, fadetime: 1, filter: e=>{return z.tools.randominteger(0,10)<10}, instruments: ["rubbedpianoharp0"] },
+				{dt:41080, graindt:12100, n: 2, duration: 15, fadetime: 1, filter: e=>{return z.tools.randominteger(0,10)<10}, instruments: ["train1"] },
+				{dt:53900, graindt:12100, n: 2, duration: 9, fadetime: 1, filter: e=>{return z.tools.randominteger(0,10)<10}, instruments: ["weatherradio1"] },
+
+
+				// {dt:4000, graindt:200, n: 5, duration: 2000, fadetime: 200, filter: e=>{return z.tools.randominteger(0,10)<8}, instruments: ["bagpipe1e","bagpipe1f","bagpipe1g","bagpipe1h"] },
+
+				// {dt:dt, filter:e=>true, graindt: graindt, n: 5, duration: dt/(graindt*2), fadetime: dt/(graindt*20), instrument: [ "birdcrylow", "bird1low"] },
+				// ((dt=9000, n=8, graindt=400, filter= e=>true) => { return {dt:dt, filter:e=>true, graindt: graindt, n: 5, duration: dt/(graindt*2), fadetime: dt/(graindt*20), instruments: ["voxmct0"] } })(14000,5,500),
+				// ((dt=9000, n=8, graindt=400, filter= e=>true) => { return {dt:dt, filter:e=>true, graindt: graindt, n: 5, duration: dt/(graindt*2), fadetime: dt/(graindt*20), instruments: ["voxmct0"] } })(14000,5,500),
+				// ((dt=4000, n=4, graindt=400, filter= e=>true) => { return {dt:dt, filter:e=>true, graindt: graindt, n: 5, duration: dt/(graindt*2), fadetime: dt/(graindt*20), instruments: ["train1", "tornadosirenharmonic"] } })(4000,6,500),
+				// ((dt=4000, n=4, graindt=400, filter= e=>true) => { return {dt:dt, filter:e=>true, graindt: graindt, n: 5, duration: dt/(graindt*2), fadetime: dt/(graindt*20), instruments: ["celloknockcanyon", "thunkhighharmonic"] } })(5000,3,500,0.6),
+				// ((dt=4000, n=4, graindt=400, filter= e=>true) => { return {dt:dt, filter:e=>true, graindt: graindt, n: 5, duration: dt/(graindt*2), fadetime: dt/(graindt*20), instruments: ["knocking1"] } })(17000,6,400,0.8),
+				// ((dt=4000, n=4, graindt=400, filter= e=>true) => { return {dt:dt, filter:e=>true, graindt: graindt, n: 5, duration: dt/(graindt*2), fadetime: dt/(graindt*20), instruments: ["celloknockcanyon", "mctbreathingharmonic"] } })(5000,4,400,0.8),
+				// ((dt=4000, n=4, graindt=400, filter= e=>true) => { return {dt:dt, filter:e=>true, graindt: graindt, n: 5, duration: dt/(graindt*2), fadetime: dt/(graindt*20), instruments: ["bagpipe1e","bagpipe1f","bagpipe1g","bagpipe1h"] } })(3000,4,400,0.8),
+				// ((dt=17000, n=1, graindt=12000, filter= e=>true) => { return {dt:dt, filter:e=>true, graindt: graindt, n: n, duration: graindt, fadetime: 2, instruments: ["rubbedpianoharp0"] } })(),
+				// // ((dt=12000, n=2, graindt=11000, chance=0.9) => { return {dt:dt, filter:e=>true, graindt: graindt, n: n, duration: graindt, fadetime: 2, instruments: ["monksfromouterspacecistern_f"] } })(),
+				// ((dt=19000, n=2, graindt=18000, filter= e=>true) => { return {dt:dt, filter:e=>true, graindt: graindt, n: n, duration: graindt, fadetime: 2, instruments: ["weatherradio1"] } })(),
+				// ((dt=38000, n=1, graindt=8000, filter= e=>true) => { return {dt:dt, filter:e=>true, graindt: graindt, n: n, duration: graindt, fadetime: 2, instruments: ["clarinetnotes_e"] } })(),
+				// ((dt=47000, n=1, graindt=9000, filter= e=>true) => { return {dt:dt, filter:e=>true, graindt: graindt, n: n, duration: graindt, fadetime: 2, instruments: ["clarinetnotes_b"] } })(),
+				// ((dt=10000, n=2, graindt=5000, filter= e=>true) => { return {dt:dt, filter:e=>true, graindt: graindt, n: n, duration: graindt, fadetime: 2, instruments: ["tornadosirenharmonic"] } })(),
+				// ((dt=11000, n=1, graindt=10000, filter= e=>true) => { return {dt:dt, filter:e=>true, graindt: graindt, n: n, duration: graindt, fadetime: 2, instruments: ["train1"] } })(),
+				// ((dt=22000, n=1, graindt=7000, filter= e=> {return z.tools.randominteger(0,10)<8}) => { return {dt:dt, filter:e=>true, graindt: graindt, n: n, duration: graindt, fadetime: 2, instruments: ["mctbreathingharmonic"] } })(),
 
 			];
 
 			score.forEach( (part,j) => {
-				z.streams["clock"].filter( e => e.t%Math.floor(part.dt/1000)===0 && z.tools.randominteger(0,10)<part.chance*10 && z.radio.soundplaying)
+				z.streams["clock"].filter( e => e.t%Math.floor(part.dt/1000)===0 && part.filter(e) && z.radio.soundplaying)
 					.onValue( e=> {
 						let clip = part.instruments[z.tools.randominteger(0,part.instruments.length)];
 						Kefir.sequentially(part.graindt, [...Array(part.n).keys()]).onValue( x => { 
