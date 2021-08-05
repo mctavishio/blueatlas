@@ -604,9 +604,10 @@ z.radio = ( () => {
 		thunkhighharmonic: {clip: "thunk", minvolume: 0.6, maxvolume: 0.9, playbackRate: () => { return z.tools.randomhighharmonic()/10 } },
 		voxmct0: {clip: "voxmct0", minvolume: 0.8, maxvolume: 1.0, playbackRate: () => { return z.tools.randomharmonic()/10 } }, //1.70
 		voxmct0_b: {clip: "voxmct0", minvolume: 0.8, maxvolume: 1.0, playbackRate: () => { return z.tools.randominteger(8,12)/10 } }, //1.70
-		birdcry: {clip: "birdcry", minvolume: 0.5, maxvolume: 0.8} , //12.146 
+		birdcry: {clip: "birdcry", minvolume: 0.5, maxvolume: 0.8, playbackRate: () => { return z.tools.randominteger(6,12)/10} } , //12.146 
 		birdcryhigh: {clip: "birdcry", minvolume: 0.5, maxvolume: 0.8, playbackRate: () => { return z.tools.randomhighharmonic()/10} },//12
 		birdcrylow: {clip: "birdcry", minvolume: 0.5, maxvolume: 0.9, playbackRate: () => { return z.tools.randomlowharmonic()/10} },//12
+		birdcryharmonic: {clip: "birdcry", minvolume: 0.6, maxvolume: 0.8, playbackRate: () => { return z.tools.randomharmonic()/10} } , //12.146 
 		mctbreathingharmonic: {clip: "mctbreathing0", minvolume: 0.4, maxvolume: 0.9, playbackRate: () => { return z.tools.randomharmonic()/10} },
 	},
 	{
@@ -714,7 +715,7 @@ z.radio = ( () => {
 			// z.radio.player.gain.value = parameters[n].gain;
 			// z.radio.player.gain.connect(z.radio.player.context.destination);
 		},
-		playtone: ({ volume=0.8, delay=0, fadetime=0.1, duration=1.0, frequency=380 } = {}) => { 
+		playtone: ({ volume=0.4, delay=0, fadetime=0.1, duration=1.0, frequency=380 } = {}) => { 
 			let vco = z.radio.player.context.createOscillator();
 			vco.frequency.value = frequency;
 			vco.type = "sine";
@@ -806,7 +807,7 @@ z.radio = ( () => {
 				{dt:112040, graindt:505, n: 8, duration: 4, fadetime: .2, filter: e=>{return z.tools.randominteger(0,10)<9}, instruments: ["voxmct0"] },
 
 				{dt:61005, graindt:1040, n: 4, duration: 13, fadetime: 1, filter: e=>{return z.tools.randominteger(0,10)<10}, instruments: ["birdcrylow",  "birdcry", "birdcryharmonic"] },
-				{dt:61904, graindt:1630, n: 5, duration: 13, fadetime: 1, filter: e=>{return z.tools.randominteger(0,10)<10}, instruments: ["birdcrylow"] },
+				{dt:61904, graindt:1630, n: 5, duration: 13, fadetime: 1, filter: e=>{return z.tools.randominteger(0,10)<10}, instruments: ["birdcrylow", "birdcryharmonic"] },
 
 				{dt:18000, graindt:400, n: 5, duration: 5.4, fadetime: 1, filter: e=>{return z.tools.randominteger(0,10)<9}, instruments: ["mctbreathingharmonic"] },
 				{dt:18040, graindt:904, n: 2, duration: 6.8, fadetime: 1, filter: e=>{return z.tools.randominteger(0,10)<6}, instruments: ["mctbreathingharmonic","rubbedpianoharp0_b"] },
@@ -845,7 +846,9 @@ z.radio = ( () => {
 					radio.soundplaying = true;
 					// soundlink.classList.add("active");
 					soundlink.innerText = "turn off sound";
-					radio.playtone();
+					radio.playtone({volume:0.4, delay:0, fadetime:0.3, duration:3.0, frequency:380 });
+					radio.playtone({volume:0.4, delay:280, fadetime:0.3, duration:3.0, frequency:380*3/2 });
+					radio.playtone({volume:0.4, delay:480, fadetime:0.3, duration:3.0, frequency:380*2 });
 					radio.playbuffer();
 				});
 			} catch(e) { z.tools.logerror("dashboard ::: resumeaudio " + e) } 
