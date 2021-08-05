@@ -99,6 +99,20 @@
 	</p><p>
 	The lament form is found across geographies across cultures across time. Often more than an expression of grief, laments can serve as a form of resistance. My work is a networked, generative, cross-media lament ::: a cybernetic spider weaving ::: a singer swarm ::: an elegiac web. An electric algorithmic Arachne eternally weaving. Arachne's lament ::: the river, her web. 
 	</p>
+	
+</article>
+<article id="soundthread">
+	<header>
+	<h1><a href="#top">^</a> tuning fork hymn</h1>
+	<h2></h2>
+	</header>
+	<p>
+		<audio controls loop>
+		  <source src="https://storage.googleapis.com/www.blueboatfilms.com/sound/20100603tuningforkhYmn_v3.mp3" type="audio/mpeg">
+		  Your browser does not support the audio tag.
+		</audio>
+		<!-- 20100603tuningforkhYmn_v3 tuningforkhYmn2 -->
+	</p>
 </article>
 <!-- <article id="thanks">
 	<header>
@@ -752,7 +766,6 @@ z.radio = ( () => {
 		birdcryhigh: {clip: "birdcry", minvolume: 0.5, maxvolume: 0.8, playbackRate: () => { return z.tools.randomhighharmonic()/10} },
 		birdcrylow: {clip: "birdcry", minvolume: 0.5, maxvolume: 0.9, playbackRate: () => { return z.tools.randomlowharmonic()/10} },
 		mctbreathingharmonic: {clip: "mctbreathing0", minvolume: 0.4, maxvolume: 0.9, playbackRate: () => { return z.tools.randomharmonic()/10} },
-		therider0_c: {clip: "therider0_c", minvolume: 0.6, maxvolume: 0.9, playbackRate: () => { return z.tools.randominteger(8,12)/10} }, //21.81
 		// monksfromouterspacecistern_a: {clip: "monksfromouterspacecistern_a", minvolume: 0.4, maxvolume: 0.8 },
 		// monksfromouterspacecistern_f: {clip: "monksfromouterspacecistern_f", minvolume: 0.4, maxvolume: 0.8 },
 		// traffickcorebirds1_a: {clip: "traffickcorebirds1_a", minvolume: 0.8, maxvolume: 1.0  },
@@ -936,25 +949,26 @@ z.radio = ( () => {
 			const score = [
 
 
-				{dt:9000, graindt:240, n: 5, duration: 2, fadetime: .2, filter: e=>{return z.tools.randominteger(0,10)<8}, instruments: ["bagpipe1g", "birdcrylow"] },
-				{dt:9200, graindt:200, n: 6, duration: 1, fadetime: .2, filter: e=>{return z.tools.randominteger(0,10)<8}, instruments: ["bagpipe1h"] },
-				{dt:10800, graindt:840, n: 4, duration: 6, fadetime: .2, filter: e=>{return z.tools.randominteger(0,10)<8}, instruments: ["celloknockcanyon"] },
-				{dt:18000, graindt:840, n: 1, duration: 10, fadetime: .2, filter: e=>{return z.tools.randominteger(0,10)<8}, instruments: ["weatherradio1"] },
+				{dt:9000, graindt:240, n: 5, duration: 2, fadetime: .2, filter: e=>{return z.tools.randominteger(0,10)<10}, instruments: ["bagpipe1g", "birdcrylow"] },
+				{dt:9200, graindt:200, n: 6, duration: 1, fadetime: .2, filter: e=>{return z.tools.randominteger(0,10)<10}, instruments: ["bagpipe1h"] },
+				{dt:10800, graindt:840, n: 4, duration: 6, fadetime: .2, filter: e=>{return z.tools.randominteger(0,10)<10}, instruments: ["celloknockcanyon"] },
+				{dt:18000, graindt:840, n: 1, duration: 10, fadetime: .2, filter: e=>{return z.tools.randominteger(0,10)<10}, instruments: ["weatherradio1"] },
 				
-				{dt:19700, graindt:900, n: 3, duration: 5, fadetime: .2, filter: e=>{return z.tools.randominteger(0,10)<8}, instruments: ["thunk", "mctbreathingharmonic"] },
-				{dt:11700, graindt:900, n: 3, duration: 8, fadetime: .2, filter: e=>{return z.tools.randominteger(0,10)<8}, instruments: ["thunkhighharmonic", "rubbedpianoharp0"] },
+				{dt:19700, graindt:900, n: 3, duration: 5, fadetime: .2, filter: e=>{return z.tools.randominteger(0,10)<10}, instruments: ["thunk", "mctbreathingharmonic"] },
+				{dt:11700, graindt:900, n: 3, duration: 8, fadetime: .2, filter: e=>{return z.tools.randominteger(0,10)<10}, instruments: ["thunkhighharmonic", "rubbedpianoharp0"] },
 				{dt:53900, graindt:320, n: 5, duration: 3, fadetime: .2, filter: e=>{return z.tools.randominteger(0,10)<9}, instruments: ["voxmct0"] },
 				{dt:55900, graindt:420, n: 5, duration: 3, fadetime: .2, filter: e=>{return z.tools.randominteger(0,10)<9}, instruments: ["voxmct0_b"] },
 				
-				{dt:41340, graindt:2900, n: 3, duration: 8, fadetime: 1, filter: e=>{return z.tools.randominteger(0,10)<8}, instruments: ["clarinetnotes_e"] },
-				{dt:43000, graindt:2300, n: 3, duration: 9, fadetime: 2, filter: e=>{return z.tools.randominteger(0,10)<8}, instruments: ["clarinetnotes_b"] },
-				{dt:61000, graindt:2040, n: 3, duration: 80, fadetime: 1, filter: e=>{return z.tools.randominteger(0,10)<8}, instruments: ["birdcrylow", "birdcry"] },
-				{dt:61900, graindt:3440, n: 3, duration: 70, fadetime: 1, filter: e=>{return z.tools.randominteger(0,10)<8}, instruments: ["birdcrylow"] },
-				{dt:18000, graindt:400, n: 5, duration: 5, fadetime: 1, filter: e=>{return z.tools.randominteger(0,10)<8}, instruments: ["mctbreathingharmonic", "therider0_c"] },
-				{dt:17000, graindt:1400, n: 2, duration: 16, fadetime: 1, filter: e=>{return z.tools.randominteger(0,10)<8}, instruments: ["therider0_c"] },
+				{dt:41040, graindt:2900, n: 3, duration: 8, fadetime: 1, filter: e=>{return z.tools.randominteger(0,10)<8}, instruments: ["clarinetnotes_e", "birdcrylow"] },
+				{dt:43000, graindt:2300, n: 3, duration: 9, fadetime: 2, filter: e=>{return z.tools.randominteger(0,10)<8}, instruments: ["clarinetnotes_b", "birdcrylow"] },
+				{dt:61000, graindt:2040, n: 3, duration: 80, fadetime: 1, filter: e=>{return z.tools.randominteger(0,10)<10}, instruments: ["birdcrylow", "birdcry"] },
+				{dt:61900, graindt:3440, n: 3, duration: 70, fadetime: 1, filter: e=>{return z.tools.randominteger(0,10)<10}, instruments: ["birdcrylow"] },
+				{dt:18000, graindt:400, n: 5, duration: 5, fadetime: 1, filter: e=>{return z.tools.randominteger(0,10)<10}, instruments: ["mctbreathingharmonic"] },
 				
 			];
-
+//https://storage.googleapis.com/www.blueboatfilms.com/sound/20100603tuningforkhYmn_v3.mp3
+//https://storage.googleapis.com/www.blueboatfilms.com/sound/uniondepotcistern.mp3
+//
 			score.forEach( (part,j) => {
 				z.streams["clock"].filter( e => e.t%Math.floor(part.dt/1000)===0 && part.filter(e) && z.radio.soundplaying)
 					.onValue( e=> {
