@@ -101,7 +101,7 @@
 	</p>
 	
 </article>
-<article id="soundthread">
+<article id="tuningforkhymn">
 	<header>
 	<h1><a href="#top">^</a> tuning fork hymn</h1>
 	<h2></h2>
@@ -111,9 +111,23 @@
 		  <source src="https://storage.googleapis.com/www.blueboatfilms.com/sound/20100603tuningforkhYmn_v3.mp3" type="audio/mpeg">
 		  Your browser does not support the audio tag.
 		</audio>
-		<!-- 20100603tuningforkhYmn_v3 tuningforkhYmn2 -->
+		<!-- 20100603tuningforkhYmn_v3 tuningforkhYmn2 vox20200118_8_3b_mixdown uniondepotcistern-->
 	</p>
 </article>
+<article id="uniondepot">
+	<header>
+	<h1><a href="#top">^</a> union depot</h1>
+	<h2></h2>
+	</header>
+	<p>
+		<audio controls loop>
+		  <source src="https://storage.googleapis.com/www.blueboatfilms.com/sound/uniondepotcistern.mp3" type="audio/mpeg">
+		  Your browser does not support the audio tag.
+		</audio>
+		<!-- traffickcorebirds1 20100603tuningforkhYmn_v3 tuningforkhYmn2 vox20200118_8_3b_mixdown uniondepotcistern-->
+	</p>
+</article>
+
 <!-- <article id="thanks">
 	<header>
 	<h1><a href="#top">^</a> thanks</h1>
@@ -771,8 +785,8 @@ z.radio = ( () => {
 		// traffickcorebirds1_a: {clip: "traffickcorebirds1_a", minvolume: 0.8, maxvolume: 1.0  },
 		// traffickcorebirds1_c: {clip: "traffickcorebirds1_c", minvolume: 0.8, maxvolume: 1.0  },
 		// coffepot1eminor: {clip: "coffepot1eminor", minvolume: 0.4, maxvolume: 0.8, playbackRate: () => { return z.tools.randomhighharmonic()/10 } },
-		clarinetnotes_e: {clip: "clarinetnotes_e", minvolume: 0.3, maxvolume: 0.9, playbackRate: () => { return z.tools.randominteger(9,11)/10 } },//14.52
-		clarinetnotes_b: {clip: "clarinetnotes_b", minvolume: 0.3, maxvolume: 0.9, playbackRate: () => { return z.tools.randominteger(8,12)/10 } },//18.2
+		// clarinetnotes_e: {clip: "clarinetnotes_e", minvolume: 0.3, maxvolume: 0.9, playbackRate: () => { return z.tools.randominteger(9,11)/10 } },//14.52
+		// clarinetnotes_b: {clip: "clarinetnotes_b", minvolume: 0.3, maxvolume: 0.9, playbackRate: () => { return z.tools.randominteger(8,12)/10 } },//18.2
 		// tornadosirenharmonic: {clip: "tornadosiren", minvolume: 0.8, maxvolume: 1.0, playbackRate: () => { return z.tools.randominteger(8,12)/10 } },//33.59								
 
 		// birds5harmonic: {clip: "birds5",minvolume: 0.2, maxvolume: 0.5, playbackRate: () => { return z.tools.randomhighharmonic()/10 } },
@@ -958,9 +972,10 @@ z.radio = ( () => {
 				{dt:11704, graindt:900, n: 3, duration: 8, fadetime: .4, filter: e=>{return z.tools.randominteger(0,10)<10}, instruments: ["thunkhighharmonic", "rubbedpianoharp0"] },
 				{dt:53906, graindt:320, n: 5, duration: 3, fadetime: .2, filter: e=>{return z.tools.randominteger(0,10)<9}, instruments: ["voxmct0"] },
 				{dt:55909, graindt:420, n: 5, duration: 3, fadetime: .2, filter: e=>{return z.tools.randominteger(0,10)<9}, instruments: ["voxmct0_b"] },
+				{dt:112040, graindt:500, n: 5, duration: 4, fadetime: .2, filter: e=>{return z.tools.randominteger(0,10)<9}, instruments: ["voxmct0"] },
 				
-				{dt:40403, graindt:3900, n: 3, duration: 8, fadetime: 1, filter: e=>{return z.tools.randominteger(0,10)<8}, instruments: ["clarinetnotes_e"] },
-				{dt:43000, graindt:4300, n: 3, duration: 9, fadetime: 1, filter: e=>{return z.tools.randominteger(0,10)<8}, instruments: ["clarinetnotes_b"] },
+				// {dt:40403, graindt:3900, n: 3, duration: 8, fadetime: 1, filter: e=>{return z.tools.randominteger(0,10)<8}, instruments: ["clarinetnotes_e"] },
+				// {dt:43000, graindt:4300, n: 3, duration: 9, fadetime: 1, filter: e=>{return z.tools.randominteger(0,10)<8}, instruments: ["clarinetnotes_b"] },
 				{dt:61005, graindt:2040, n: 3, duration: 80, fadetime: 1, filter: e=>{return z.tools.randominteger(0,10)<10}, instruments: ["birdcrylow", "birdcry"] },
 				{dt:61904, graindt:3400, n: 3, duration: 70, fadetime: 1, filter: e=>{return z.tools.randominteger(0,10)<10}, instruments: ["birdcrylow"] },
 				{dt:18000, graindt:400, n: 5, duration: 5, fadetime: 1, filter: e=>{return z.tools.randominteger(0,10)<10}, instruments: ["mctbreathingharmonic"] },
