@@ -207,7 +207,9 @@ z.draw = z => {
 //main
 	( dt => {
 		const element = document.querySelector("main");
-		const bgcolors = ["rgba(25, 25, 24, 0.4)", "rgba(25, 25, 24, 0.6)", "rgba(25, 25, 24, 0.9)", "rgba(252, 251, 227, 0.4)", "rgba(252, 251, 227, 0.9)", , "rgba(252, 251, 227, 0.6)"]
+		const isreadabletext = element.classList.contains("readabletext");
+		
+		// const bgcolors = ["rgba(25, 25, 24, 0.4)", "rgba(25, 25, 24, 0.6)", "rgba(25, 25, 24, 0.9)", "rgba(252, 251, 227, 0.4)", "rgba(252, 251, 227, 0.9)", , "rgba(252, 251, 227, 0.6)"]
 			
 		// const warmblacktints = ["#191918", "#2f2f2f", "#464646", "#5e5e5d", "#757574", "#8c8c8b", "#a3a3a2", "#babab9", "#d1d1d0", "#e8e8e7", "#ffffff", "#fcfbe3", "#e2e1cc", "#c9c8b5", "#b0af9e", "#979688", "#7e7d71", "#64645a", "#4b4b44", "#32322d", "#191916", "#000000"];
 		const warmblacktints = ["#191918", "#fcfbe3", "#000000"];
@@ -215,10 +217,11 @@ z.draw = z => {
 		z.streams["draw"].filter(e => e.clock.t%dt===0).onValue( e => {
 			try {
 				let count = e.clock.t/dt;
-				let color = e.color.choices[z.tools.randominteger(0, e.color.choices.length)];
+				let color = isreadabletext ? "#191918"  : e.color.choices[z.tools.randominteger(0, e.color.choices.length)];
+				bgAlpha = isreadabletext ? 0.8 : (e.clock.t%48<4 ? 0.6 : z.tools.randominteger(0.1,5)/10);
 				Velocity({	
 					elements: element, 
-					properties: { backgroundColor:  e.clock.t%48<4 ? "#191918" : color, backgroundColorAlpha: e.clock.t%48<4 ? 0.6 : z.tools.randominteger(0.1,5)/10},
+					properties: { backgroundColor:  e.clock.t%48<4 ? "#191918" : color, backgroundColorAlpha: bgAlpha},
 					options: { duration: 1200,  delay: 0, easing: "easeInOutQuad" },
 				});
 				if(count%48===0) { 
@@ -846,9 +849,9 @@ z.radio = ( () => {
 					radio.soundplaying = true;
 					// soundlink.classList.add("active");
 					soundlink.innerText = "turn off sound";
-					radio.playtone({volume:0.4, delay:0, fadetime:0.3, duration:3.0, frequency:380 });
-					radio.playtone({volume:0.4, delay:280, fadetime:0.3, duration:3.0, frequency:380*3/2 });
-					radio.playtone({volume:0.4, delay:480, fadetime:0.3, duration:3.0, frequency:380*2 });
+					radio.playtone({volume:0.4, delay:0, fadetime:0.3, duration:2.0, frequency:380 });
+					radio.playtone({volume:0.4, delay:280, fadetime:0.3, duration:2.0, frequency:380*3/2 });
+					radio.playtone({volume:0.4, delay:480, fadetime:0.3, duration:2.0, frequency:380*2 });
 					radio.playbuffer();
 				});
 			} catch(e) { z.tools.logerror("dashboard ::: resumeaudio " + e) } 

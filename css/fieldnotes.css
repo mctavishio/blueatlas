@@ -424,9 +424,9 @@ div.absolute {
 }
 #mainflex {
 	display: flex;
-  	justify-content: center;
-  	width: 90%;
-  	margin-left: 10%;
+	justify-content: center;
+	width: 90%;
+	margin-left: 10%;
 }
 main {
 	position: relative;
@@ -458,7 +458,7 @@ main.wide {
 	width: 90%; max-width: 900px;
 }
 
-article {
+article, section {
 	padding: 1em;
 	/*margin: 20px 20px;*/
 	/*width: 100%; min-width: 100%;*/
@@ -470,7 +470,13 @@ article {
 	-webkit-transform: scale3d(1,1,1);
 	transform: scale3d(1,1,1);	
 }
-
+.screenreader-text {
+	position: absolute;
+	left: -999px;
+	width: 1px;
+	height: 1px;
+	top: auto;
+}
 header {
 	/*max-width: 100%; width: 100%;*/
 }
