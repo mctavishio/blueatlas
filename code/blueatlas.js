@@ -54,7 +54,7 @@ z.elements = ( () => {
 		// telegraph: { el: document.querySelector("#telegraph") },
 		svg:  { el: document.querySelector("#svg") },
 		frames: ["subtextframe", "svgframe", "wordframe", "contentframe"].reduce( (acc, id) => {
-			z.tools.logmsg("create frame element ::: " + id);
+			// z.tools.logmsg("create frame element ::: " + id);
 			acc[id] = { el: document.querySelector("#"+id) };
 			return acc;
 		}, {}),
@@ -163,7 +163,7 @@ z.draw = z => {
 		const warmblacktints = ["#191918", "#2f2f2f", "#464646", "#5e5e5d", "#757574", "#8c8c8b", "#a3a3a2", "#babab9", "#d1d1d0", "#e8e8e7", "#ffffff", "#fcfbe3", "#e2e1cc", "#c9c8b5", "#b0af9e", "#979688", "#7e7d71", "#64645a", "#4b4b44", "#32322d", "#191916", "#000000"];
 		const elements = ( () => {
 			return Array.from(document.querySelectorAll(".poem")).reduce( (acc,el,j)=> {
-				z.tools.logmsg("create poem element ::: " + j);
+				// z.tools.logmsg("create poem element ::: " + j);
 				// el.setAttribute("id", "poem"+j);
 				acc[j]={ el:el, id:"poem"+j, stanzas: Array.from(el.querySelectorAll(".stanza")).reduce( (acc,el,j)=> {
 					// z.tools.logmsg("el.className ::: " + el.className);
@@ -257,7 +257,7 @@ z.draw = z => {
 		// "forEach Å øn t0uch Ž",
 		".. - / .-- .- ... / .-.. .. -.- . / - .... .. ... / . ...- . .-. -.-- / -- --- .-. -. .. -. --."];
 		const elements = nwords.reduce( (acc, id, j) => {
-			z.tools.logmsg("create word element ::: " + id);
+			// z.tools.logmsg("create word element ::: " + id);
 			let el = document.createElement("div");
 			el.setAttribute("id", "word_" + id);
 			el.setAttribute("class", "absolute monospace_zerodot");
@@ -623,10 +623,11 @@ z.radio = ( () => {
 
 		// voxmct0: {clip: "voxmct0", minvolume: 0.8, maxvolume: 1.0, playbackRate: () => { return z.tools.randomharmonic()/10 } }, //1.70
 		// voxmct0_b: {clip: "voxmct0", minvolume: 0.8, maxvolume: 1.0, playbackRate: () => { return z.tools.randominteger(8,12)/10 } }, //1.70
-		birdcry: {clip: "birdcry", minvolume: 0.6, maxvolume: 0.8, playbackRate: () => { return z.tools.randominteger(6,12)/10} } , //12.146 
+		birdcry: {clip: "birdcry", minvolume: 0.6, maxvolume: 0.8, playbackRate: () => { return z.tools.randomharmonic()/14 } } , //12.146 
 		birdcryharmonic: {clip: "birdcry", minvolume: 0.6, maxvolume: 0.8, playbackRate: () => { return z.tools.randomharmonic()/10} } , //12.146 
 		birdcryhigh: {clip: "birdcry", minvolume: 0.5, maxvolume: 0.8, playbackRate: () => { return z.tools.randomhighharmonic()/10} },
 		birdcrylow: {clip: "birdcry", minvolume: 0.7, maxvolume: 1.0, playbackRate: () => { return z.tools.randomlowharmonic()/10} },
+		
 		mctbreathingharmonic: {clip: "mctbreathing0", minvolume: 0.4, maxvolume: 0.9, playbackRate: () => { return z.tools.randomharmonic()/10} },
 		rubbedpianoharp0: {clip: "rubbedpianoharp0", minvolume: 0.5, maxvolume: 0.9, playbackRate: () => { return z.tools.randominteger(8,28)/10 } },//52.92
 		rubbedpianoharp0_b: {clip: "rubbedpianoharp0", minvolume: 0.5, maxvolume: 0.9, playbackRate: () => { return z.tools.randominteger(5,48)/10 } },//52.92
@@ -790,7 +791,7 @@ z.radio = ( () => {
 				
 				{dt:19711, graindt:900, n: 3, duration: 5, fadetime: .4, filter: e=>{return z.tools.randominteger(0,10)<10}, instruments: ["thunk"] },
 				{dt:11704, graindt:910, n: 3, duration: 8, fadetime: .4, filter: e=>{return z.tools.randominteger(0,10)<10}, instruments: ["thunkhighharmonic"] },
-				
+
 				// {dt:53906, graindt:320, n: 4, duration: 3, fadetime: .2, filter: e=>{return z.tools.randominteger(0,10)<9}, instruments: ["voxmct0"] },
 				// {dt:55909, graindt:420, n: 4, duration: 3, fadetime: .2, filter: e=>{return z.tools.randominteger(0,10)<9}, instruments: ["voxmct0_b"] },
 				// {dt:112040, graindt:500, n: 4, duration: 4, fadetime: .2, filter: e=>{return z.tools.randominteger(0,10)<9}, instruments: ["voxmct0"] },
@@ -811,7 +812,7 @@ z.radio = ( () => {
 				// {dt:112040, graindt:505, n: 8, duration: 4, fadetime: .2, filter: e=>{return z.tools.randominteger(0,10)<9}, instruments: ["voxmct0"] },
 
 				{dt:61005, graindt:1040, n: 4, duration: 13, fadetime: 1, filter: e=>{return z.tools.randominteger(0,10)<10}, instruments: ["birdcrylow",  "birdcry", "birdcryharmonic"] },
-				{dt:61904, graindt:1630, n: 5, duration: 13, fadetime: 1, filter: e=>{return z.tools.randominteger(0,10)<10}, instruments: ["birdcrylow", "birdcryharmonic"] },
+				{dt:61904, graindt:1630, n: 5, duration: 13, fadetime: 1, filter: e=>{return z.tools.randominteger(0,10)<10}, instruments: ["birdcrylow"] },
 
 				{dt:18000, graindt:400, n: 5, duration: 5.4, fadetime: 1, filter: e=>{return z.tools.randominteger(0,10)<9}, instruments: ["mctbreathingharmonic"] },
 				{dt:18040, graindt:904, n: 2, duration: 6.8, fadetime: 1, filter: e=>{return z.tools.randominteger(0,10)<6}, instruments: ["mctbreathingharmonic","rubbedpianoharp0_b"] },
@@ -850,9 +851,9 @@ z.radio = ( () => {
 					radio.soundplaying = true;
 					// soundlink.classList.add("active");
 					soundlink.innerText = "turn off sound";
-					radio.playtone({volume:0.4, delay:0, fadetime:0.3, duration:2.0, frequency:380 });
-					radio.playtone({volume:0.4, delay:280, fadetime:0.3, duration:2.0, frequency:380*3/2 });
-					radio.playtone({volume:0.4, delay:480, fadetime:0.3, duration:2.0, frequency:380*2 });
+					radio.playtone({volume:0.2, delay:0, fadetime:0.3, duration:2.0, frequency:380 });
+					radio.playtone({volume:0.16, delay:280, fadetime:0.3, duration:2.0, frequency:380*3/2 });
+					radio.playtone({volume:0.2, delay:480, fadetime:0.3, duration:2.0, frequency:380*2 });
 					radio.playbuffer();
 				});
 			} catch(e) { z.tools.logerror("dashboard ::: resumeaudio " + e) } 
