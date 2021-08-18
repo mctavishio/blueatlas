@@ -605,8 +605,8 @@ z.radio = ( () => {
 		celloknockcanyon: {clip: "celloknockcanyon", minvolume: 0.8, maxvolume: 1.0, playbackRate: () => { return z.tools.randominteger(6,48)/10 } }, //10.37
 		thunk: {clip: "thunk", minvolume: 0.6, maxvolume: 0.9, playbackRate: () => { return z.tools.randomharmonic()/10 } },
 		thunkhighharmonic: {clip: "thunk", minvolume: 0.6, maxvolume: 0.9, playbackRate: () => { return z.tools.randomhighharmonic()/10 } },
-		voxmct0: {clip: "voxmct0", minvolume: 0.8, maxvolume: 1.0, playbackRate: () => { return z.tools.randomharmonic()/10 } }, //1.70
-		voxmct0_b: {clip: "voxmct0", minvolume: 0.8, maxvolume: 1.0, playbackRate: () => { return z.tools.randominteger(8,12)/10 } }, //1.70
+		// voxmct0: {clip: "voxmct0", minvolume: 0.8, maxvolume: 1.0, playbackRate: () => { return z.tools.randomharmonic()/10 } }, //1.70
+		// voxmct0_b: {clip: "voxmct0", minvolume: 0.8, maxvolume: 1.0, playbackRate: () => { return z.tools.randominteger(8,12)/10 } }, //1.70
 		birdcry: {clip: "birdcry", minvolume: 0.5, maxvolume: 0.8, playbackRate: () => { return z.tools.randominteger(6,12)/10} } , //12.146 
 		birdcryhigh: {clip: "birdcry", minvolume: 0.5, maxvolume: 0.8, playbackRate: () => { return z.tools.randomhighharmonic()/10} },//12
 		birdcrylow: {clip: "birdcry", minvolume: 0.5, maxvolume: 0.9, playbackRate: () => { return z.tools.randomlowharmonic()/10} },//12
@@ -621,8 +621,8 @@ z.radio = ( () => {
 		thunk: {clip: "thunk", minvolume: 0.6, maxvolume: 0.9, playbackRate: () => { return z.tools.randomharmonic()/10 } },
 		thunkhighharmonic: {clip: "thunk", minvolume: 0.7, maxvolume: 0.9, playbackRate: () => { return z.tools.randomhighharmonic()/10 } },
 
-		voxmct0: {clip: "voxmct0", minvolume: 0.8, maxvolume: 1.0, playbackRate: () => { return z.tools.randomharmonic()/10 } }, //1.70
-		voxmct0_b: {clip: "voxmct0", minvolume: 0.8, maxvolume: 1.0, playbackRate: () => { return z.tools.randominteger(8,12)/10 } }, //1.70
+		// voxmct0: {clip: "voxmct0", minvolume: 0.8, maxvolume: 1.0, playbackRate: () => { return z.tools.randomharmonic()/10 } }, //1.70
+		// voxmct0_b: {clip: "voxmct0", minvolume: 0.8, maxvolume: 1.0, playbackRate: () => { return z.tools.randominteger(8,12)/10 } }, //1.70
 		birdcry: {clip: "birdcry", minvolume: 0.6, maxvolume: 0.8, playbackRate: () => { return z.tools.randominteger(6,12)/10} } , //12.146 
 		birdcryharmonic: {clip: "birdcry", minvolume: 0.6, maxvolume: 0.8, playbackRate: () => { return z.tools.randomharmonic()/10} } , //12.146 
 		birdcryhigh: {clip: "birdcry", minvolume: 0.5, maxvolume: 0.8, playbackRate: () => { return z.tools.randomhighharmonic()/10} },
@@ -790,9 +790,10 @@ z.radio = ( () => {
 				
 				{dt:19711, graindt:900, n: 3, duration: 5, fadetime: .4, filter: e=>{return z.tools.randominteger(0,10)<10}, instruments: ["thunk"] },
 				{dt:11704, graindt:910, n: 3, duration: 8, fadetime: .4, filter: e=>{return z.tools.randominteger(0,10)<10}, instruments: ["thunkhighharmonic"] },
-				{dt:53906, graindt:320, n: 4, duration: 3, fadetime: .2, filter: e=>{return z.tools.randominteger(0,10)<9}, instruments: ["voxmct0"] },
-				{dt:55909, graindt:420, n: 4, duration: 3, fadetime: .2, filter: e=>{return z.tools.randominteger(0,10)<9}, instruments: ["voxmct0_b"] },
-				{dt:112040, graindt:500, n: 4, duration: 4, fadetime: .2, filter: e=>{return z.tools.randominteger(0,10)<9}, instruments: ["voxmct0"] },
+				
+				// {dt:53906, graindt:320, n: 4, duration: 3, fadetime: .2, filter: e=>{return z.tools.randominteger(0,10)<9}, instruments: ["voxmct0"] },
+				// {dt:55909, graindt:420, n: 4, duration: 3, fadetime: .2, filter: e=>{return z.tools.randominteger(0,10)<9}, instruments: ["voxmct0_b"] },
+				// {dt:112040, graindt:500, n: 4, duration: 4, fadetime: .2, filter: e=>{return z.tools.randominteger(0,10)<9}, instruments: ["voxmct0"] },
 				
 				{dt:61005, graindt:2040, n: 3, duration: 13, fadetime: 1, filter: e=>{return z.tools.randominteger(0,10)<10}, instruments: ["birdcrylow", "birdcry"] },
 				{dt:61904, graindt:3400, n: 3, duration: 13, fadetime: 1, filter: e=>{return z.tools.randominteger(0,10)<10}, instruments: ["birdcrylow"] },
@@ -805,9 +806,9 @@ z.radio = ( () => {
 				{dt:19711, graindt:900, n: 3, duration: 5, fadetime: .4, filter: e=>{return z.tools.randominteger(0,10)<10}, instruments: ["thunk", "mctbreathingharmonic"] },
 				{dt:11704, graindt:900, n: 3, duration: 8, fadetime: .4, filter: e=>{return z.tools.randominteger(0,10)<10}, instruments: ["thunkhighharmonic"] },
 
-				{dt:53906, graindt:320, n: 5, duration: 3, fadetime: .2, filter: e=>{return z.tools.randominteger(0,10)<9}, instruments: ["voxmct0"] },
-				{dt:55909, graindt:420, n: 5, duration: 3, fadetime: .2, filter: e=>{return z.tools.randominteger(0,10)<9}, instruments: ["voxmct0_b"] },
-				{dt:112040, graindt:505, n: 8, duration: 4, fadetime: .2, filter: e=>{return z.tools.randominteger(0,10)<9}, instruments: ["voxmct0"] },
+				// {dt:53906, graindt:320, n: 5, duration: 3, fadetime: .2, filter: e=>{return z.tools.randominteger(0,10)<9}, instruments: ["voxmct0"] },
+				// {dt:55909, graindt:420, n: 5, duration: 3, fadetime: .2, filter: e=>{return z.tools.randominteger(0,10)<9}, instruments: ["voxmct0_b"] },
+				// {dt:112040, graindt:505, n: 8, duration: 4, fadetime: .2, filter: e=>{return z.tools.randominteger(0,10)<9}, instruments: ["voxmct0"] },
 
 				{dt:61005, graindt:1040, n: 4, duration: 13, fadetime: 1, filter: e=>{return z.tools.randominteger(0,10)<10}, instruments: ["birdcrylow",  "birdcry", "birdcryharmonic"] },
 				{dt:61904, graindt:1630, n: 5, duration: 13, fadetime: 1, filter: e=>{return z.tools.randominteger(0,10)<10}, instruments: ["birdcrylow", "birdcryharmonic"] },
