@@ -623,7 +623,9 @@ z.radio = ( () => {
 
 		// voxmct0: {clip: "voxmct0", minvolume: 0.8, maxvolume: 1.0, playbackRate: () => { return z.tools.randomharmonic()/10 } }, //1.70
 		// voxmct0_b: {clip: "voxmct0", minvolume: 0.8, maxvolume: 1.0, playbackRate: () => { return z.tools.randominteger(8,12)/10 } }, //1.70
-		birdcry: {clip: "birdcry", minvolume: 0.6, maxvolume: 0.8, playbackRate: () => { return z.tools.randomharmonic()/14 } } , //12.146 
+		// birdcry: {clip: "birdcry", minvolume: 0.6, maxvolume: 0.8, playbackRate: () => { return z.tools.randomharmonic()/14 } } , //12.146 
+		birdcry: {clip: "birdcry", minvolume: 0.6, maxvolume: 0.8 } , //12.146 
+		birdcryrandom: {clip: "birdcry", minvolume: 0.6, maxvolume: 0.8, playbackRate: () => { return z.tools.randominteger(8,12)/12 } } , //12.146 
 		birdcryharmonic: {clip: "birdcry", minvolume: 0.6, maxvolume: 0.8, playbackRate: () => { return z.tools.randomharmonic()/10} } , //12.146 
 		birdcryhigh: {clip: "birdcry", minvolume: 0.5, maxvolume: 0.8, playbackRate: () => { return z.tools.randomhighharmonic()/10} },
 		birdcrylow: {clip: "birdcry", minvolume: 0.7, maxvolume: 1.0, playbackRate: () => { return z.tools.randomlowharmonic()/10} },
@@ -812,7 +814,7 @@ z.radio = ( () => {
 				// {dt:112040, graindt:505, n: 8, duration: 4, fadetime: .2, filter: e=>{return z.tools.randominteger(0,10)<9}, instruments: ["voxmct0"] },
 
 				{dt:61005, graindt:1040, n: 4, duration: 13, fadetime: 1, filter: e=>{return z.tools.randominteger(0,10)<10}, instruments: ["birdcrylow",  "birdcry", "birdcryharmonic"] },
-				{dt:61904, graindt:1630, n: 5, duration: 13, fadetime: 1, filter: e=>{return z.tools.randominteger(0,10)<10}, instruments: ["birdcrylow"] },
+				{dt:61904, graindt:1630, n: 5, duration: 13, fadetime: 1, filter: e=>{return z.tools.randominteger(0,10)<10}, instruments: ["birdcrylow", "birdcryrandom"] },
 
 				{dt:18000, graindt:400, n: 5, duration: 5.4, fadetime: 1, filter: e=>{return z.tools.randominteger(0,10)<9}, instruments: ["mctbreathingharmonic"] },
 				{dt:18040, graindt:904, n: 2, duration: 6.8, fadetime: 1, filter: e=>{return z.tools.randominteger(0,10)<6}, instruments: ["mctbreathingharmonic","rubbedpianoharp0_b"] },
