@@ -557,8 +557,8 @@ h5 {
 	align-self:  auto; /* || flex-start || flex-end || center || baseline || stretch */
 }
 ul.circle, ol.circle, dl.circle {
-	margin-left:30px;
-	list-style: circle;
+	margin-left:2em;
+	list-style-type: circle;
 	list-style-position: outside;
 }
 ul.circle li, ol.circle li, dl.circle dt { 
@@ -571,7 +571,6 @@ ul.stanza {
 	font-family: 'Andale Mono', AndaleMono, Monaco, Courier, monospace;
 	font-family: var(--monospace_zerodot);
 }
-
 *[data-role="rider"]  li {
 	font-family: Verdana, Helvetica, Arial, Tahoma, 'Trebuchet MS', sans-serif;
 	font-family: var(--sans);
