@@ -1,0 +1,87 @@
+https://www.gnu.org/software/grep/manual/html_node/Character-Classes-and-Bracket-Expressions.html
+https://dictionaryapi.com/products/api-collegiate-thesaurus
+
+
+grep -o "rider" "indexscreenreader.html" | wc -w
+
+Using grep -c alone will count the number of lines that contain the matching word instead of the number of total matches. The -o option is what tells grep to output each match in a unique line and then wc -l tells wc to count the number of lines. This is how the total number of matching words is deduced.
+
+grep -o "rider" "indexscreenreader.html" > output.txt
+
+
+https://stackoverflow.com/questions/10552803/how-to-create-a-frequency-list-of-every-word-in-a-file
+cat fieldnotes.txt | tr '[:punct:]' ' ' | tr 'A-Z' 'a-z' | tr -s ' ' | tr ' ' '\n' | sort | uniq -c | sort -rn > output.txt
+
+alphabetical outut
+sed 's/\.//g;s/\(.*\)/\L\1/;s/\ /\n/g' fieldnotes.txt | sort | uniq -c > output.txt
+
+by frequency (what is the L for ? note that uniq -ic is insensitive to case
+sed 's/\.//g;s/\(.*\)/\L\1/;s/\ /\n/g' fieldnotes.txt | sort | uniq -c | sort -rn > output.txt
+
+
+sed 's/\.//g;s/\(.*\)/\1/;s/\ /\n/g' fieldnotes.txt | sort | uniq -ic | sort -rn > output.txt
+
+
+unique 4-letter words alphabetic order
+sed 's/\.//g;s/\(.*\)/\1/;s/\ /\n/g' fieldnotes.txt | sort | grep '^[[:alpha:]]\{4\}$' > output.txt
+
+
+unique 4-letter words frequency order
+sed 's/\.//g;s/\(.*\)/\1/;s/\ /\n/g' fieldnotes.txt | sort | grep '^[[:alpha:]]\{4\}$' | uniq -ic  | sort -rn > output.txt
+
+*** used this for files
+sed 's/\.//g;s/\(.*\)/\1/;s/\ /\n/g' fieldnotes.txt | sort | grep '^[0-9A-Za-z()*&:.!|]\{2\}$' | uniq -ic  | sort -rn > output.txt
+
+then in each file:
+1) find: ^[\s]*
+replace with: {n: 2, count:
+2) find: [\s]([0-9a-zA-Z|()&.=>:*!]*)$
+replace with: , text:"$1"},
+
+
+sculpture of associations
+linkages
+dimensions
+basis vectors
+platforms
+languages
+the spoken frame
+enunciate annunciate
+messenger
+code electric
+pulse transmission
+
+
+skull translation
+skeletal resonator
+an instrument
+cross-sensory translation ::: inflection mapping
+
+captured moth
+iphone flame
+
+ticket
+railway platform
+island 
+
+layers of heaven
+sky rim
+angels
+
+language
+rhythm
+
+knots
+
+particles of speech
+
+https://github.com/moos/wordpos/tree/51c412e82e0387f2c20916c33842f9cc2580abad/bin
+https://www.npmjs.com/package/wordpos
+
+
+
+
+
+
+
+

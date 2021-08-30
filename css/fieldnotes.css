@@ -677,14 +677,15 @@ main.compress ul > li {
 	line-height: 2em;
 }
 
-main ul.expand > li {
+main.compress ul.expand > li {
 	display: block;
 	line-height: 2em;
 }
-main ul.compress > li {
+main.expand ul.compress > li {
 	display: inline;
 	line-height: 2em;
 }
+
 main.portfolio {
 	background-color:rgba(25, 25, 24, 0.8);
 }

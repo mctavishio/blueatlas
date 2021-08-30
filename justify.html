@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>blue atlas: field notes: screen reader</title>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+	<meta name="description" content="the rider passenger repairman dyke bird blade" />
+	<meta name="author" content="kathy mctavish">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/manifest.json">
+	<script type="application/ld+json">
+		{
+			"@context": "http://schema.org",
+			"@type": "WebPage",
+			"name": "blueatlas ::: fieldnotes",
+			"breadcrumb": "mctavish.io > blue atlas > fieldnotes (screen reader)",
+          		"url": "https://www.blueatlas.work/indexscreenreader.html",
+			"description": "blueatlas ::: fieldnotes (screen reader)",
+			"datePublished": "2021-08-03",
+          		"image": "https://www.mctavish.io/apple-touch-icon.png",
+			"author": "https://mctavish.io/bio.html",
+			"license": "http://creativecommons.org/licenses/by-nc-sa/3.0/us/deed.en_US"
+		}
+	</script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-0989MECNZV"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-0989MECNZV');
+	</script>
+	<link rel="stylesheet" href="/css/fieldnotes.css"/>
+</head>
+<body id="top">
+	<div id="subtextframe" class="frame zlowest"></div>
+<div id="svgframe" class="frame zlow"><svg xmlns="http://www.w3.org/2000/svg" id="svg" class="frame"></svg></div>
+<div id="wordframe" class="frame z0"></div>
+<div id="contentframe" class="absolute zhighest">
+<div id="mainflex">
+<!-- <main id="main" class="expand readabletext" data-state="expanded"> -->
+<main id="main" class="compress" data-state="compressed">
+
+<header>
+	<h1>blue atlas</h1>
+	<h2>analysis ::: justify</h2>
+</header>
+<!-- <ul class="info compress">
+	<li class="title typewriter" title="telegraph" id="telegraph"></li>
+	<li class="title  typewriter" title="clock" id="clock">here | now</li>
+</ul> -->
+<nav>
+<ul class="expand" >
+	<li class="screenreader-text"><a href="indexscreenreader" id="screenreader" class="corelink">screen reader optimized text</a></li>
+	<li><a href="#" id="soundlink" class="corelink">turn on sound</a></li>
+	<li><a href="index.html" id="maplink" class="corelink">field notes</a></li>
+	<li><a href="maps.html" id="maplink" class="corelink">maps</a></li>
+	<li><a href="about.html" id="aboutlink" class="corelink">about</a></li>
+	<li><a href="https://www.mctavish.io/index.html" id="homelink" class="corelink">mctavish portfolio</a></li>
+</ul>
+</nav>
+
+<article >
+	<header>
+		<h1>Introduction and reading of the text</h1>
+	</header>
+
+</article>
+
+</main>
+
+</div>
+</div>
+<div id="hidetext"><a id="hidetextlink" href="#" title="hide text">-</a></div>
+
+</body>
+<script src="/data/text/fieldnoteswords.js"></script>
+<script src="/code/velocity.min.js"></script>
+<script src="/code/kefir201911.min.js"></script>
+<script>
+	// window.addEventListener('load', e => {
+		let main = document.querySelector("main");
+		let table = document.createElement("table");
+		let trn = document.createElement("td");trn.innerText = "n";
+		let trcount = document.createElement("td");trcount.innerText = "count";
+		let trtext = document.createElement("td");trtext.innerText = "text";
+		table.appendChild(trn); table.appendChild(trcount); table.appendChild(trtext); 
+
+		main.appendChild(table);
+		words.forEach( word => {
+			let ul = document.createElement("ul"); ul.class="stanza";
+			Object.entries(word).map( entry => {
+				let li = document.createElement("li");
+				li.innerText = entry[0] + " ::: " + entry[1];
+				ul.appendChild(li);
+			});
+			main.appendChild(ul);
+		}); 
+	// });
+</script>
+<script src="/code/blueatlas.js"></script>
+</html>
