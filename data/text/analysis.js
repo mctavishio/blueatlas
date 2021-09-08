@@ -1,29 +1,45 @@
+const fs = require('fs');
 const words = [
-{n: 1, count:92, text:"&"},
-{n: 1, count:81, text:"a"},
-{n: 1, count:2, text:"P"},
-{n: 1, count:2, text:"N"},
-{n: 1, count:2, text:"I"},
-{n: 1, count:2, text:"C"},
-{n: 1, count:2, text:"1"},
-{n: 1, count:1, text:"y"},
+// {n: 1, count:92, text:"&"},
+// {n: 1, count:81, text:"a"},
+// {n: 1, count:2, text:"P"},
+// {n: 1, count:2, text:"N"},
+// {n: 1, count:2, text:"I"},
+// {n: 1, count:2, text:"C"},
+// {n: 1, count:2, text:"1"},
+// {n: 1, count:1, text:"y"},
+// {n: 1, count:1, text:"x"},
+// {n: 1, count:1, text:"i"},
+// {n: 1, count:1, text:"8"},
+// {n: 1, count:1, text:"4"},
+// {n: 1, count:1, text:"2"},
+// {n: 1, count:1, text:"0"},
+// {n: 1, count:1, text:"!"},
+// {n: 1, count:92, text:"&"},
+{n: 1, count:3, text:"&"},
+{n: 1, count:2, text:"_"},
+{n: 1, count:2, text:"^"},
+{n: 1, count:2, text:"0"},
+{n: 1, count:2, text:"#"},
+{n: 1, count:2, text:">"},
+{n: 1, count:1, text:":"},
 {n: 1, count:1, text:"x"},
 {n: 1, count:1, text:"i"},
-{n: 1, count:1, text:"8"},
-{n: 1, count:1, text:"4"},
-{n: 1, count:1, text:"2"},
+{n: 1, count:1, text:"."},
+{n: 1, count:1, text:"+"},
+{n: 1, count:1, text:"~"},
 {n: 1, count:1, text:"0"},
 {n: 1, count:1, text:"!"},
-{n: 2, count:110, text:"of"},
-{n: 2, count:24, text:"to"},
+{n: 2, count:14, text:"of"},
+{n: 2, count:14, text:"to"},
 {n: 2, count:16, text:"in"},
-{n: 2, count:16, text:"an"},
+// {n: 2, count:16, text:"an"},
 {n: 2, count:12, text:"ze"},
 {n: 2, count:11, text:"on"},
 {n: 2, count:11, text:"no"},
 {n: 2, count:9, text:"or"},
 {n: 2, count:5, text:"||"},
-{n: 2, count:4, text:"it"},
+{n: 2, count:4, text:"&&"},
 {n: 2, count:4, text:"is"},
 {n: 2, count:4, text:"by"},
 {n: 2, count:4, text:"at"},
@@ -33,10 +49,14 @@ const words = [
 {n: 2, count:1, text:"so"},
 {n: 2, count:1, text:"if"},
 {n: 2, count:1, text:"de"},
-{n: 2, count:1, text:"89"},
+{n: 2, count:1, text:".&"},
+{n: 2, count:3, text:"=>"},
+// {n: 2, count:1, text:"89"},
 {n: 2, count:1, text:"48"},
 {n: 2, count:1, text:"43"},
 {n: 2, count:1, text:"2d"},
+{n: 2, count:1, text:"::"},
+{n: 2, count:1, text:"--"},
 {n: 3, count:94, text:"the"},
 {n: 3, count:31, text:"not"},
 {n: 3, count:19, text:"map"},
@@ -58,7 +78,7 @@ const words = [
 {n: 3, count:5, text:"far"},
 {n: 3, count:4, text:"ink"},
 {n: 3, count:4, text:"dry"},
-{n: 3, count:4, text:"but"},
+// {n: 3, count:4, text:"but"},
 {n: 3, count:4, text:"air"},
 {n: 3, count:3, text:"why"},
 {n: 3, count:3, text:"red"},
@@ -1343,7 +1363,7 @@ const words = [
 {n: 7, count:1, text:"forever"},
 {n: 7, count:1, text:"forcing"},
 {n: 7, count:1, text:"fission"},
-{n: 7, count:1, text:"fascist"},
+// {n: 7, count:1, text:"fascist"},
 {n: 7, count:1, text:"faraway"},
 {n: 7, count:1, text:"extinct"},
 {n: 7, count:1, text:"exactly"},
@@ -2106,3 +2126,70 @@ const words = [
 {n: 15, count:1, text:"(un)synchronize"}
 ];
 const goals = ["abecedarium", "justify", "flying geese", "living stanza", "dictionary", "index"];
+const randominteger = (min, max) => {
+		return Math.floor( min + Math.random()*(max-min));
+};
+//Fisher-Yates (aka Knuth) Shuffle
+const shufflearray = array => {
+  let currentIndex = array.length,  randomIndex;
+  // While there remain elements to shuffle...
+  while (currentIndex != 0) {
+    // Pick a remaining element...
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex--;
+    // And swap it with the current element.
+    [array[currentIndex], array[randomIndex]] = [
+      array[randomIndex], array[currentIndex]];
+  }
+  return array;
+}
+let wordsx = words.reduce( (acc, word, index) => {
+	[...Array(word.count).keys()].map( j => {
+		// acc[index] = {n:word.n, count:word.count,text:word.text};
+		acc = [...acc, {n:word.n, count:word.count, text:word.text}];
+	});
+	return acc;
+}, []);
+wordsx.sort( (worda,wordb) => worda.text < wordb.text );
+const linelength = 48;
+
+const brokenStick = [...Array(80).keys()].reduce( (acc, word, index) => {
+	let stick = [], sum=0;
+	while(sum < 48) {
+		let entry = linelength-sum===3 ? 2 : randominteger(1,Math.min(15,linelength-sum));
+		stick.push(entry);
+		sum = sum + entry + 1;
+	}
+	shufflearray(stick);
+	let lines = stick.map( n => { 
+		let wordchoices = wordsx.filter( w => w.n ===n );
+		return wordchoices[randominteger(0,wordchoices.length)].text;
+	});
+	return {sticks: [...acc.sticks,stick], lines: [...acc.lines,lines]};
+}, {sticks: [], lines: []});
+
+console.log(JSON.stringify(brokenStick));
+
+let poem = brokenStick.lines.reduce( (acc, line, j) => {
+	return acc + "<div>" + line.reduce( (str, word) => { return str + " " + word;}, "") + "</div>";
+}, "");
+
+// stored = store.reduce((pV,cV) => [...pV, cV], []);
+fs.writeFile('analysisOutputWordsExt.js', JSON.stringify(wordsx, null, '\n'), 'utf8', e => {console.log("done")});
+fs.writeFile('analysisOutputBrokenstick.js', JSON.stringify(brokenStick.sticks, null, '\n'), 'utf8', e => {console.log("done")});
+fs.writeFile('analysisOutputJustifyPoems.html', "<html><body style='font-family:courier'>"+poem+"</body></html", 'utf8', e => {console.log("done")});
+// fs.writeFile('analysis.js', JSON.stringify(wordsx));
+	// const elements = [0,1].reduce( (acc, j) => {
+	// 		let el = z.tools.createElement({
+	// 			parentel: z.elements["body"].el, tag: "audio",
+	// 			attributes: [
+	// 				["id", "audio"+j], ["type", "audio/mpeg"], ["src", "https://storage.googleapis.com/www.blueboatfilms.com/sound/IIca"]
+	// 			]
+	// 		});
+	// 		acc[j] = el;
+	// 	return acc;
+	// 	}, []);
+	// .reduce(function(previousValue, currentValue, currentIndex, array) 
+
+
+
