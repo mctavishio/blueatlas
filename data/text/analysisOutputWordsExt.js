@@ -37449,6 +37449,19 @@
 "count": 1,
 
 
+"text": "t-cell"
+
+},
+
+{
+
+
+"n": 6,
+
+
+"count": 1,
+
+
 "text": "switch"
 
 },
@@ -38230,6 +38243,19 @@
 
 
 "text": "napkin"
+
+},
+
+{
+
+
+"n": 6,
+
+
+"count": 1,
+
+
+"text": "n-body"
 
 },
 
@@ -39471,6 +39497,19 @@
 {
 
 
+"n": 6,
+
+
+"count": 1,
+
+
+"text": "3-ring"
+
+},
+
+{
+
+
 "n": 7,
 
 
@@ -43794,6 +43833,32 @@
 
 
 "text": "reified"
+
+},
+
+{
+
+
+"n": 7,
+
+
+"count": 2,
+
+
+"text": "red-sky"
+
+},
+
+{
+
+
+"n": 7,
+
+
+"count": 2,
+
+
+"text": "red-sky"
 
 },
 
@@ -51177,6 +51242,19 @@
 "count": 1,
 
 
+"text": "too-long"
+
+},
+
+{
+
+
+"n": 8,
+
+
+"count": 1,
+
+
 "text": "together"
 
 },
@@ -51879,6 +51957,19 @@
 "count": 1,
 
 
+"text": "now-ness"
+
+},
+
+{
+
+
+"n": 8,
+
+
+"count": 1,
+
+
 "text": "notation"
 
 },
@@ -52049,6 +52140,32 @@
 
 
 "text": "learning"
+
+},
+
+{
+
+
+"n": 8,
+
+
+"count": 1,
+
+
+"text": "last-day"
+
+},
+
+{
+
+
+"n": 8,
+
+
+"count": 1,
+
+
+"text": "lab-coat"
 
 },
 

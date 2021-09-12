@@ -31,12 +31,18 @@ sed 's/\.//g;s/\(.*\)/\1/;s/\ /\n/g' fieldnotes.txt | sort | grep '^[[:alpha:]]\
 
 *** used this for files
 sed 's/\.//g;s/\(.*\)/\1/;s/\ /\n/g' fieldnotes.txt | sort | grep '^[0-9A-Za-z()*&:.!|]\{2\}$' | uniq -ic  | sort -rn > output.txt
-
 then in each file:
 1) find: ^[\s]*
 replace with: {n: 2, count:
 2) find: [\s]([0-9a-zA-Z|()&.=>:*!]*)$
 replace with: , text:"$1"},
+
+sed 's/\.//g;s/\(.*\)/\1/;s/\ /\n/g' artistself.txt | sort | grep '^[0-9A-Za-z()*&:.!|,]\{1\}$' | uniq -ic  | sort -rn > outputArtistSelf.txt
+
+sed 's/\.//g;s/\(.*\)/\1/;s/\ /\n/g' artistself.txt | sort | grep '^[0-9A-Za-z()*&:.!|,--/]\{0,8\}$' | uniq -ic  | sort -rn >> outputArtistSelf.txt
+
+
+
 
 
 sculpture of associations

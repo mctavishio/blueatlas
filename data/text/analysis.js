@@ -943,6 +943,7 @@ const words = [
 {n: 6, count:1, text:"thirst"},
 {n: 6, count:1, text:"things"},
 {n: 6, count:1, text:"tangle"},
+{n: 6, count:1, text:"t-cell"},
 {n: 6, count:1, text:"switch"},
 {n: 6, count:1, text:"survey"},
 {n: 6, count:1, text:"sudden"},
@@ -1004,6 +1005,7 @@ const words = [
 {n: 6, count:1, text:"onward"},
 {n: 6, count:1, text:"narrow"},
 {n: 6, count:1, text:"napkin"},
+{n: 6, count:1, text:"n-body"},
 {n: 6, count:1, text:"mythic"},
 {n: 6, count:1, text:"murder"},
 {n: 6, count:1, text:"moving"},
@@ -1099,6 +1101,7 @@ const words = [
 {n: 6, count:1, text:"aboard"},
 {n: 6, count:1, text:"abacus"},
 {n: 6, count:1, text:"(ze)ro"},
+{n: 6, count:1, text:"3-ring"},
 {n: 7, count:11, text:"archive"},
 {n: 7, count:10, text:"weather"},
 {n: 7, count:9, text:"trophic"},
@@ -1176,6 +1179,7 @@ const words = [
 {n: 7, count:2, text:"samples"},
 {n: 7, count:2, text:"residue"},
 {n: 7, count:2, text:"reified"},
+{n: 7, count:2, text:"red-sky"},
 {n: 7, count:2, text:"recipes"},
 {n: 7, count:2, text:"reading"},
 {n: 7, count:2, text:"profile"},
@@ -1523,6 +1527,7 @@ const words = [
 {n: 8, count:1, text:"transact"},
 {n: 8, count:1, text:"torrents"},
 {n: 8, count:1, text:"topology"},
+{n: 8, count:1, text:"too-long"},
 {n: 8, count:1, text:"together"},
 {n: 8, count:1, text:"threaded"},
 {n: 8, count:1, text:"taxonomy"},
@@ -1577,6 +1582,7 @@ const words = [
 {n: 8, count:1, text:"organics"},
 {n: 8, count:1, text:"odometer"},
 {n: 8, count:1, text:"observer"},
+{n: 8, count:1, text:"now-ness"},
 {n: 8, count:1, text:"notation"},
 {n: 8, count:1, text:"networks"},
 {n: 8, count:1, text:"necklace"},
@@ -1591,6 +1597,8 @@ const words = [
 {n: 8, count:1, text:"location"},
 {n: 8, count:1, text:"lifetime"},
 {n: 8, count:1, text:"learning"},
+{n: 8, count:1, text:"last-day"},
+{n: 8, count:1, text:"lab-coat"},
 {n: 8, count:1, text:"journals"},
 {n: 8, count:1, text:"isotopic"},
 {n: 8, count:1, text:"isocline"},
@@ -2153,7 +2161,7 @@ let wordsx = words.reduce( (acc, word, index) => {
 wordsx.sort( (worda,wordb) => worda.text < wordb.text );
 const linelength = 48;
 
-const brokenStick = [...Array(80).keys()].reduce( (acc, word, index) => {
+const brokenStick = [...Array(148).keys()].reduce( (acc, word, index) => {
 	let stick = [], sum=0;
 	while(sum < 48) {
 		let entry = linelength-sum===3 ? 2 : randominteger(1,Math.min(15,linelength-sum));
@@ -2171,13 +2179,31 @@ const brokenStick = [...Array(80).keys()].reduce( (acc, word, index) => {
 console.log(JSON.stringify(brokenStick));
 
 let poem = brokenStick.lines.reduce( (acc, line, j) => {
-	return acc + "<div>" + line.reduce( (str, word) => { return str + " " + word;}, "") + "</div>";
+	return acc + line.reduce( (str, word) => { return str + " " + word;}, "") + "<br/>";
 }, "");
 
 // stored = store.reduce((pV,cV) => [...pV, cV], []);
-fs.writeFile('analysisOutputWordsExt.js', JSON.stringify(wordsx, null, '\n'), 'utf8', e => {console.log("done")});
-fs.writeFile('analysisOutputBrokenstick.js', JSON.stringify(brokenStick.sticks, null, '\n'), 'utf8', e => {console.log("done")});
-fs.writeFile('analysisOutputJustifyPoems.html', "<html><body style='font-family:courier'>"+poem+"</body></html", 'utf8', e => {console.log("done")});
+// fs.writeFile('analysisOutputWordsExt.js', JSON.stringify(wordsx, null, '\n'), 'utf8', e => {console.log("done")});
+// fs.writeFile('analysisOutputBrokenstick.js', JSON.stringify(brokenStick.sticks, null, '\n'), 'utf8', e => {console.log("done")});
+fs.writeFile('analysisOutputJustifyPoems.html', `
+	<html>
+<style>
+body {
+  font-family:courier;
+  font-size: clamp(0.8rem, 2vw, 2rem);   
+  margin-left: clamp(1rem,10%, 20%);
+  margin-right: clamp(1rem,10%, 40%);
+}
+p {
+  text-align: justify;
+  text-align-last: justify;
+  text-justify: inter-word;
+  width: clamp(49ch, 50ch, 100%);
+}
+</style>
+<body>
+
+<p>${poem}</p></body></html>`, 'utf8', e => {console.log("done")});
 // fs.writeFile('analysis.js', JSON.stringify(wordsx));
 	// const elements = [0,1].reduce( (acc, j) => {
 	// 		let el = z.tools.createElement({
