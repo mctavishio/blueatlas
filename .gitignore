@@ -2,3 +2,4 @@
 **/*.mp4
 **/*.mov
 node_modules/
+keys.js

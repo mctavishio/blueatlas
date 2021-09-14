@@ -1,13 +1,11 @@
-const fs = require('fs');
-const words = [
+module.exports = [
 // {count: 5, text: "a", n:1},
 // {count: 2, text: "i", n:1},
 // {count: 1, text: "&", n:1},
-{count: 2, text: "i", n:1},
 {n: 1, count:3, text:"&"},
 {n: 1, count:2, text:"_"},
 {n: 1, count:2, text:"^"},
-{n: 1, count:2, text:"0"},
+{n: 1, count:3, text:"0"},
 {n: 1, count:2, text:"#"},
 {n: 1, count:2, text:">"},
 {n: 1, count:1, text:":"},
@@ -16,17 +14,13 @@ const words = [
 {n: 1, count:1, text:"."},
 {n: 1, count:1, text:"+"},
 {n: 1, count:1, text:"~"},
-{n: 1, count:1, text:"0"},
 {n: 1, count:1, text:"!"},
-{n: 2, count:14, text:"of"},
-{n: 2, count:14, text:"to"},
-{n: 2, count:16, text:"in"},
 {count: 4, text: "of", n:2},
 {count: 8, text: "to", n:2},
 {count: 5, text: "in", n:2},
 {count: 3, text: "is", n:2},
 {count: 0, text: "my", n:2},
-{count: 9, text: "an", n:2},
+// {count: 9, text: "an", n:2},
 {count: 5, text: "as", n:2},
 {count: 8, text: "by", n:2},
 {count: 7, text: "we", n:2},
@@ -46,7 +40,7 @@ const words = [
 {count: 1, text: "::", n:2},
 {count: 3, text: "the", n:3},
 {count: 1, text: ":::", n:3},
-{count: 9, text: "and", n:3},
+// {count: 9, text: "and", n:3},
 {count: 4, text: "for", n:3},
 {count: 0, text: "web", n:3},
 {count: 9, text: "can", n:3},
@@ -74,7 +68,7 @@ const words = [
 {count: 1, text: "her", n:3},
 {count: 1, text: "get", n:3},
 {count: 1, text: "far", n:3},
-{count: 1, text: "but", n:3},
+// {count: 1, text: "but", n:3},
 {count: 1, text: "asl", n:3},
 {count: 1, text: ":|:", n:3},
 {count: 4, text: "work", n:4},
@@ -784,89 +778,3 @@ const words = [
 {count: 1, text: "cyber-orchestration", n:19},
 {count: 1, text: "spatially-distributed", n:21}
 ];
-const goals = ["abecedarium", "justify", "flying geese", "living stanza", "dictionary", "index"];
-const randominteger = (min, max) => {
-		return Math.floor( min + Math.random()*(max-min));
-};
-//Fisher-Yates (aka Knuth) Shuffle
-const shufflearray = array => {
-  let currentIndex = array.length,  randomIndex;
-  // While there remain elements to shuffle...
-  while (currentIndex != 0) {
-    // Pick a remaining element...
-    randomIndex = Math.floor(Math.random() * currentIndex);
-    currentIndex--;
-    // And swap it with the current element.
-    [array[currentIndex], array[randomIndex]] = [
-      array[randomIndex], array[currentIndex]];
-  }
-  return array;
-}
-let wordsx = words.reduce( (acc, word, index) => {
-	[...Array(word.count).keys()].map( j => {
-		// acc[index] = {n:word.n, count:word.count,text:word.text};
-		acc = [...acc, {n:word.n, count:word.count, text:word.text}];
-	});
-	return acc;
-}, []);
-wordsx.sort( (worda,wordb) => worda.text < wordb.text );
-const linelength = 48;
-
-const brokenStick = [...Array(148).keys()].reduce( (acc, word, index) => {
-	let stick = [], sum=0;
-	while(sum < 48) {
-		let entry = linelength-sum===3 ? 2 : randominteger(1,Math.min(15,linelength-sum));
-		stick.push(entry);
-		sum = sum + entry + 1;
-	}
-	shufflearray(stick);
-	let lines = stick.map( n => { 
-		let wordchoices = wordsx.filter( w => w.n ===n );
-		return wordchoices[randominteger(0,wordchoices.length)].text;
-	});
-	return {sticks: [...acc.sticks,stick], lines: [...acc.lines,lines]};
-}, {sticks: [], lines: []});
-
-console.log(JSON.stringify(brokenStick));
-
-let poem = brokenStick.lines.reduce( (acc, line, j) => {
-	return acc + line.reduce( (str, word) => { return str + " " + word;}, "") + "<br/>";
-}, "");
-
-// stored = store.reduce((pV,cV) => [...pV, cV], []);
-// fs.writeFile('analysisOutputWordsExt.js', JSON.stringify(wordsx, null, '\n'), 'utf8', e => {console.log("done")});
-// fs.writeFile('analysisOutputBrokenstick.js', JSON.stringify(brokenStick.sticks, null, '\n'), 'utf8', e => {console.log("done")});
-fs.writeFile('analysisOutputJustifyPoems_artistSelf.html', `
-	<html>
-<style>
-body {
-  font-family:courier;
-  font-size: clamp(0.8rem, 2vw, 2rem);   
-  margin-left: clamp(1rem,10%, 20%);
-  margin-right: clamp(1rem,10%, 40%);
-}
-p {
-  text-align: justify;
-  text-align-last: justify;
-  text-justify: inter-word;
-  width: clamp(49ch, 50ch, 100%);
-}
-</style>
-<body>
-
-<p>${poem}</p></body></html>`, 'utf8', e => {console.log("done")});
-// fs.writeFile('analysis.js', JSON.stringify(wordsx));
-	// const elements = [0,1].reduce( (acc, j) => {
-	// 		let el = z.tools.createElement({
-	// 			parentel: z.elements["body"].el, tag: "audio",
-	// 			attributes: [
-	// 				["id", "audio"+j], ["type", "audio/mpeg"], ["src", "https://storage.googleapis.com/www.blueboatfilms.com/sound/IIca"]
-	// 			]
-	// 		});
-	// 		acc[j] = el;
-	// 	return acc;
-	// 	}, []);
-	// .reduce(function(previousValue, currentValue, currentIndex, array) 
-
-
-

@@ -42,8 +42,13 @@ sed 's/\.//g;s/\(.*\)/\1/;s/\ /\n/g' artistself.txt | sort | grep '^[0-9A-Za-z()
 sed 's/\.//g;s/\(.*\)/\1/;s/\ /\n/g' artistself.txt | sort | grep '^[0-9A-Za-z()*&:.!|,--/]\{0,8\}$' | uniq -ic  | sort -rn >> outputArtistSelf.txt
 
 
+sed 's/\.//g;s/\(.*\)/\1/;s/\ /\n/g' fieldnotes.txt | sort | grep '^[0-9A-Za-z()*&:.!|,--/]\{0,8\}$' | uniq -ic  | sort -rn >> outputFieldNotes.txt
 
 
+or bash findWords.sh
+replace ^[\s]*([0-9]*) with {count:$1, text: "
+then text: "([0-9a-zA-Z|()&.=>:*!]{2})$ with text: "$1", n:2},
+etc
 
 sculpture of associations
 linkages
