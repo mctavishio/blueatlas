@@ -3,3 +3,5 @@
 **/*.mov
 node_modules/
 keys.js
+scratchFiles/
+temp/

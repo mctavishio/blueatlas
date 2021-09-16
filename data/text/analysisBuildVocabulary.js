@@ -1,12 +1,11 @@
 const fs = require('fs');
 const https = require('https');
 const keys = require('./keys');
-// const words = require('./wordsArtistSelf');
-// const words = require('./wordsFieldNotes');
-// const words = require('./wordsBlueWindow');
-const words = require('./wordsBirdland');
+const artist = require('./wordsArtistSelf');
+const fieldnotes = require('./wordsFieldNotes');
+const bluewindow = require('./wordsBlueWindow');
+const birdland = require('./wordsBirdland');
 
-const goals = ["letterman", "tickertape", "abecedarium", "justify", "flying geese", "living stanza", "dictionary", "index"];
 const randominteger = (min, max) => {
 		return Math.floor( min + Math.random()*(max-min));
 };
@@ -27,6 +26,40 @@ const shufflearray = array => {
   return array;
 }
 
+let words = artist.map( word => {
+	return { n: word.n, count: word.count, text: word.text, books: [ {book: "artist", count: word.count} ] }
+});
+
+birdland.forEach( word => {
+		let entry = words.filter(w => w.text === word.text);
+		if(entry.length===0) {
+			words.push({ n: word.n, count: word.count, text: word.text, books: [ {book: "birdland", count: word.count} ] });
+		}
+		else {
+			entry[0].count = entry[0].count + word.count; entry[0].books.push({book: "birdland", count: word.count});
+		}
+});
+
+bluewindow.forEach( word => {
+		let entry = words.filter(w => w.text === word.text);
+		if(entry.length===0) {
+			words.push({ n: word.n, count: word.count, text: word.text, books: [ {book: "blueWindow", count: word.count} ] });
+		}
+		else {
+			entry[0].count = entry[0].count + word.count; entry[0].books.push({book: "blueWindow", count: word.count});
+		}
+});
+
+fieldnotes.forEach( word => {
+		let entry = words.filter(w => w.text === word.text);
+		if(entry.length===0) {
+			words.push({ n: word.n, count: word.count, text: word.text, books: [ {book: "fieldNotes", count: word.count} ] });
+		}
+		else {
+			entry[0].count = entry[0].count + word.count; entry[0].books.push({book: "fieldNotes", count: word.count});
+		}
+});
+
 let wordsx = words.reduce( (acc, word, index) => {
 	let v = vowels.reduce( (thisvows, v, index) => {
 		let re = new RegExp(v, "g");
@@ -34,30 +67,14 @@ let wordsx = words.reduce( (acc, word, index) => {
 		thisvows[0][v] = l; thisvows[1] = thisvows[1] + l;
 		return thisvows;
 	}, [{},0]);
-	acc = [...acc, {n:word.n, count:word.count, text:word.text, vowels: v[0], nvowels: v[1] }];
-
+	acc = [...acc, {n:word.n, count:word.count, text:word.text, books:word.books, vowels: v[0], nvowels: v[1] }];
 	return acc;
 }, []);
 
-//https://www.npmjs.com/package/node-fetch
-// function getDefinition(word) {
-//   fetch(`http://www.dictionaryapi.com/api/v1/references/collegiate/xml/${word}?key=${keys.dictionary}`)
-//     .then(response => response.text())
-//     .then(data => console.log(JSON.stringify(data)))
-//     .catch(error => console.error(error));
-// }
-// const request = require('request-promise');
-// const urls = ["http://www.google.com", "http://www.example.com"];
-// const promises = urls.map(url => request(url));
-// Promise.all(promises).then((data) => {
-//     // data = [promise1,promise2]
-// });
-// getDefinition('test'); 
 wordsx.sort( (worda,wordb) => worda.text < wordb.text );
 //https://www.dictionaryapi.com/products/api-collegiate-dictionary.htm
 
-
-//https://www.dictionaryapi.com/products/api-collegiate-dictionary
+fs.writeFile('vocabulary'+Date.now()+'.js', JSON.stringify(wordsx, null, "\t"), 'utf8', e => {console.log("done vocabulary file")});
 
 let completed_requests = 0;
 let dictionary = {};
@@ -82,7 +99,6 @@ wordsx.forEach( word => {
 				let entry = ( JSON.parse(responses.join()) ).filter(e =>  e.hwi.hw.indexOf(' ') === -1 ).map( e => {
 				// let entry = ( JSON.parse(responses.join()) ).map( e => {
 					return {
-						word: word.text,
 						shortdef: e.shortdef,
 						fl: e.fl
 					}
@@ -92,13 +108,14 @@ wordsx.forEach( word => {
 				console.log("completed_requests :: " + completed_requests + " wordsx.length :: " + testn);
 				// fs.writeFile('dictionaryTest/'+ word.text +'.js', JSON.stringify(entry,null,"\t"), 'utf8', e => {console.log("done :: " + word.text)});
 
-		  	// if (completed_requests === wordsx.length - 1) {
-		  	if (!(completed_requests < testn - 1)) {
+		  	if (completed_requests === wordsx.length - 1) {
+		  	// if (!(completed_requests < testn - 1)) {
 		  		console.log("true");
-		  		fs.writeFile('analysisOutputWordsExt_dictionary'+Date.now()+'.js', JSON.stringify(wordsx, null, "\t"), 'utf8', e => {console.log("done")});
+		  		fs.writeFile('outputWords_dictionary'+Date.now()+'.js', JSON.stringify(wordsx, null, "\t"), 'utf8', e => {console.log("done")});
 		  	}
 		  } catch(e) { "oops " + word.text + " " + e}
 		});
+
 	});
 	// }
 	console.log(word.def);
