@@ -7,9 +7,10 @@ const books = ["birdland","blueWindow","artist","fieldNotes"];
 const booktitles = ["birdland", "night train blue window", "artist self", "blue atlas ::: field notes"];
 // const books = [,"artist"];
 const nstanzas = 8;
-const nstanzalines = 18;
+const nstanzalines = 4;
 const linelength = 48;
-const nstanzachars = nstanzalines*nstanzas;
+const nstanzachars = nstanzalines*linelength;
+const partsOfSpeech = ["noun", "verb", "adjective", "adverb", "symbol", "unknown"];
 
 const goals = ["letterman", "tickertape", "abecedarium", "justify", "flying geese", "living stanza", "dictionary", "index"];
 const randominteger = (min, max) => {
@@ -17,6 +18,8 @@ const randominteger = (min, max) => {
 };
 const alphabet = 'abcdefghijklmnopqrstuvwxyz'.split('');
 const vowels = 'aeiou'.split('');
+let symbols = '.|:+-.&~_|::=<>:#x=&&∴'.split('');
+
 //Fisher-Yates (aka Knuth) Shuffle
 const shufflearray = array => {
   let currentIndex = array.length,  randomIndex;
@@ -32,52 +35,35 @@ const shufflearray = array => {
   return array;
 }
 
-books.forEach( (book,j) => {
-	let booktitle = booktitles[j];
-	let wordsBook = words.filter( word => { 
-		return word.books.filter( b => b.book===book ).length > 0
-	});
+const maxcount = 40;
+let wordsx = words;
+// let wordsx = words.reduce( (acc, word, index) => {
+// 	let count = Math.max(word.count, maxcount*2);
+// 	[...Array(count).keys()].map( j => {
+// 		acc = [...acc, {n:word.n, count:count, text:word.text, vowels: word.vowels, nvowels: word.nvowels }];
+// 	});
+// 	return acc;
+// }, []);
+let poem = "";
+[...Array(nstanzas).keys()].forEach( s => {
 
-	let wordsx = wordsBook.reduce( (acc, word, index) => {
-		let count = word.books.filter( b => b.book===book )[0].count;
-		[...Array(count).keys()].map( j => {
-			acc = [...acc, {n:word.n, count:count, text:word.text, vowels: word.vowels, nvowels: word.nvowels }];
-		});
-		return acc;
-	}, []);
-	let maxchars = Math.max(...wordsBook.map(w => w.n));
-	let poem = "";
-	[...Array(nstanzas).keys()].forEach( s => {
-		const brokenStick = [...Array(nstanzalines).keys()].reduce( (acc, word, index) => {
-			let stick = [], sum=0;
-			while(sum < linelength) {
-				let entry = linelength-sum===3 ? 2 : randominteger(1,Math.min(maxchars,linelength-sum));
-				stick.push(entry);
-				sum = sum + entry + 1;
-			}
-			console.log("stick = " + stick.join(' '));
-			console.log("linelength = " + sum);
-			shufflearray(stick);
-			let lines = stick.map( n => { 
-				let wordchoices = wordsx.filter( w => { return (w.n === n) } );
-				if(wordchoices.length === 0) {
-					wordchoices = wordsx.filter( w => { return (w.n === n-1) } );
+	vowels.map( vowel => {
+		let wvow = wordsx.filter( word => { return word.vowels[vowel]>0 && word.nvowels===word.vowels[vowel]}).map(w => w.text);
+
+		let stanza = "";
+		while(stanza.length < nstanzachars) {
+				stanza = stanza + wvow[randominteger(0,wvow.length)] + " ";
+				if(randominteger(0,10) < 2) {
+					[...Array(randominteger(1,4)).keys()].forEach( j => { stanza = stanza + symbols[randominteger(0,symbols.length)]} )
+					stanza = stanza + " ";
 				}
-				return wordchoices.length === 0 ? [...Array(n).keys()].join('') : wordchoices[randominteger(0,wordchoices.length)].text;
-			});
-			console.log("actual line = " + lines.join(' '));
-			console.log("actual linelength = " + lines.join(' ').length);
-			return {sticks: [...acc.sticks,stick], lines: [...acc.lines,lines]};
-		}, {sticks: [], lines: []});
 
-		let stanza = brokenStick.lines.reduce( (acc, line, j) => {
-			// return acc + line.reduce( (str, word) => { return str + " " + word;}, "") + "**<br/>";
-			return acc + line.join(" ") + "<br/>";
-		}, "");
-		poem = poem + "<p>"+stanza+"</p><hr/>";
-
+		}
+		poem = poem + "<p>" + stanza + "</p><hr/>";
 	});
-	fs.writeFile('outputJustifyPoem_' + book + '_' + Date.now() + '.html', `
+});
+	// fs.writeFile('outputVowelsPoem_' + book + '_' + vowel + '_'+ Date.now() + '.html', `
+	fs.writeFile('outputVowelsPoem3_allbooks' + Date.now() + '.html', `
 	<html>
 		<style>
 		:root {
@@ -131,15 +117,14 @@ books.forEach( (book,j) => {
 		}
 		</style>
 		<body>
-			<h1>justify :::</h1>
-			<h2>${booktitle}</h2>
-			<p><i>probability .| . . . |. hash</i></p>
+			<h1>vowel poems :::</h1>
+			<h2>all texts</h2>
+			<p><i>abecedarium .| . . . |. hash</i></p>
 			<p><a href = "/analysis.html">[] . +.+ => <= go back</a></p>
-
+			<hr/>
 			${poem}
 			<hr/>
-			<p>excerpts from ${booktitle}</p>
+			<p>excerpts from ${books.join(" || ")}</p>
 			<p>generated on ::  ${new Date().toISOString()}</p>
 			<hr/><hr/>
 			</body></html>`, 'utf8', e => {console.log("done")});
-});

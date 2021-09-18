@@ -311,7 +311,7 @@ lamp's yellow
 
 halo &
 moth
-passenger (z)ero hero lone bird
+passenger (ze)ro hero lone bird
 rider awake
 steam & iron
 iron velocity

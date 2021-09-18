@@ -181,16 +181,6 @@ module.exports = [
 				],
 				"fl": "symbol"
 			},
-			{
-				"shortdef": [
-					"—used as a connective vowel to join word elements especially of Latin origin"
-				],
-				"fl": "affix"
-			},
-			{
-				"shortdef": [],
-				"fl": "pronoun"
-			}
 		]
 	},
 	{
@@ -223,12 +213,7 @@ module.exports = [
 			"u": 0
 		},
 		"nvowels": 0,
-		"def": [{
-				"shortdef": [
-					"and"
-				],
-				"fl": "symbol"
-			}]
+		"def": [ {"shortdef": ["and"],"fl": "symbol"}]
 	},
 	{
 		"n": 2,
@@ -268,12 +253,6 @@ module.exports = [
 					"—used as a function word to indicate the cause, motive, or reason"
 				],
 				"fl": "preposition"
-			},
-			{
-				"shortdef": [
-					"have —used in place of the contraction 've often in representations of uneducated speech"
-				],
-				"fl": "auxiliary verb"
 			},
 			{
 				"shortdef": [
@@ -395,9 +374,6 @@ module.exports = [
 		},
 		"nvowels": 1,
 		"def": [
-			{
-				"shortdef": []
-			},
 			{
 				"shortdef": [
 					"island; isle"
@@ -653,10 +629,6 @@ module.exports = [
 				"fl": "abbreviation"
 			},
 			{
-				"shortdef": [],
-				"fl": "prefix"
-			},
-			{
 				"shortdef": [
 					"one that is of or relating to",
 					"one skilled in or specializing in"
@@ -780,10 +752,6 @@ module.exports = [
 				"fl": "abbreviation"
 			},
 			{
-				"shortdef": [],
-				"fl": "prefix"
-			},
-			{
 				"shortdef": [
 					"the 1st letter of the English alphabet",
 					"a graphic representation of this letter",
@@ -855,29 +823,10 @@ module.exports = [
 			},
 			{
 				"shortdef": [
-					"—used to express farewell—often used with following now"
-				],
-				"fl": "interjection"
-			},
-			{
-				"shortdef": [
-					"the position of a participant in a tournament who advances to the next round without playing"
-				],
-				"fl": "noun"
-			},
-			{
-				"shortdef": [
 					"a future time or occasion"
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"an indirect blow",
-					"a child born to parents who are not married to each other"
-				],
-				"fl": "noun"
-			}
 		]
 	},
 	{
@@ -909,17 +858,13 @@ module.exports = [
 					"i —used by sovereigns—used by writers to keep an impersonal character",
 					"you —used coaxingly, encouragingly, or in sarcasm"
 				],
-				"fl": "pronoun, plural in construction"
+				"fl": "pronoun"
 			},
 			{
 				"shortdef": [
 					"Wednesday"
 				],
 				"fl": "abbreviation"
-			},
-			{
-				"shortdef": [],
-				"fl": "pronoun"
 			},
 			{
 				"shortdef": [
@@ -957,21 +902,6 @@ module.exports = [
 		},
 		"nvowels": 1,
 		"def": [
-			{
-				"shortdef": []
-			},
-			{
-				"shortdef": [
-					"America; American"
-				],
-				"fl": "abbreviation"
-			},
-			{
-				"shortdef": [
-					"americium"
-				],
-				"fl": "symbol"
-			},
 			{
 				"shortdef": [
 					"a broadcasting system using amplitude modulation; also : a radio receiver of such a system"
@@ -1141,15 +1071,6 @@ module.exports = [
 				"fl": "prefix"
 			},
 			{
-				"shortdef": []
-			},
-			{
-				"shortdef": []
-			},
-			{
-				"shortdef": []
-			},
-			{
 				"shortdef": [
 					"to equal in meaning : have the same connotation as : symbolize",
 					"to have identity with : to constitute the same idea or object as",
@@ -1157,9 +1078,6 @@ module.exports = [
 				],
 				"fl": "verb"
 			},
-			{
-				"shortdef": []
-			}
 		]
 	},
 	{
@@ -1236,10 +1154,6 @@ module.exports = [
 					"Appalachian Trail"
 				],
 				"fl": "abbreviation"
-			},
-			{
-				"shortdef": [],
-				"fl": "prefix"
 			},
 			{
 				"shortdef": [
@@ -1409,124 +1323,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"(s)he", "fluid between"
 				],
-				"fl": "unknown"
+				"fl": "pronoun"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -1646,30 +1446,8 @@ module.exports = [
 		"nvowels": 1,
 		"def": [
 			{
-				"shortdef": [],
+				"shortdef": ["myself i"],
 				"fl": "pronoun"
-			},
-			{
-				"shortdef": [
-					"methyl"
-				],
-				"fl": "abbreviation"
-			},
-			{
-				"shortdef": [
-					"Maine",
-					"managing editor",
-					"mechanical engineer",
-					"medical examiner"
-				],
-				"fl": "abbreviation"
-			},
-			{
-				"shortdef": [
-					"marked by similarity to or by adoption of successful or persuasive policies or practices used or promoted by someone else",
-					"similar or identical to an established product (such as a drug) with no significant advantage over it"
-				],
-				"fl": "adjective"
 			},
 			{
 				"shortdef": [
@@ -1677,19 +1455,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"put in use by one person or group after being used, discarded, or handed down by another",
-					"ready-made and usually cheap and shoddy"
-				],
-				"fl": "adjective"
-			},
-			{
-				"shortdef": [
-					"a woman's short usually knitted sleeveless close-fitting jacket"
-				],
-				"fl": "noun"
-			}
 		]
 	},
 	{
@@ -1891,7 +1656,7 @@ module.exports = [
 			"u": 0
 		},
 		"nvowels": 0,
-		"def": []
+		"def": [ {"shortdef": ["::"],"fl": "symbol"},]
 	},
 	{
 		"n": 3,
@@ -1976,7 +1741,7 @@ module.exports = [
 			"u": 0
 		},
 		"nvowels": 0,
-		"def": []
+		"def": [ {"shortdef": [":::"],"fl": "symbol"},]
 	},
 	{
 		"n": 3,
@@ -2197,35 +1962,6 @@ module.exports = [
 				],
 				"fl": "verb"
 			},
-			{
-				"shortdef": [
-					"canceled; cancellation",
-					"cannon",
-					"canto"
-				],
-				"fl": "abbreviation"
-			},
-			{
-				"shortdef": [
-					"Canada; Canadian"
-				],
-				"fl": "abbreviation"
-			},
-			{
-				"shortdef": []
-			},
-			{
-				"shortdef": []
-			},
-			{
-				"shortdef": []
-			},
-			{
-				"shortdef": [
-					"characterized by eager willingness to accept and meet challenges"
-				],
-				"fl": "adjective"
-			}
 		]
 	},
 	{
@@ -2332,9 +2068,6 @@ module.exports = [
 		"nvowels": 2,
 		"def": [
 			{
-				"shortdef": []
-			},
-			{
 				"shortdef": [
 					"a unit of area equal to 100 square meters"
 				],
@@ -2388,19 +2121,12 @@ module.exports = [
 				"fl": "adjective"
 			},
 			{
-				"shortdef": []
-			},
-			{
 				"shortdef": [
 					"article",
 					"artificial",
 					"artillery"
 				],
 				"fl": "abbreviation"
-			},
-			{
-				"shortdef": [],
-				"fl": "noun suffix"
 			},
 			{
 				"shortdef": [
@@ -2429,9 +2155,6 @@ module.exports = [
 		},
 		"nvowels": 1,
 		"def": [
-			{
-				"shortdef": []
-			},
 			{
 				"shortdef": [
 					"to hold or maintain as a possession, privilege, or entitlement",
@@ -2493,12 +2216,6 @@ module.exports = [
 				],
 				"fl": "adverb"
 			},
-			{
-				"shortdef": [
-					"river flowing 320 miles (515 kilometers) from northwestern North Carolina north across Virginia into West Virginia, where it joins the Gauley River to form the Kanawha River"
-				],
-				"fl": "geographical name"
-			}
 		]
 	},
 	{
@@ -2697,7 +2414,7 @@ module.exports = [
 					"any thing or things",
 					"any part, quantity, or number"
 				],
-				"fl": "pronoun, singular or plural in construction"
+				"fl": "pronoun"
 			},
 			{
 				"shortdef": [
@@ -2760,7 +2477,7 @@ module.exports = [
 					"—used in such phrases as for all I know, for all I care, and for all the good it does to indicate a lack of knowledge, interest, or effectiveness",
 					"everybody, everything"
 				],
-				"fl": "pronoun, singular or plural in construction"
+				"fl": "pronoun"
 			},
 			{
 				"shortdef": [
@@ -2832,9 +2549,6 @@ module.exports = [
 		},
 		"nvowels": 1,
 		"def": [
-			{
-				"shortdef": []
-			},
 			{
 				"shortdef": [
 					"to equal in meaning : have the same connotation as : symbolize",
@@ -2923,7 +2637,7 @@ module.exports = [
 					"two countable individuals not specified",
 					"a small approximate number of indicated things"
 				],
-				"fl": "pronoun, plural in construction"
+				"fl": "pronoun"
 			},
 			{
 				"shortdef": [
@@ -2932,9 +2646,6 @@ module.exports = [
 					"a 2-dollar bill"
 				],
 				"fl": "noun"
-			},
-			{
-				"shortdef": []
 			},
 			{
 				"shortdef": [
@@ -3144,7 +2855,7 @@ module.exports = [
 				"shortdef": [
 					"one or ones belonging to oneself —used after a possessive and without a following noun"
 				],
-				"fl": "pronoun, singular or plural in construction"
+				"fl": "pronoun"
 			},
 			{
 				"shortdef": [
@@ -3349,18 +3060,6 @@ module.exports = [
 				],
 				"fl": "verb"
 			},
-			{
-				"shortdef": [
-					"modified American plan"
-				],
-				"fl": "abbreviation"
-			},
-			{
-				"shortdef": [
-					"Walter circa 1140—circa 1209 English writer"
-				],
-				"fl": "biographical name"
-			}
 		]
 	},
 	{
@@ -3426,12 +3125,6 @@ module.exports = [
 				],
 				"fl": "verb"
 			},
-			{
-				"shortdef": [
-					"Sir David Alexander Cecil 1891—1963 British cartoonist"
-				],
-				"fl": "biographical name"
-			}
 		]
 	},
 	{
@@ -3524,10 +3217,6 @@ module.exports = [
 				"fl": "adjective"
 			},
 			{
-				"shortdef": [],
-				"fl": "pronoun"
-			},
-			{
 				"shortdef": [
 					"heraldry"
 				],
@@ -3536,22 +3225,6 @@ module.exports = [
 			{
 				"shortdef": [
 					"a woman whose name one has forgotten or does not know"
-				],
-				"fl": "noun"
-			},
-			{
-				"shortdef": [
-					"the quality or state of being able; especially : physical, mental, or legal power to do something",
-					"competence in doing something : skill",
-					"natural aptitude or acquired proficiency"
-				],
-				"fl": "noun"
-			},
-			{
-				"shortdef": [
-					"a record of debit and credit entries to cover transactions involving a particular item or a particular person or concern",
-					"a statement of transactions during a fiscal period and the resulting balance",
-					"reckoning, computation"
 				],
 				"fl": "noun"
 			},
@@ -3621,18 +3294,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": []
-			},
-			{
-				"shortdef": []
-			},
-			{
-				"shortdef": []
-			},
-			{
-				"shortdef": []
-			}
 		]
 	},
 	{
@@ -3830,7 +3491,7 @@ module.exports = [
 			"u": 0
 		},
 		"nvowels": 0,
-		"def": []
+		"def": [ {"shortdef": [":||:"],"fl": "symbol"},]
 	},
 	{
 		"n": 4,
@@ -3882,9 +3543,6 @@ module.exports = [
 					"involving or engaged in work"
 				],
 				"fl": "adjective"
-			},
-			{
-				"shortdef": []
 			},
 			{
 				"shortdef": [
@@ -3964,9 +3622,6 @@ module.exports = [
 				],
 				"fl": "adverb"
 			},
-			{
-				"shortdef": []
-			}
 		]
 	},
 	{
@@ -4171,24 +3826,6 @@ module.exports = [
 				"fl": "noun"
 			},
 			{
-				"shortdef": []
-			},
-			{
-				"shortdef": []
-			},
-			{
-				"shortdef": []
-			},
-			{
-				"shortdef": []
-			},
-			{
-				"shortdef": []
-			},
-			{
-				"shortdef": []
-			},
-			{
 				"shortdef": [
 					"one that is poor especially in material wealth"
 				],
@@ -4286,7 +3923,7 @@ module.exports = [
 				"shortdef": [
 					"in the form or shape of : resembling"
 				],
-				"fl": "adjective combining form"
+				"fl": "adjective"
 			},
 			{
 				"shortdef": [
@@ -4438,14 +4075,14 @@ module.exports = [
 				"shortdef": [
 					"a large number of persons or things"
 				],
-				"fl": "pronoun, plural in construction"
+				"fl": "pronoun"
 			},
 			{
 				"shortdef": [
 					"a large but indefinite number",
 					"the great majority of people"
 				],
-				"fl": "noun, plural in construction"
+				"fl": "noun"
 			},
 			{
 				"shortdef": [
@@ -4497,9 +4134,6 @@ module.exports = [
 					"the quality of a thing as imparted through or as if through touch"
 				],
 				"fl": "noun"
-			},
-			{
-				"shortdef": []
 			},
 			{
 				"shortdef": [
@@ -4617,9 +4251,6 @@ module.exports = [
 				"fl": "adverb"
 			},
 			{
-				"shortdef": []
-			},
-			{
 				"shortdef": [
 					"interest in, concern with, or devotion to things of this world especially as opposed to a future stage of existence (as after death)"
 				],
@@ -4720,13 +4351,13 @@ module.exports = [
 				"shortdef": [
 					"came near : was near"
 				],
-				"fl": "auxiliary verb"
+				"fl": "verb"
 			},
 			{
 				"shortdef": [
 					"resembling or characteristic of"
 				],
-				"fl": "adjective combining form"
+				"fl": "adjective"
 			},
 			{
 				"shortdef": [
@@ -4890,7 +4521,7 @@ module.exports = [
 				"shortdef": [
 					"the one as well as the other"
 				],
-				"fl": "pronoun, plural in construction"
+				"fl": "pronoun"
 			},
 			{
 				"shortdef": [
@@ -5139,25 +4770,7 @@ module.exports = [
 				"shortdef": [
 					"additional persons or things or a greater amount"
 				],
-				"fl": "pronoun, singular or plural in construction"
-			},
-			{
-				"shortdef": [
-					"Hannah 1745—1833 English religious writer"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Henry 1614—1687 English philosopher"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Sir Thomas 1478—1535 Saint Thomas More English statesman and author"
-				],
-				"fl": "biographical name"
+				"fl": "pronoun"
 			},
 			{
 				"shortdef": [
@@ -5466,9 +5079,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": []
-			}
 		]
 	},
 	{
@@ -5514,12 +5124,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": []
-			},
-			{
-				"shortdef": []
-			}
 		]
 	},
 	{
@@ -5555,7 +5159,7 @@ module.exports = [
 					"information in digital form that can be transmitted or processed",
 					"information output by a sensing device or organ that includes both useful and irrelevant or redundant information and must be processed to be meaningful"
 				],
-				"fl": "noun, plural in form but singular or plural in construction"
+				"fl": "noun"
 			},
 			{
 				"shortdef": [
@@ -5697,13 +5301,13 @@ module.exports = [
 				"shortdef": [
 					"way"
 				],
-				"fl": "noun, plural in form but singular in construction"
+				"fl": "noun"
 			},
 			{
 				"shortdef": [
 					"in (such) a way, course, direction, or manner"
 				],
-				"fl": "adverb suffix"
+				"fl": "adverb"
 			},
 			{
 				"shortdef": [
@@ -5970,12 +5574,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": []
-			},
-			{
-				"shortdef": []
-			}
 		]
 	},
 	{
@@ -6018,7 +5616,7 @@ module.exports = [
 					"one indeterminate quantity, portion, or number as distinguished from the rest",
 					"an indefinite additional amount"
 				],
-				"fl": "pronoun, singular or plural in construction"
+				"fl": "pronoun"
 			},
 			{
 				"shortdef": [
@@ -6045,7 +5643,7 @@ module.exports = [
 					"body",
 					"chromosome"
 				],
-				"fl": "noun combining form"
+				"fl": "noun"
 			}
 		]
 	},
@@ -6150,15 +5748,6 @@ module.exports = [
 					"by oneself or itself"
 				],
 				"fl": "combining form"
-			},
-			{
-				"shortdef": []
-			},
-			{
-				"shortdef": []
-			},
-			{
-				"shortdef": []
 			},
 			{
 				"shortdef": [
@@ -6318,12 +5907,6 @@ module.exports = [
 					"to wish the success of or lend support to someone or something"
 				],
 				"fl": "verb"
-			},
-			{
-				"shortdef": [
-					"Elihu 1845—1937 American lawyer and statesman"
-				],
-				"fl": "biographical name"
 			},
 			{
 				"shortdef": [
@@ -6511,12 +6094,6 @@ module.exports = [
 			},
 			{
 				"shortdef": [
-					"Adrienne Cecile 1929—2012 American poet"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
 					"to take a course : go",
 					"to aim and usually deliver a blow, stroke, or thrust (as with the hand, a weapon, or a tool)",
 					"to arrive with detrimental effect"
@@ -6633,9 +6210,6 @@ module.exports = [
 					"a former monetary unit and coin of Spain and its possessions"
 				],
 				"fl": "noun"
-			},
-			{
-				"shortdef": []
 			},
 			{
 				"shortdef": [
@@ -6855,7 +6429,7 @@ module.exports = [
 					"not one : nobody",
 					"not any such thing or person"
 				],
-				"fl": "pronoun, singular or plural in construction"
+				"fl": "pronoun"
 			},
 			{
 				"shortdef": [
@@ -7020,44 +6594,6 @@ module.exports = [
 					"to remove the outer layers of (seed kernels) : to subject to hulling"
 				],
 				"fl": "verb"
-			},
-			{
-				"shortdef": [
-					"a million dollars"
-				],
-				"fl": "noun"
-			},
-			{
-				"shortdef": [
-					"a money of account equal to 1/10 cent"
-				],
-				"fl": "noun"
-			},
-			{
-				"shortdef": [
-					"James 1773—1836 Scottish philosopher, historian, and economist"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"John Stuart 1806—1873 son of James Mill English philosopher and economist"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"a million dollars"
-				],
-				"fl": "noun"
-			},
-			{
-				"shortdef": [
-					"thousand",
-					"a monetary unit formerly used in Cyprus equal to 1/10₀₀ pound",
-					"a unit of length equal to 1/10₀₀ inch used especially in measuring thickness (as of plastic films)"
-				],
-				"fl": "noun"
 			}
 		]
 	},
@@ -7346,9 +6882,6 @@ module.exports = [
 				"fl": "adjective"
 			},
 			{
-				"shortdef": []
-			},
-			{
 				"shortdef": [
 					"involving or culminating in life or death : vitally important as if involving life or death"
 				],
@@ -7408,21 +6941,6 @@ module.exports = [
 					"to make lean"
 				],
 				"fl": "verb"
-			},
-			{
-				"shortdef": [
-					"the part of meat that consists principally of lean muscle"
-				],
-				"fl": "noun"
-			},
-			{
-				"shortdef": [
-					"Sir David 1908—1991 British film director"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": []
 			},
 			{
 				"shortdef": [
@@ -7562,30 +7080,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"Anthony"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Bob 1903—2003 originally Leslie Townes Hope American (British-born) comedian"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Victor Alexander John 1887—1951 2nd Marquis ofLinlithgow British soldier; viceroy of India (1936—43)"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"city in southwestern Arkansas that was the childhood home of President Bill Clinton population 10,095"
-				],
-				"fl": "geographical name"
-			}
 		]
 	},
 	{
@@ -7686,22 +7180,6 @@ module.exports = [
 			},
 			{
 				"shortdef": [
-					"Sir Alec Douglas- 1903—1995 British prime minister (1963—64)"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"William Douglas- 1912—1992 brother of Alec Douglas-Home British dramatist"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
 					"a beverage (such as beer or coffee) that is brewed at home"
 				],
 				"fl": "noun"
@@ -7779,12 +7257,6 @@ module.exports = [
 					"a prolongation at the discretion of the performer of a musical note, chord, or rest beyond its given time value; also : the sign denoting such a prolongation —called also hold"
 				],
 				"fl": "noun"
-			},
-			{
-				"shortdef": []
-			},
-			{
-				"shortdef": []
 			},
 			{
 				"shortdef": [
@@ -7929,12 +7401,6 @@ module.exports = [
 				],
 				"fl": "verb"
 			},
-			{
-				"shortdef": []
-			},
-			{
-				"shortdef": []
-			}
 		]
 	},
 	{
@@ -8169,9 +7635,6 @@ module.exports = [
 		"nvowels": 1,
 		"def": [
 			{
-				"shortdef": []
-			},
-			{
 				"shortdef": [
 					"lesbian"
 				],
@@ -8293,12 +7756,6 @@ module.exports = [
 					"occur, happen"
 				],
 				"fl": "verb"
-			},
-			{
-				"shortdef": [
-					"James 1728—1779 English navigator and explorer"
-				],
-				"fl": "biographical name"
 			},
 			{
 				"shortdef": [
@@ -8492,12 +7949,6 @@ module.exports = [
 			},
 			{
 				"shortdef": [
-					"river 605 miles (974 kilometers) long in Nunavut, Canada, rising along the border with the Northwest Territories and flowing east-northeast into the Arctic Ocean"
-				],
-				"fl": "geographical name"
-			},
-			{
-				"shortdef": [
 					"discussion, give-and-take; also : exchange"
 				],
 				"fl": "noun"
@@ -8592,7 +8043,7 @@ module.exports = [
 			"u": 0
 		},
 		"nvowels": 0,
-		"def": []
+		"def": [ {"shortdef": ["::::"],"fl": "symbol"},]
 	},
 	{
 		"n": 5,
@@ -8718,15 +8169,6 @@ module.exports = [
 					"the middle coat of the wall of a blood or lymph vessel consisting chiefly of circular muscle fibers"
 				],
 				"fl": "noun"
-			},
-			{
-				"shortdef": []
-			},
-			{
-				"shortdef": [
-					"ancient country and province of the Persian Empire in the northwestern part of modern Iran"
-				],
-				"fl": "geographical name"
 			},
 			{
 				"shortdef": [
@@ -9284,7 +8726,7 @@ module.exports = [
 					"one of two that remains",
 					"each preceding one"
 				],
-				"fl": "pronoun, sometimes plural in construction"
+				"fl": "pronoun"
 			},
 			{
 				"shortdef": [
@@ -9381,9 +8823,6 @@ module.exports = [
 		"nvowels": 2,
 		"def": [
 			{
-				"shortdef": []
-			},
-			{
 				"shortdef": [
 					"the person, thing, or idea that is present or near in place, time, or thought or that has just been mentioned",
 					"what is stated in the following phrase, clause, or discourse",
@@ -9457,9 +8896,6 @@ module.exports = [
 					"to work in turns"
 				],
 				"fl": "verb"
-			},
-			{
-				"shortdef": []
 			},
 			{
 				"shortdef": [
@@ -9645,9 +9081,6 @@ module.exports = [
 				],
 				"fl": "verb"
 			},
-			{
-				"shortdef": []
-			}
 		]
 	},
 	{
@@ -9974,9 +9407,6 @@ module.exports = [
 				"fl": "verb"
 			},
 			{
-				"shortdef": []
-			},
-			{
 				"shortdef": [
 					"light",
 					"diminished or lacking in substance or seriousness; specifically : being an innocuous or unthreatening version —often used postpositively"
@@ -10051,9 +9481,6 @@ module.exports = [
 		},
 		"nvowels": 2,
 		"def": [
-			{
-				"shortdef": []
-			},
 			{
 				"shortdef": [
 					"having all usual, standard, or reasonably expected equipment",
@@ -10130,12 +9557,6 @@ module.exports = [
 				],
 				"fl": "adjective"
 			},
-			{
-				"shortdef": [
-					"Jubal Anderson 1816—1894 American Confederate general"
-				],
-				"fl": "biographical name"
-			}
 		]
 	},
 	{
@@ -10227,9 +9648,6 @@ module.exports = [
 					"since, because —usually used with as, as how, or that"
 				],
 				"fl": "conjunction"
-			},
-			{
-				"shortdef": []
 			},
 			{
 				"shortdef": [
@@ -10622,12 +10040,6 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"commune on the Loire River in northwest central France population 134,817"
-				],
-				"fl": "geographical name"
-			},
-			{
-				"shortdef": [
 					"to make a tour of",
 					"to present (something, such as a theatrical production) on a tour",
 					"to make a tour"
@@ -10819,12 +10231,6 @@ module.exports = [
 				],
 				"fl": "adjective"
 			},
-			{
-				"shortdef": []
-			},
-			{
-				"shortdef": []
-			}
 		]
 	},
 	{
@@ -10888,9 +10294,6 @@ module.exports = [
 					"to accustom to some action or attitude"
 				],
 				"fl": "verb"
-			},
-			{
-				"shortdef": []
 			},
 			{
 				"shortdef": [
@@ -11311,9 +10714,6 @@ module.exports = [
 				],
 				"fl": "preposition"
 			},
-			{
-				"shortdef": []
-			}
 		]
 	},
 	{
@@ -11718,10 +11118,6 @@ module.exports = [
 				"fl": "verb"
 			},
 			{
-				"shortdef": [],
-				"fl": "combining form"
-			},
-			{
 				"shortdef": [
 					"radiant energy : radiation",
 					"radioactive",
@@ -12000,7 +11396,7 @@ module.exports = [
 				"shortdef": [
 					"having a life of a specified kind or length"
 				],
-				"fl": "adjective combining form"
+				"fl": "adjective"
 			},
 			{
 				"shortdef": [
@@ -12296,12 +11692,6 @@ module.exports = [
 			},
 			{
 				"shortdef": [
-					"river in southwestern North Dakota flowing 200 miles (320 kilometers) east into the Missouri River opposite Bismarck"
-				],
-				"fl": "geographical name"
-			},
-			{
-				"shortdef": [
 					"not in love"
 				],
 				"fl": "adjective"
@@ -12408,18 +11798,6 @@ module.exports = [
 				],
 				"fl": "verb"
 			},
-			{
-				"shortdef": [
-					"Carter 1858—1946 American statesman"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Philip 1937— American composer"
-				],
-				"fl": "biographical name"
-			}
 		]
 	},
 	{
@@ -12586,12 +11964,6 @@ module.exports = [
 					"forth from : out of"
 				],
 				"fl": "preposition"
-			},
-			{
-				"shortdef": [
-					"river 116 miles (187 kilometers) long in south central Scotland flowing east into the Firth of Forth, an estuary 48 miles (77 kilometers) long that is an inlet of the North Sea"
-				],
-				"fl": "geographical name"
 			},
 			{
 				"shortdef": [
@@ -12840,9 +12212,6 @@ module.exports = [
 		"nvowels": 1,
 		"def": [
 			{
-				"shortdef": []
-			},
-			{
 				"shortdef": [
 					"showing the effects of tension, pain, or illness : haggard"
 				],
@@ -13058,9 +12427,6 @@ module.exports = [
 				"fl": "verb"
 			},
 			{
-				"shortdef": []
-			},
-			{
 				"shortdef": [
 					"one who carries a color or standard especially in a military parade or drill"
 				],
@@ -13186,12 +12552,6 @@ module.exports = [
 			},
 			{
 				"shortdef": [
-					"Chuck 1940— Charles Thomas Close American painter"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
 					"clipped short",
 					"having the hair clipped short"
 				],
@@ -13276,9 +12636,6 @@ module.exports = [
 				"fl": "noun"
 			},
 			{
-				"shortdef": []
-			},
-			{
 				"shortdef": [
 					"work done to make a structure or system ready for use or to bring a construction or development project to a completed state",
 					"work done to expand a system (such as a telecommunications system)",
@@ -13355,9 +12712,6 @@ module.exports = [
 					"having a specified type of base or basis —often used in combination"
 				],
 				"fl": "adjective"
-			},
-			{
-				"shortdef": []
 			},
 			{
 				"shortdef": [
@@ -13448,24 +12802,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"a piperidine derivative C17H25N used chiefly in the form of its hydrochloride especially as a veterinary anesthetic and sometimes illicitly as a psychedelic drug —called also angel dust, PCP"
-				],
-				"fl": "noun"
-			},
-			{
-				"shortdef": [
-					"Miguel Ángel 1899—1974 Guatemalan author"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Alberto (Ángel) 1959— president of Argentina (2019— )"
-				],
-				"fl": "biographical name"
-			}
 		]
 	},
 	{
@@ -14049,7 +13385,7 @@ module.exports = [
 				"shortdef": [
 					"—used to form especially nonce words denoting a particular kind of jargon"
 				],
-				"fl": "noun combining form"
+				"fl": "noun"
 			}
 		]
 	},
@@ -14205,28 +13541,10 @@ module.exports = [
 			},
 			{
 				"shortdef": [
-					"Isaac Bashevis 1904—1991 American (Polish-born) author"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Isaac Merrit 1811—1875 American inventor"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
 					"a performer who writes songs and sings them"
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"John Singer 1856—1925 American painter"
-				],
-				"fl": "biographical name"
-			}
 		]
 	},
 	{
@@ -14581,24 +13899,6 @@ module.exports = [
 				],
 				"fl": "verb"
 			},
-			{
-				"shortdef": [
-					"Stephen Collins 1826—1864 American songwriter"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"William Z(ebulon) 1881—1961 American Communist"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"John Foster 1888—1959 American diplomat; U.S. Secretary of State (1953—59)"
-				],
-				"fl": "biographical name"
-			}
 		]
 	},
 	{
@@ -14628,12 +13928,6 @@ module.exports = [
 		},
 		"nvowels": 2,
 		"def": [
-			{
-				"shortdef": [
-					"W.C. 1880—1946 originally Claude William Dukenfield American actor"
-				],
-				"fl": "biographical name"
-			},
 			{
 				"shortdef": [
 					"to catch or pick up (something, such as a batted ball) and usually throw to a teammate",
@@ -14950,12 +14244,6 @@ module.exports = [
 				],
 				"fl": "adjective"
 			},
-			{
-				"shortdef": [
-					"Thomas Alva 1847—1931 American inventor"
-				],
-				"fl": "biographical name"
-			}
 		]
 	},
 	{
@@ -15007,58 +14295,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"Bruno 1876—1962 originallyBruno Walter Schlesinger American (German-born) conductor"
+					"Walter Benjamin"
 				],
-				"fl": "biographical name"
+				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"Luis Walter 1911—1988 American physicist"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Walter 1826—1877 English economist and journalist"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Walter Houser 1902—1987 American physicist"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Walter Chauncey 1859—1925 American football coach"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Walter (Percy) 1875—1940 American auto manufacturer"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Walter 1845—1915 English artist"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Walter 1916—2009 Walter Leland Cronkite, Jr. American journalist"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Walter Johannes 1862—1950 American (German-born) musician and conductor"
-				],
-				"fl": "biographical name"
-			}
 		]
 	},
 	{
@@ -15222,9 +14462,6 @@ module.exports = [
 				"fl": "adjective"
 			},
 			{
-				"shortdef": []
-			},
-			{
 				"shortdef": [
 					"to make an attempt",
 					"to make an attempt at —often used with an infinitive",
@@ -15359,7 +14596,7 @@ module.exports = [
 					"an act of defecation —usually used in the phrases take a shit and (British) have a shit",
 					"nonsense, foolishness, crap; especially : trivial and usually boastful or inaccurate talk"
 				],
-				"fl": "no,un"
+				"fl": "noun"
 			}
 		]
 	},
@@ -15851,24 +15088,12 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"Larry 1923—2002 originally Yitzroch Loiza Grossberg American artist"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
 					"a natural stream of water of usually considerable volume",
 					"watercourse",
 					"something resembling a river"
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"Augustus Henry 1827—1900 English archaeologist"
-				],
-				"fl": "biographical name"
-			}
 		]
 	},
 	{
@@ -16238,12 +15463,6 @@ module.exports = [
 			},
 			{
 				"shortdef": [
-					"Sir Andrew 1952— British poet; poet laureate (1999—2009)"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
 					"of, relating to, or being motion-picture or video photography in which the action that has been photographed is made to appear to occur slower than it actually occurred; also : slowly moving"
 				],
 				"fl": "adjective"
@@ -16431,24 +15650,6 @@ module.exports = [
 				],
 				"fl": "verb"
 			},
-			{
-				"shortdef": [
-					"city in northeastern Ohio northeast of Cleveland population 47,159"
-				],
-				"fl": "geographical name"
-			},
-			{
-				"shortdef": [
-					"Philip Cortelyou 1906—2005 American architect"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Richard Mentor 1780—1850 vice president of the U.S. (1837—41)"
-				],
-				"fl": "biographical name"
-			}
 		]
 	},
 	{
@@ -16669,9 +15870,6 @@ module.exports = [
 		},
 		"nvowels": 3,
 		"def": [
-			{
-				"shortdef": []
-			},
 			{
 				"shortdef": [
 					"a lateral outgrowth from a plant stem that is typically a flattened expanded variably shaped greenish organ, constitutes a unit of the foliage, and functions primarily in food manufacture by photosynthesis",
@@ -17040,7 +16238,7 @@ module.exports = [
 				"shortdef": [
 					"city and port at the western end of Lake Superior, northeastern Minnesota population 86,265"
 				],
-				"fl": "geographical name"
+				"fl": "noun"
 			}
 		]
 	},
@@ -17448,9 +16646,6 @@ module.exports = [
 				"fl": "verb"
 			},
 			{
-				"shortdef": []
-			},
-			{
 				"shortdef": [
 					"to pierce, penetrate, or break up with a pointed instrument",
 					"to remove bit by bit",
@@ -17539,7 +16734,7 @@ module.exports = [
 				"shortdef": [
 					"can not"
 				],
-				"fl": "auxiliary verb"
+				"fl": "verb"
 			},
 			{
 				"shortdef": [
@@ -17645,7 +16840,7 @@ module.exports = [
 				"shortdef": [
 					"had better"
 				],
-				"fl": "auxiliary verb"
+				"fl": "verb"
 			},
 			{
 				"shortdef": [
@@ -18510,9 +17705,6 @@ module.exports = [
 				"fl": "adjective"
 			},
 			{
-				"shortdef": []
-			},
-			{
 				"shortdef": [
 					"having new music provided for each stanza"
 				],
@@ -18842,12 +18034,6 @@ module.exports = [
 				],
 				"fl": "verb"
 			},
-			{
-				"shortdef": [
-					"(Billings) Learned 1872—1961 American jurist"
-				],
-				"fl": "biographical name"
-			}
 		]
 	},
 	{
@@ -19930,7 +19116,7 @@ module.exports = [
 					"poetic theory or practice; also : a particular theory of poetry or sometimes other literary forms",
 					"poetic feelings or utterances"
 				],
-				"fl": "noun, plural in form but singular or plural in construction"
+				"fl": "noun"
 			}
 		]
 	},
@@ -19981,7 +19167,7 @@ module.exports = [
 					"developing : forming",
 					"of or relating to (something designated by a term ending in -plasm, -plast, -plasty, or -plasy)"
 				],
-				"fl": "adjective combining form"
+				"fl": "adjective"
 			}
 		]
 	},
@@ -20147,7 +19333,7 @@ module.exports = [
 				"shortdef": [
 					"the mainly narrative fourth book of canonical Jewish and Christian Scripture"
 				],
-				"fl": "noun, plural in form but singular in construction"
+				"fl": "noun"
 			},
 			{
 				"shortdef": [
@@ -20362,16 +19548,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"very long : having many pages, items, etc."
+					"longarm quilting machine"
 				],
-				"fl": "idiom"
+				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"the ability of the police to find and catch people who commit crimes"
-				],
-				"fl": "noun phrase"
-			}
 		]
 	},
 	{
@@ -21542,124 +20722,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"arachn-","arachnid","arachnoid","arachno-","arachnoids","earache","arachnids","parachute","archness","Saracens","arachnophobe","arancini","aragonite","caracole","arachnology","earaches","arachnologies","huarache","arachnophobes","parachuted"
 				],
-				"fl": "unknown"
+				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -22437,10 +21503,7 @@ module.exports = [
 					"a pattern or process of change, growth, or activity",
 					"variation and contrast in force or intensity (as in music)"
 				],
-				"fl": "noun, plural in form but singular or plural in construction"
-			},
-			{
-				"shortdef": []
+				"fl": "noun"
 			},
 			{
 				"shortdef": [
@@ -22587,124 +21650,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"coders","code word","cutwork","bodywork","codirectors","capework","codirector","casework","cutworks","codebook","homework","code words","coursework","capeworks","caseworks","clockwork","coachwork","codebooks"
 				],
-				"fl": "unknown"
+				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -23624,9 +22573,6 @@ module.exports = [
 					"to persuade to associate in an organization; especially : unionize"
 				],
 				"fl": "verb"
-			},
-			{
-				"shortdef": []
 			},
 			{
 				"shortdef": [
@@ -25683,124 +24629,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"infinite between", "string landscape", "fingers on wood"
 				],
-				"fl": "unknown"
+				"fl": "adjective"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -26375,124 +25207,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"puppet => bo(y)", "the machine ::: alive at last"
 				],
-				"fl": "unknown"
+				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -26633,7 +25351,7 @@ module.exports = [
 					"river 332 miles (534 kilometers) long in the southern part of the state of Minnesota flowing from Big Stone Lake to the Mississippi River",
 					"state in the northern U.S. bordering on Ontario and Manitoba, Canada, and on Lake Superior; capital Saint Paul area 84,068 square miles (218,577 square kilometers), population 5,303,925"
 				],
-				"fl": "geographical name"
+				"fl": "noun"
 			},
 			{
 				"shortdef": [
@@ -27011,12 +25729,6 @@ module.exports = [
 				],
 				"fl": "verb"
 			},
-			{
-				"shortdef": [
-					"city in southeastern Florida southwest of Miami population 60,512"
-				],
-				"fl": "geographical name"
-			}
 		]
 	},
 	{
@@ -28142,7 +26854,7 @@ module.exports = [
 				"shortdef": [
 					"the science of communication and control theory that is concerned especially with the comparative study of automatic control systems (such as the nervous system and brain and mechanical-electrical communication systems)"
 				],
-				"fl": "noun, plural in form but singular in construction"
+				"fl": "noun"
 			}
 		]
 	},
@@ -28282,15 +26994,12 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [],
-				"fl": "unknown"
-			},
+			
 			{
 				"shortdef": [
 					"the angle between a reflected ray and the normal drawn at the point of incidence to a reflecting surface"
 				],
-				"fl": "noun phrase"
+				"fl": "noun"
 			},
 			{
 				"shortdef": [
@@ -28638,124 +27347,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"origin of nets", "w3c synax", "cloud work"
 				],
-				"fl": "unknown"
+				"fl": "adjective"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -28899,124 +27494,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"clocks", "cycles ::: moment chains", "temporal gears"
 				],
-				"fl": "unknown"
+				"fl": "adjective"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -29149,40 +27630,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"bees", "cybernetic ze", "the networked weaver singer"
 				],
-				"fl": "unknown"
+				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -29628,7 +28079,7 @@ module.exports = [
 				"shortdef": [
 					"a technique (such as the combining of sound, video, and text) for expressing ideas (as in communication, entertainment, or art) in which several media are employed; also : something (such as software) using or facilitating such a technique"
 				],
-				"fl": "noun, plural in form but singular or plural in construction"
+				"fl": "noun"
 			}
 		]
 	},
@@ -29695,9 +28146,9 @@ module.exports = [
 		]
 	},
 	{
-		"n": 10,
+		"n": 12,
 		"count": 1,
-		"text": "mbodiments",
+		"text": "(m)bodiments",
 		"books": [
 			{
 				"book": "artist",
@@ -29715,123 +28166,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"one that embodies something",
+					"the act of embodying : the state of being embodied"
 				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
+				"fl": "noun"
 			}
 		]
 	},
@@ -30281,9 +28619,9 @@ module.exports = [
 		]
 	},
 	{
-		"n": 10,
+		"n": 11,
 		"count": 1,
-		"text": "embodiment",
+		"text": "(m)bodiment",
 		"books": [
 			{
 				"book": "artist",
@@ -30863,7 +29201,7 @@ module.exports = [
 					"the science of numbers and their operations, interrelations, combinations, generalizations, and abstractions and of space configurations and their structure, measurement, transformations, and generalizations",
 					"a branch of, operation in, or use of mathematics"
 				],
-				"fl": "noun, plural in form but usually singular in construction"
+				"fl": "noun"
 			}
 		]
 	},
@@ -31049,124 +29387,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"the mirage of endlessness", "not null not few ::: infinite"
 				],
-				"fl": "unknown"
+				"fl": "adjective"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -31293,124 +29517,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"not metered", "not constant steady same", "unsteady tick gait"
 				],
-				"fl": "unknown"
+				"fl": "adjective"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -31833,124 +29943,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"cross-sensory", "across fields"
 				],
-				"fl": "unknown"
+				"fl": "adjective"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -32349,124 +30345,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"at the level of the whole", "polyphonic net"
 				],
-				"fl": "unknown"
+				"fl": "adjective"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -32737,58 +30619,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"old-school form of community television"
 				],
-				"fl": "unknown"
+				"fl": "adjective"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -32956,124 +30790,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"cross-media", "the sensory skull", "skeletal filament", "the body the resonant strings"
 				],
-				"fl": "unknown"
+				"fl": "adjective"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -33103,9 +30823,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": []
-			}
 		]
 	},
 	{
@@ -33129,124 +30846,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"this place this now", "rooted"
 				],
-				"fl": "unknown"
+				"fl": "adjective"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -33270,124 +30873,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"moloch"
 				],
-				"fl": "unknown"
+				"fl": "adjective"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -33413,7 +30902,7 @@ module.exports = [
 				"shortdef": [
 					"a position or perspective from which something is considered or evaluated : standpoint"
 				],
-				"fl": "noun phrase"
+				"fl": "noun"
 			}
 		]
 	},
@@ -33624,9 +31113,9 @@ module.exports = [
 		]
 	},
 	{
-		"n": 13,
+		"n": 14,
 		"count": 1,
-		"text": "archeologists",
+		"text": "archaeologists",
 		"books": [
 			{
 				"book": "artist",
@@ -33644,124 +31133,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"diggers", "layers", "finders"
 				],
-				"fl": "unknown"
+				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -33814,124 +31189,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"polyphonic", "many threads"
 				],
-				"fl": "unknown"
+				"fl": "adjective"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -33955,94 +31216,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"mixed with chance ::: with random numbers"
 				],
-				"fl": "unknown"
+				"fl": "adjective"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -34138,106 +31315,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"legible"
 				],
-				"fl": "unknown"
+				"fl": "adjective"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -34261,124 +31342,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"works on different machines"
 				],
-				"fl": "unknown"
+				"fl": "adjective"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -34431,124 +31398,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"landscapes", "contexts", "environments"
 				],
-				"fl": "unknown"
+				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -34599,70 +31452,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"multi-threaded", "independent ::: intertwined", "polyphonic"
 				],
-				"fl": "unknown"
+				"fl": "adjective"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -34714,124 +31507,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"woven by machines and digits", "created by gears & computations", "algorithmic"
 				],
-				"fl": "unknown"
+				"fl": "adjective"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -34855,124 +31534,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"built by people together", "collaborative"
 				],
-				"fl": "unknown"
+				"fl": "adjective"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -34996,76 +31561,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"rooted"
 				],
-				"fl": "unknown"
+				"fl": "adjective"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -35117,124 +31616,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"moloch"
 				],
-				"fl": "unknown"
+				"fl": "adjective"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -35258,124 +31643,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"layers of legibility"
 				],
-				"fl": "unknown"
+				"fl": "adjective"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -35399,124 +31670,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"infinite between"
 				],
-				"fl": "unknown"
+				"fl": "adjective"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -35540,124 +31697,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"machine orchestration"
 				],
-				"fl": "unknown"
+				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -35681,64 +31724,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"geographically dispresed", "spatially collaborative", "locative"
 				],
-				"fl": "unknown"
+				"fl": "adjective"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -35991,12 +31980,6 @@ module.exports = [
 			},
 			{
 				"shortdef": [
-					"—used for a precision cutting hand tool with a sharp, replaceable blade"
-				],
-				"fl": "trademark"
-			},
-			{
-				"shortdef": [
 					"the axis in a plane Cartesian coordinate system parallel to which abscissas are measured",
 					"one of the three axes in a three-dimensional rectangular coordinate system"
 				],
@@ -36041,7 +32024,7 @@ module.exports = [
 				"shortdef": [
 					"for twenty-four hours seven days a week"
 				],
-				"fl": "adverb or adjective"
+				"fl": "adjective"
 			}
 		]
 	},
@@ -36202,9 +32185,6 @@ module.exports = [
 				"fl": "abbreviation"
 			},
 			{
-				"shortdef": []
-			},
-			{
 				"shortdef": [
 					"nobelium"
 				],
@@ -36215,9 +32195,6 @@ module.exports = [
 					"classic Japanese dance-drama having a heroic theme, a chorus, and highly stylized action, costuming, and scenery"
 				],
 				"fl": "noun"
-			},
-			{
-				"shortdef": []
 			},
 			{
 				"shortdef": [
@@ -36323,25 +32300,6 @@ module.exports = [
 				],
 				"fl": "symbol"
 			},
-			{
-				"shortdef": [
-					"Her Excellency; His Excellency",
-					"high efficiency",
-					"high explosive",
-					"His Eminence"
-				],
-				"fl": "abbreviation"
-			},
-			{
-				"shortdef": [],
-				"fl": "pronoun"
-			},
-			{
-				"shortdef": [
-					"a strong virile man"
-				],
-				"fl": "noun"
-			}
 		]
 	},
 	{
@@ -36369,12 +32327,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"—used to certify that a motion picture is of such a nature that no one aged 17 or under can be admitted"
-				],
-				"fl": "certification mark"
-			}
 		]
 	},
 	{
@@ -36402,12 +32354,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"—used to certify that a motion picture is of such a nature that persons of all ages may be admitted but parental guidance is suggested especially for children under 13"
-				],
-				"fl": "certification mark"
-			}
 		]
 	},
 	{
@@ -36529,14 +32475,6 @@ module.exports = [
 					"reduce; reduction"
 				],
 				"fl": "abbreviation"
-			},
-			{
-				"shortdef": [
-					"river 1018 miles (1638 kilometers) long flowing east on the Oklahoma—Texas boundary and into the Atchafalaya and Mississippi rivers in Louisiana",
-					"river in north central U.S. and south central Canada flowing north on the Minnesota—North Dakota boundary and into Lake Winnipeg in Manitoba",
-					"river 500 miles (805 kilometers) long in southeastern Asia rising in central Yunnan, China, and flowing southeast across northern Vietnam into the Gulf of Tonkin"
-				],
-				"fl": "geographical name"
 			},
 			{
 				"shortdef": [
@@ -36848,9 +32786,6 @@ module.exports = [
 		"nvowels": 1,
 		"def": [
 			{
-				"shortdef": []
-			},
-			{
 				"shortdef": [
 					"literature —often used before another noun"
 				],
@@ -37053,9 +32988,6 @@ module.exports = [
 		"nvowels": 1,
 		"def": [
 			{
-				"shortdef": []
-			},
-			{
 				"shortdef": [
 					"a hand or power tool or a machine used to cut hard material (such as wood, metal, or bone) and equipped usually with a toothed blade or disk"
 				],
@@ -37138,12 +33070,6 @@ module.exports = [
 					"Manitoba"
 				],
 				"fl": "abbreviation"
-			},
-			{
-				"shortdef": []
-			},
-			{
-				"shortdef": []
 			},
 			{
 				"shortdef": [
@@ -37285,12 +33211,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"river 315 miles (507 kilometers) long in southwestern Alberta, Canada, rising in Banff National Park"
-				],
-				"fl": "geographical name"
-			}
 		]
 	},
 	{
@@ -37455,9 +33375,6 @@ module.exports = [
 				"fl": "adjective"
 			},
 			{
-				"shortdef": []
-			},
-			{
 				"shortdef": [
 					"something (such as a portion of receipts or production) that is set aside for a specified purpose",
 					"a program requiring a percentage of opportunities (as for jobs or funding) to be reserved for an underrepresented group"
@@ -37591,7 +33508,7 @@ module.exports = [
 				"shortdef": [
 					"competition : contest"
 				],
-				"fl": "noun combining form"
+				"fl": "noun"
 			},
 			{
 				"shortdef": [
@@ -37712,7 +33629,7 @@ module.exports = [
 				"shortdef": [
 					"that which belongs to him —used without a following noun as a pronoun equivalent in meaning to the adjective his"
 				],
-				"fl": "pronoun, singular or plural in construction"
+				"fl": "pronoun"
 			},
 			{
 				"shortdef": [
@@ -37776,9 +33693,6 @@ module.exports = [
 					"to watch or study closely"
 				],
 				"fl": "verb"
-			},
-			{
-				"shortdef": []
 			},
 			{
 				"shortdef": [
@@ -37892,14 +33806,14 @@ module.exports = [
 				"shortdef": [
 					"—used for a Caterpillar tractor"
 				],
-				"fl": "trademark"
+				"fl": "noun"
 			},
 			{
 				"shortdef": [
 					"clean-air turbulence",
 					"computerized axial tomography"
 				],
-				"fl": "abbreviation"
+				"fl": "noun"
 			},
 			{
 				"shortdef": [
@@ -38143,12 +34057,6 @@ module.exports = [
 			},
 			{
 				"shortdef": [
-					"river 215 miles (346 kilometers) long in northeastern North Carolina"
-				],
-				"fl": "geographical name"
-			},
-			{
-				"shortdef": [
 					"to urge to action —usually used with on"
 				],
 				"fl": "verb"
@@ -38273,43 +34181,12 @@ module.exports = [
 				"fl": "pronoun"
 			},
 			{
-				"shortdef": [],
-				"fl": "pronoun"
-			},
-			{
-				"shortdef": [
-					"an immature female blue crab"
-				],
-				"fl": "noun"
-			},
-			{
-				"shortdef": [
-					"any of various casuarinas"
-				],
-				"fl": "noun"
-			},
-			{
-				"shortdef": [
-					"to seize especially with teeth or jaws so as to enter, grip, or wound",
-					"to wound, pierce, or sting especially with a fang or a proboscis",
-					"to cut or pierce with or as if with an edged weapon"
-				],
-				"fl": "verb"
-			},
-			{
 				"shortdef": [
 					"place, location",
 					"what place, source, or cause"
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"having monetary or material value",
-					"estimable"
-				],
-				"fl": "adjective"
-			}
 		]
 	},
 	{
@@ -38350,18 +34227,6 @@ module.exports = [
 					"cathedra"
 				],
 				"fl": "noun"
-			},
-			{
-				"shortdef": [
-					"Thomas Jefferson Jackson 1866—1962 American astronomer and mathematician"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": []
-			},
-			{
-				"shortdef": []
 			},
 			{
 				"shortdef": [
@@ -38412,15 +34277,6 @@ module.exports = [
 					"for example : as"
 				],
 				"fl": "adverb"
-			},
-			{
-				"shortdef": []
-			},
-			{
-				"shortdef": []
-			},
-			{
-				"shortdef": []
 			},
 			{
 				"shortdef": [
@@ -38761,18 +34617,6 @@ module.exports = [
 			},
 			{
 				"shortdef": [
-					"Francis Scott 1779—1843 American lawyer and author of \"The Star-Spangled Banner\""
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"John (Phillip) 1961— prime minister of New Zealand (2008—16)"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
 					"the letter k"
 				],
 				"fl": "noun"
@@ -38810,7 +34654,7 @@ module.exports = [
 					"—used as an informal greeting",
 					"—used to indicate that one is not bothered or troubled by something"
 				],
-				"fl": "interjection"
+				"fl": "verb"
 			}
 		]
 	},
@@ -39003,24 +34847,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"John 1685—1732 English poet and dramatist"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Joseph-Louis 1778—1850 French chemist and physicist"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"opposed to or hostile toward gay people or gay culture"
-				],
-				"fl": "adjective"
-			}
 		]
 	},
 	{
@@ -39154,12 +34980,6 @@ module.exports = [
 				"fl": "noun"
 			},
 			{
-				"shortdef": []
-			},
-			{
-				"shortdef": []
-			},
-			{
 				"shortdef": [
 					"to subject to dry cleaning",
 					"to undergo dry cleaning"
@@ -39208,30 +35028,6 @@ module.exports = [
 					"daytime"
 				],
 				"fl": "noun"
-			},
-			{
-				"shortdef": [
-					"Clarence Shepard, Jr. 1874—1935 American author"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Thomas 1748—1789 English author"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"William Rufus 1849—1923 American statesman and jurist"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"—used for fluorescent materials or colors"
-				],
-				"fl": "trademark"
 			},
 			{
 				"shortdef": [
@@ -39595,7 +35391,7 @@ module.exports = [
 				"shortdef": [
 					"a copy of a printed work (such as a novel or textbook) sent as a promotion prior to the official release"
 				],
-				"fl": "abbreviation or noun"
+				"fl": "noun"
 			},
 			{
 				"shortdef": [
@@ -39725,24 +35521,11 @@ module.exports = [
 			},
 			{
 				"shortdef": [
-					"Larry (Joe) 1956— American basketball player"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
 					"to watch closely",
 					"to seek out : follow, detect"
 				],
 				"fl": "verb"
 			},
-			{
-				"shortdef": [
-					"the stealing of another's date (as at a party)",
-					"the action of one that bird-dogs"
-				],
-				"fl": "noun"
-			}
 		]
 	},
 	{
@@ -39805,9 +35588,6 @@ module.exports = [
 		},
 		"nvowels": 2,
 		"def": [
-			{
-				"shortdef": []
-			},
 			{
 				"shortdef": [
 					"to equal in meaning : have the same connotation as : symbolize",
@@ -39957,9 +35737,6 @@ module.exports = [
 					"the Siouan language of the Crow people"
 				],
 				"fl": "noun"
-			},
-			{
-				"shortdef": []
 			},
 			{
 				"shortdef": [
@@ -40262,25 +36039,6 @@ module.exports = [
 				],
 				"fl": "verb"
 			},
-			{
-				"shortdef": [
-					"finance, insurance, and real estate"
-				],
-				"fl": "abbreviation"
-			},
-			{
-				"shortdef": [
-					"Andrew Zachary 1959— American geneticist"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"breathing or appearing to breathe fire : able to produce a stream of fire from the mouth",
-					"intimidatingly or violently aggressive in speech and manner"
-				],
-				"fl": "adjective"
-			}
 		]
 	},
 	{
@@ -40416,10 +36174,6 @@ module.exports = [
 				"fl": "verb"
 			},
 			{
-				"shortdef": [],
-				"fl": "combining form"
-			},
-			{
 				"shortdef": [
 					"involving or dealing with ancient forms or conditions",
 					"early : primitive : archaic"
@@ -40527,18 +36281,6 @@ module.exports = [
 			},
 			{
 				"shortdef": [
-					"Asa 1810—1888 American botanist"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Thomas 1716—1771 English poet"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
 					"of the color gray",
 					"tending toward gray",
 					"dull in color"
@@ -40613,15 +36355,6 @@ module.exports = [
 					"to produce a sound on a horn"
 				],
 				"fl": "verb"
-			},
-			{
-				"shortdef": [
-					"river in west central Wyoming"
-				],
-				"fl": "geographical name"
-			},
-			{
-				"shortdef": []
 			},
 			{
 				"shortdef": [
@@ -40793,12 +36526,6 @@ module.exports = [
 			},
 			{
 				"shortdef": [
-					"river 300 miles (483 kilometers) long in southern Wisconsin and northern Illinois flowing south and southwest into the Mississippi River at the city of Rock Island"
-				],
-				"fl": "geographical name"
-			},
-			{
-				"shortdef": [
 					"popular music usually played on electronically amplified instruments and characterized by a persistent heavily accented beat, repetition of simple phrases, and often country, folk, and blues elements : rock —often used before another noun"
 				],
 				"fl": "noun"
@@ -40857,9 +36584,6 @@ module.exports = [
 		},
 		"nvowels": 1,
 		"def": [
-			{
-				"shortdef": []
-			},
 			{
 				"shortdef": [
 					"to bear or have on the person",
@@ -40935,18 +36659,6 @@ module.exports = [
 					"violently mad"
 				],
 				"fl": "adjective"
-			},
-			{
-				"shortdef": [
-					"Grant (DeVolson) 1892—1942 American painter"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Leonard 1860—1927 American physician and general"
-				],
-				"fl": "biographical name"
 			},
 			{
 				"shortdef": [
@@ -41050,7 +36762,7 @@ module.exports = [
 				"shortdef": [
 					"—used as a code word for the letter e"
 				],
-				"fl": "communications code word"
+				"fl": "noun"
 			}
 		]
 	},
@@ -41195,18 +36907,6 @@ module.exports = [
 					"extremely, very; also : totally"
 				],
 				"fl": "adverb"
-			},
-			{
-				"shortdef": [
-					"Sir Muirhead 1876—1953 Scottish etcher and painter"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"commune and port on a gulf of the Mediterranean Sea northeast of Constantine in northeastern Algeria population 305,526"
-				],
-				"fl": "geographical name"
 			},
 			{
 				"shortdef": [
@@ -41703,9 +37403,6 @@ module.exports = [
 		"nvowels": 1,
 		"def": [
 			{
-				"shortdef": []
-			},
-			{
 				"shortdef": [
 					"to separate parts of or pull apart by force : rend",
 					"to wound by or as if by pulling apart by force : lacerate",
@@ -41755,12 +37452,6 @@ module.exports = [
 					"to smooth or dress by grinding or rubbing with an abrasive (such as sandpaper)"
 				],
 				"fl": "verb"
-			},
-			{
-				"shortdef": [
-					"George 1804—1876 pseudonym of Amandine-Aurore-Lucie (or -Lucile)Dudevant née Dupin French writer"
-				],
-				"fl": "biographical name"
 			},
 			{
 				"shortdef": [
@@ -42008,7 +37699,7 @@ module.exports = [
 				"shortdef": [
 					"promissory note"
 				],
-				"fl": "noun phrase"
+				"fl": "noun"
 			},
 			{
 				"shortdef": [
@@ -42021,7 +37712,7 @@ module.exports = [
 				"shortdef": [
 					"to write down (a piece of information that one wants to remember)"
 				],
-				"fl": "phrasal verb"
+				"fl": "verb"
 			},
 			{
 				"shortdef": [
@@ -42721,63 +38412,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"to attempt to catch fish",
-					"to seek something by roundabout means",
-					"to search for something underwater"
-				],
-				"fl": "verb"
-			},
-			{
-				"shortdef": [
-					"Hamilton 1808—1893 American statesman"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"fried fish and french fried potatoes"
-				],
-				"fl": "plural noun"
-			},
-			{
-				"shortdef": [
-					"a round fried cake made of shredded fish and mashed potato"
-				],
-				"fl": "noun"
-			},
-			{
-				"shortdef": [
-					"merganser"
-				],
-				"fl": "noun"
-			},
-			{
-				"shortdef": [
-					"being, having, or produced by a wide-angle photographic lens that has a highly curved protruding front, that covers an angle of about 180 degrees, and that gives a circular image"
-				],
-				"fl": "adjective"
-			},
-			{
-				"shortdef": [
-					"a commercial facility for raising aquatic animals for human food"
-				],
-				"fl": "noun"
-			},
-			{
-				"shortdef": [
-					"fish stick"
-				],
-				"fl": "noun"
-			},
-			{
-				"shortdef": [
-					"a picnic or supper featuring fried fish",
-					"fried fish"
-				],
-				"fl": "noun"
-			}
 		]
 	},
 	{
@@ -43062,14 +38696,6 @@ module.exports = [
 			},
 			{
 				"shortdef": [
-					"—used to indicate resumption of discourse or to introduce a remark",
-					"—used to express surprise or expostulation"
-				],
-				"fl": "interjection"
-			},
-			{
-				"shortdef": [
-					"prosperous, well-off",
 					"being in satisfactory condition or circumstances",
 					"being in good standing or favor"
 				],
@@ -43157,44 +38783,8 @@ module.exports = [
 					"in a (specified) spatial or temporal direction",
 					"toward a (specified) point, position, or area"
 				],
-				"fl": "adverb suffix"
+				"fl": "adverb"
 			},
-			{
-				"shortdef": [
-					"(Aaron) Montgomery 1843—1913 American merchant"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Artemas 1727—1800 American general in Revolution"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Artemus"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Barbara 1914—1981 Baroness Jackson of Lodsworth English economist"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Sir Joseph George 1856—1930 New Zealand statesman"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Mary Augusta 1851—1920 Mrs. Humphry Ward née Arnold English novelist"
-				],
-				"fl": "biographical name"
-			}
 		]
 	},
 	{
@@ -43303,12 +38893,6 @@ module.exports = [
 				],
 				"fl": "verb"
 			},
-			{
-				"shortdef": [
-					"river about 240 miles (386 kilometers) long in southwestern Western Australia flowing west into the Indian Ocean"
-				],
-				"fl": "geographical name"
-			}
 		]
 	},
 	{
@@ -43402,12 +38986,6 @@ module.exports = [
 				],
 				"fl": "verb"
 			},
-			{
-				"shortdef": [
-					"C(harles) P(ercy) 1905—1980 Baron Snow English novelist and physicist"
-				],
-				"fl": "biographical name"
-			}
 		]
 	},
 	{
@@ -43449,12 +39027,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": []
-			},
-			{
-				"shortdef": []
-			}
 		]
 	},
 	{
@@ -43645,12 +39217,6 @@ module.exports = [
 			},
 			{
 				"shortdef": [
-					"Benjamin 1745—1813 American physician and patriot"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
 					"to attack or seize with an overpowering rush"
 				],
 				"fl": "verb"
@@ -43700,9 +39266,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": []
-			}
 		]
 	},
 	{
@@ -44032,7 +39595,7 @@ module.exports = [
 					"previously unknown information",
 					"something having a specified influence or effect"
 				],
-				"fl": "noun, plural in form but singular in construction"
+				"fl": "noun"
 			},
 			{
 				"shortdef": [
@@ -44068,13 +39631,13 @@ module.exports = [
 				"shortdef": [
 					"something one is hearing for the first time : something one did not previously know"
 				],
-				"fl": "noun phrase"
+				"fl": "noun"
 			},
 			{
 				"shortdef": [
 					"one that is troublesome, unwelcome, or dangerous"
 				],
-				"fl": "noun, plural in form but singular in construction"
+				"fl": "noun"
 			},
 			{
 				"shortdef": [
@@ -44082,12 +39645,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"city and port on the James River and the Hampton Roads channel in southeastern Virginia population 180,719"
-				],
-				"fl": "geographical name"
-			}
 		]
 	},
 	{
@@ -44414,24 +39971,6 @@ module.exports = [
 				],
 				"fl": "abbreviation"
 			},
-			{
-				"shortdef": [
-					"Crawford Williamson 1815—1878 American surgeon"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Huey Pierce 1893—1935 American politician"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Stephen Harriman 1784—1864 American army officer and explorer"
-				],
-				"fl": "biographical name"
-			}
 		]
 	},
 	{
@@ -44757,12 +40296,6 @@ module.exports = [
 					"with the hands rather than by machine"
 				],
 				"fl": "adverb"
-			},
-			{
-				"shortdef": [
-					"(Billings) Learned 1872—1961 American jurist"
-				],
-				"fl": "biographical name"
 			},
 			{
 				"shortdef": [
@@ -45640,25 +41173,11 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"Alvin Cullum 1887—1964 American soldier"
+					"new york"
 				],
-				"fl": "biographical name"
+				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"city on the Ouse River in North Yorkshire, northern England population 153,000",
-					"city in southeastern Pennsylvania southeast of Harrisburg population 43,718",
-					"municipality in southeastern Ontario, Canada population 892,712"
-				],
-				"fl": "geographical name"
-			},
-			{
-				"shortdef": [
-					"former county of northern England roughly bounded by the North Sea on the east, the Humber River on the south, the Pennine Chain on the west, and the county of Durham on the north and comprising the city of York and the (former) administrative counties of East Riding (capital Beverley),North Riding (capital Northallerton), and West Riding (capital Wakefield)",
-					"historical region of northern England roughly equivalent to the former county and centered on present-day North Yorkshire"
-				],
-				"fl": "geographical name"
-			}
+			
 		]
 	},
 	{
@@ -45694,24 +41213,6 @@ module.exports = [
 				],
 				"fl": "verb"
 			},
-			{
-				"shortdef": [
-					"Friedrich August 1759—1824 German philologist"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Hugo Philipp Jakob 1860—1903 Austrian composer"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Christian 1679—1754 Freiherr von Wolff German philosopher and mathematician"
-				],
-				"fl": "biographical name"
-			}
 		]
 	},
 	{
@@ -46127,12 +41628,6 @@ module.exports = [
 				],
 				"fl": "verb"
 			},
-			{
-				"shortdef": [
-					"Sir Herbert (Draper) Beerbohm 1853—1917 English actor-manager"
-				],
-				"fl": "biographical name"
-			}
 		]
 	},
 	{
@@ -46466,9 +41961,6 @@ module.exports = [
 				"fl": "noun"
 			},
 			{
-				"shortdef": []
-			},
-			{
 				"shortdef": [
 					"a written account (such as a biography) that contains revealing and often scandalous information"
 				],
@@ -46637,9 +42129,6 @@ module.exports = [
 				],
 				"fl": "adverb"
 			},
-			{
-				"shortdef": []
-			}
 		]
 	},
 	{
@@ -47045,9 +42534,6 @@ module.exports = [
 		"nvowels": 1,
 		"def": [
 			{
-				"shortdef": []
-			},
-			{
 				"shortdef": [
 					"to produce musical tones by means of the voice",
 					"to utter words in musical tones and with musical inflections and modulations",
@@ -47087,12 +42573,6 @@ module.exports = [
 					"distribution by selling"
 				],
 				"fl": "noun"
-			},
-			{
-				"shortdef": [
-					"city and port at the mouth of a river in northwestern Morocco; a northern suburb of Rabat area population 849,000"
-				],
-				"fl": "geographical name"
 			},
 			{
 				"shortdef": [
@@ -47144,12 +42624,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"Russell 1816—1906 American financier"
-				],
-				"fl": "biographical name"
-			}
 		]
 	},
 	{
@@ -47214,9 +42688,6 @@ module.exports = [
 		},
 		"nvowels": 1,
 		"def": [
-			{
-				"shortdef": []
-			},
 			{
 				"shortdef": [
 					"a rounded crosspiece between the legs of a chair",
@@ -47315,36 +42786,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"mill"
-				],
-				"fl": "verb"
-			},
-			{
-				"shortdef": [
-					"John 1887—1920 American journalist, poet, and Communist"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Stanley Forman 1884—1980 American jurist"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Thomas Brackett 1839—1902 American politician"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Walter 1851—1902 American army surgeon"
-				],
-				"fl": "biographical name"
-			}
 		]
 	},
 	{
@@ -47624,12 +43065,6 @@ module.exports = [
 			},
 			{
 				"shortdef": [
-					"Emily 1872—1960 née Price American columnist and writer"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
 					"the act of transferring an entry or item from a book of original entry to the proper account in a ledger",
 					"the record in a ledger account resulting from the transfer of an entry or item from a book of original entry"
 				],
@@ -47784,18 +43219,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"name of 6 popes: especially III (Alessandro Farnese) 1468—1549 (pope 1534—49); V 1552—1621 (pope 1605—21); VI (Giovanni Battista Montini) 1897—1978 (pope 1963—78)"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Wolfgang 1913—1993 German physicist"
-				],
-				"fl": "biographical name"
-			}
 		]
 	},
 	{
@@ -47851,12 +43274,6 @@ module.exports = [
 					"a boy serving as an honorary attendant at a formal function (such as a wedding)"
 				],
 				"fl": "noun"
-			},
-			{
-				"shortdef": [
-					"Walter Hines 1855—1918 American journalist and diplomat"
-				],
-				"fl": "biographical name"
 			},
 			{
 				"shortdef": [
@@ -48081,7 +43498,7 @@ module.exports = [
 				"shortdef": [
 					"that which belongs to me —used without a following noun as a pronoun equivalent in meaning to the adjective my"
 				],
-				"fl": "pronoun, singular or plural in construction"
+				"fl": "pronoun"
 			},
 			{
 				"shortdef": [
@@ -48210,18 +43627,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"—used for an underwater breathing apparatus"
-				],
-				"fl": "trademark"
-			},
-			{
-				"shortdef": [
-					"1711—1799 Chinese emperor (1736—96)"
-				],
-				"fl": "biographical name"
-			}
 		]
 	},
 	{
@@ -48468,12 +43873,6 @@ module.exports = [
 				],
 				"fl": "verb"
 			},
-			{
-				"shortdef": [
-					"commune in northern France southwest of Lille population 35,032"
-				],
-				"fl": "geographical name"
-			}
 		]
 	},
 	{
@@ -48518,9 +43917,6 @@ module.exports = [
 					"the part on the left side"
 				],
 				"fl": "noun"
-			},
-			{
-				"shortdef": []
 			},
 			{
 				"shortdef": [
@@ -48593,12 +43989,6 @@ module.exports = [
 					"to cause to reach or come to rest in a particular place"
 				],
 				"fl": "verb"
-			},
-			{
-				"shortdef": [
-					"Edwin Herbert 1909—1991 American inventor and industrialist"
-				],
-				"fl": "biographical name"
 			},
 			{
 				"shortdef": [
@@ -48820,54 +44210,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"B. B. 1925—2015 originally Riley B. King American blues musician"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Billie Jean 1943— née Moffitt American tennis player"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Ernest Joseph 1878—1956 American admiral"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Martin Luther, Jr. 1929—1968 American clergyman and civil rights leader"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Rufus 1755—1827 American politician and diplomat"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Stephen (Edwin) 1947— American writer"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"William Lyon Mackenzie 1874—1950 Canadian statesman; prime minister (1921—26; 1926—30; 1935—48)"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"William Rufus de Vane 1786—1853 American politician; vice president of the U.S. (1853)"
-				],
-				"fl": "biographical name"
-			}
 		]
 	},
 	{
@@ -48932,9 +44274,6 @@ module.exports = [
 		},
 		"nvowels": 1,
 		"def": [
-			{
-				"shortdef": []
-			},
 			{
 				"shortdef": [
 					"to retain in one's possession or power",
@@ -49002,9 +44341,6 @@ module.exports = [
 					"by a very small margin : barely"
 				],
 				"fl": "adverb"
-			},
-			{
-				"shortdef": []
 			},
 			{
 				"shortdef": [
@@ -49348,9 +44684,6 @@ module.exports = [
 		"nvowels": 1,
 		"def": [
 			{
-				"shortdef": []
-			},
-			{
 				"shortdef": [
 					"to have possession or ownership of or have at one's disposal",
 					"to have as a privilege or position of responsibility",
@@ -49548,42 +44881,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"Charles Francis 1821—1871 American arctic explorer"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Charles Martin 1863—1914 American chemist and manufacturer"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"G(ranville) Stanley 1844—1924 American psychologist and educator"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"James Norman 1887—1951 American novelist"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Jeffrey C(onnor) 1945— American biologist"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"John L(ewis) 1934— American physicist"
-				],
-				"fl": "biographical name"
-			}
 		]
 	},
 	{
@@ -49726,9 +45023,6 @@ module.exports = [
 		"nvowels": 1,
 		"def": [
 			{
-				"shortdef": []
-			},
-			{
 				"shortdef": [
 					"to spring up and develop to maturity",
 					"to be able to grow in some place or situation",
@@ -49853,12 +45147,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"Zona 1874—1938 American novelist"
-				],
-				"fl": "biographical name"
-			}
 		]
 	},
 	{
@@ -50031,9 +45319,6 @@ module.exports = [
 					"to make speed : move"
 				],
 				"fl": "verb"
-			},
-			{
-				"shortdef": []
 			},
 			{
 				"shortdef": [
@@ -50273,9 +45558,6 @@ module.exports = [
 		},
 		"nvowels": 2,
 		"def": [
-			{
-				"shortdef": []
-			},
 			{
 				"shortdef": [
 					"the terminal part of the vertebrate leg upon which an individual stands",
@@ -50624,25 +45906,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"down syndrome —usually used attributively"
-				],
-				"fl": "noun"
-			},
-			{
-				"shortdef": [
-					"district of southeastern Northern Ireland bordering the Irish Sea; established 1974 area 250 square miles (650 square kilometers), population 69,750",
-					"traditional county of southeastern Northern Ireland"
-				],
-				"fl": "geographical name"
-			},
-			{
-				"shortdef": [
-					"down syndrome"
-				],
-				"fl": "noun"
-			}
 		]
 	},
 	{
@@ -50782,12 +46045,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"Robert Floyd 1933— American chemist"
-				],
-				"fl": "biographical name"
-			}
 		]
 	},
 	{
@@ -50940,14 +46197,8 @@ module.exports = [
 				"shortdef": [
 					"—used for a cola drink"
 				],
-				"fl": "trademark"
+				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"Sir Edward 1552—1634 Lord Coke English jurist"
-				],
-				"fl": "biographical name"
-			}
 		]
 	},
 	{
@@ -51263,12 +46514,6 @@ module.exports = [
 				],
 				"fl": "verb"
 			},
-			{
-				"shortdef": [
-					"John Milton 1912—1992 American composer"
-				],
-				"fl": "biographical name"
-			}
 		]
 	},
 	{
@@ -51682,9 +46927,6 @@ module.exports = [
 		"nvowels": 2,
 		"def": [
 			{
-				"shortdef": []
-			},
-			{
 				"shortdef": [
 					"a cutting tool that consists of a heavy edged head fixed to a handle with the edge parallel to the handle and that is used especially for felling trees and chopping and splitting wood",
 					"a hammer with a sharp edge for dressing or spalling stone",
@@ -51754,10 +46996,6 @@ module.exports = [
 					"automatic"
 				],
 				"fl": "adjective"
-			},
-			{
-				"shortdef": [],
-				"fl": "combining form"
 			},
 			{
 				"shortdef": [
@@ -51877,7 +47115,7 @@ module.exports = [
 				"shortdef": [
 					"a copy of a printed work (such as a novel or textbook) sent as a promotion prior to the official release"
 				],
-				"fl": "abbreviation or noun"
+				"fl": "noun"
 			},
 			{
 				"shortdef": [
@@ -51944,7 +47182,7 @@ module.exports = [
 			"u": 0
 		},
 		"nvowels": 0,
-		"def": []
+		"def": [ {"shortdef": ["17th"],"fl": "symbol"},]
 	},
 	{
 		"n": 5,
@@ -51976,8 +47214,6 @@ module.exports = [
 			{
 				"shortdef": [
 					"having the very dark color of the night sky or the eye's pupil : of the color black",
-					"of or relating to any of various population groups of especially African ancestry often considered as having dark pigmentation of the skin but in fact having a wide range of skin colors",
-					"of or relating to Black people and often especially to African American people or their culture"
 				],
 				"fl": "adjective"
 			},
@@ -51997,39 +47233,6 @@ module.exports = [
 				],
 				"fl": "verb"
 			},
-			{
-				"shortdef": [
-					"Hugo LaFayette 1886—1971 American jurist and politician"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Sir James Whyte 1924—2010 British pharmacologist"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"river 101 miles (162 kilometers) long in east central Louisiana flowing south into the Red River",
-					"river 500 miles (805 kilometers) long in southeastern Asia rising in central Yunnan, China, and flowing southeast to the Red River in northern Vietnam"
-				],
-				"fl": "geographical name"
-			},
-			{
-				"shortdef": [
-					"darkly discolored from blood effused by bruising"
-				],
-				"fl": "adjective"
-			},
-			{
-				"shortdef": [
-					"having a predominantly black color pattern with deep red or rusty tan usually on the feet, breeching, and cheek patches, above the eyes, and inside the ears",
-					"favoring or practicing proportional representation of Black and white people in politics",
-					"frequented by both Black and white people"
-				],
-				"fl": "adjective"
-			}
 		]
 	},
 	{
@@ -52190,48 +47393,6 @@ module.exports = [
 				],
 				"fl": "verb"
 			},
-			{
-				"shortdef": [
-					"Andrew Dickson 1832—1918 American educator and diplomat"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Byron Raymond 1917—2002 American jurist"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Edward Douglass 1845—1921 American jurist; chief justice U.S. Supreme Court (1910—21)"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Elwyn Brooks 1899—1985 American journalist and writer"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Gilbert 1720—1793 English clergyman and naturalist"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Patrick Victor Martindale 1912—1990 Australian writer"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Stanford 1853—1906 American architect"
-				],
-				"fl": "biographical name"
-			}
 		]
 	},
 	{
@@ -52456,27 +47617,6 @@ module.exports = [
 				],
 				"fl": "adjective"
 			},
-			{
-				"shortdef": [
-					"Harlan Fiske 1872—1946 American jurist; chief justice U.S. Supreme Court (1941—46)"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Irving 1903—1989 originally surname Tennenbaum American writer"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Lucy 1818—1893 American suffragist"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": []
-			}
 		]
 	},
 	{
@@ -52658,25 +47798,6 @@ module.exports = [
 				],
 				"fl": "verb"
 			},
-			{
-				"shortdef": [
-					"Julien or Julian 1900—1998 French novelist"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"William 1873—1952 American labor leader"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"river 730 miles (1175 kilometers) long in the western U.S. flowing from the Wind River Range in western Wyoming south into the Colorado River in southeastern Utah",
-					"city in northeastern Ohio south of Akron population 22,817"
-				],
-				"fl": "geographical name"
-			}
 		]
 	},
 	{
@@ -53170,48 +48291,6 @@ module.exports = [
 				],
 				"fl": "verb"
 			},
-			{
-				"shortdef": [
-					"Charles Brockden 1771—1810 American novelist"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Ford Madox 1821—1893 English painter"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"George 1818—1880 Canadian (Scottish-born) journalist and politician"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"(James) Gordon 1951— British prime minister (2007—10)"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"James (Joseph) 1933—2006 American singer and songwriter"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"John 1800—1859Old Brown of Osawatomie American abolitionist"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Michael Stuart 1941— American biochemist"
-				],
-				"fl": "biographical name"
-			}
 		]
 	},
 	{
@@ -53893,9 +48972,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": []
-			}
 		]
 	},
 	{
@@ -54260,12 +49336,6 @@ module.exports = [
 			},
 			{
 				"shortdef": [
-					"Henry 1845—1912 English phonetician"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
 					"seasoned with a sauce containing sugar and vinegar or lemon juice"
 				],
 				"fl": "adjective"
@@ -54314,18 +49384,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"Joseph 1779—1845 American jurist"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"William Wetmore 1819—1895 son of Joseph Story American sculptor"
-				],
-				"fl": "biographical name"
-			}
 		]
 	},
 	{
@@ -54748,9 +49806,6 @@ module.exports = [
 				],
 				"fl": "verb"
 			},
-			{
-				"shortdef": []
-			}
 		]
 	},
 	{
@@ -55196,7 +50251,7 @@ module.exports = [
 				"shortdef": [
 					"a servant who shines shoes especially in a hotel"
 				],
-				"fl": "noun, plural in form but singular or plural in construction"
+				"fl": "noun"
 			},
 			{
 				"shortdef": [
@@ -55540,9 +50595,6 @@ module.exports = [
 		"nvowels": 2,
 		"def": [
 			{
-				"shortdef": []
-			},
-			{
 				"shortdef": [
 					"a woven fabric"
 				],
@@ -55605,9 +50657,6 @@ module.exports = [
 					"to inflict a wound"
 				],
 				"fl": "verb"
-			},
-			{
-				"shortdef": []
 			},
 			{
 				"shortdef": [
@@ -55764,9 +50813,6 @@ module.exports = [
 					"to transport (goods) by wagon"
 				],
 				"fl": "verb"
-			},
-			{
-				"shortdef": []
 			},
 			{
 				"shortdef": [
@@ -55934,12 +50980,6 @@ module.exports = [
 			},
 			{
 				"shortdef": [
-					"Andrew Taylor 1828—1917 American founder of osteopathy"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
 					"to ambush or stalk a quarry; especially : to pursue game noiselessly usually without a dog",
 					"to lie in wait for : approach by stealth"
 				],
@@ -55989,9 +51029,6 @@ module.exports = [
 					"a stop made to give a performance"
 				],
 				"fl": "noun"
-			},
-			{
-				"shortdef": []
 			},
 			{
 				"shortdef": [
@@ -56116,12 +51153,6 @@ module.exports = [
 			},
 			{
 				"shortdef": [
-					"city and port on the Dalmatian coast of the Adriatic Sea in southern Croatia population 166,500"
-				],
-				"fl": "geographical name"
-			},
-			{
-				"shortdef": [
 					"having the optic chiasma and corpus callosum severed"
 				],
 				"fl": "adjective"
@@ -56169,13 +51200,7 @@ module.exports = [
 				"shortdef": [
 					"—used to form especially nonce words denoting a particular kind of jargon"
 				],
-				"fl": "noun combining form"
-			},
-			{
-				"shortdef": []
-			},
-			{
-				"shortdef": []
+				"fl": "noun"
 			},
 			{
 				"shortdef": [
@@ -56413,12 +51438,6 @@ module.exports = [
 				],
 				"fl": "verb"
 			},
-			{
-				"shortdef": [
-					"Samuel 1793—1863 American general; president of the Republic of Texas (1836—38; 1841—44)"
-				],
-				"fl": "biographical name"
-			}
 		]
 	},
 	{
@@ -56617,9 +51636,6 @@ module.exports = [
 		},
 		"nvowels": 3,
 		"def": [
-			{
-				"shortdef": []
-			},
 			{
 				"shortdef": [
 					"a drama set to music and made up of vocal pieces with orchestral accompaniment and orchestral overtures and interludes; specifically : grand opera",
@@ -56827,12 +51843,6 @@ module.exports = [
 				],
 				"fl": "verb"
 			},
-			{
-				"shortdef": [
-					"Günter Wilhelm 1927—2015 German writer"
-				],
-				"fl": "biographical name"
-			}
 		]
 	},
 	{
@@ -57109,24 +52119,6 @@ module.exports = [
 				],
 				"fl": "verb"
 			},
-			{
-				"shortdef": [
-					"Cyrus West 1819—1892 American financier"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Eugene 1850—1895 American poet and journalist"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Marshall 1834—1906 American merchant"
-				],
-				"fl": "biographical name"
-			}
 		]
 	},
 	{
@@ -57229,7 +52221,7 @@ module.exports = [
 				"shortdef": [
 					"—used in auxiliary function in the past, in the past conditional, and as an alternative to can suggesting less force or certainty or as a polite form in the present"
 				],
-				"fl": "auxiliary verb"
+				"fl": "verb"
 			},
 			{
 				"shortdef": [
@@ -57349,9 +52341,6 @@ module.exports = [
 					"placed under legal or moral restraint or obligation : obliged"
 				],
 				"fl": "adjective"
-			},
-			{
-				"shortdef": []
 			},
 			{
 				"shortdef": [
@@ -57477,9 +52466,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": []
-			}
 		]
 	},
 	{
@@ -57671,7 +52657,7 @@ module.exports = [
 				"shortdef": [
 					"that which belongs to whom —used without a following noun as a pronoun equivalent in meaning to the adjective whose"
 				],
-				"fl": "pronoun, singular or plural in construction"
+				"fl": "pronoun"
 			}
 		]
 	},
@@ -57942,12 +52928,6 @@ module.exports = [
 					"of, relating to, characteristic of, or constituting a city"
 				],
 				"fl": "adjective"
-			},
-			{
-				"shortdef": [
-					"name of 8 popes: especially II (Odo of Lagery) circa 1035—1099 (pope 1088—99)"
-				],
-				"fl": "biographical name"
 			},
 			{
 				"shortdef": [
@@ -58383,7 +53363,7 @@ module.exports = [
 				"shortdef": [
 					"to become bored by (something) : to stop being interested in (something)"
 				],
-				"fl": "phrasal verb"
+				"fl": "verb"
 			}
 		]
 	},
@@ -58619,18 +53599,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"Gustavus Franklin 1839—1903 American meatpacker"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Jonathan 1667—1745 English (Irish-born) satirist"
-				],
-				"fl": "biographical name"
-			}
 		]
 	},
 	{
@@ -58855,12 +53823,6 @@ module.exports = [
 			},
 			{
 				"shortdef": [
-					"river 1038 miles (1670 kilometers) long in the northwestern U.S. flowing from northwestern Wyoming across southern Idaho and into the Columbia River in Washington"
-				],
-				"fl": "geographical name"
-			},
-			{
-				"shortdef": [
 					"to engage in a snake dance"
 				],
 				"fl": "verb"
@@ -58886,9 +53848,6 @@ module.exports = [
 		},
 		"nvowels": 1,
 		"def": [
-			{
-				"shortdef": []
-			},
 			{
 				"shortdef": [
 					"to cast with a sudden and usually sweeping or swirling motion",
@@ -59028,9 +53987,6 @@ module.exports = [
 				"fl": "verb"
 			},
 			{
-				"shortdef": []
-			},
-			{
 				"shortdef": [
 					"that lives at the place of employment"
 				],
@@ -59134,9 +54090,6 @@ module.exports = [
 		},
 		"nvowels": 1,
 		"def": [
-			{
-				"shortdef": []
-			},
 			{
 				"shortdef": [
 					"to cut off the hair from",
@@ -59742,12 +54695,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"Sir (Henry) Rider 1856—1925 English novelist"
-				],
-				"fl": "biographical name"
-			}
 		]
 	},
 	{
@@ -60940,7 +55887,7 @@ module.exports = [
 				"shortdef": [
 					"came near : was near"
 				],
-				"fl": "auxiliary verb"
+				"fl": "verb"
 			},
 			{
 				"shortdef": [
@@ -61046,7 +55993,7 @@ module.exports = [
 				"shortdef": [
 					"circa 6 b.c.—circa a.d. 30 Jesus of Nazareth; the Son of Mary source of the Christian religion and Savior in the Christian faith"
 				],
-				"fl": "biographical name"
+				"fl": "noun"
 			}
 		]
 	},
@@ -61147,12 +56094,6 @@ module.exports = [
 				],
 				"fl": "verb"
 			},
-			{
-				"shortdef": [
-					"Edward Mandell 1858—1938 Colonel House American diplomat"
-				],
-				"fl": "biographical name"
-			}
 		]
 	},
 	{
@@ -61174,15 +56115,6 @@ module.exports = [
 		},
 		"nvowels": 2,
 		"def": [
-			{
-				"shortdef": []
-			},
-			{
-				"shortdef": [
-					"island in the southern Indian Ocean southeast of Kerguelen at 53°10' south, 74°10' east; administered by Australia"
-				],
-				"fl": "geographical name"
-			},
 			{
 				"shortdef": [
 					"to perceive or become aware of by the ear",
@@ -61369,20 +56301,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"river 260 miles (418 kilometers) long in southwestern Michigan flowing north and west into Lake Michigan",
-					"river 300 miles (483 kilometers) long in northwestern Missouri flowing southeast into the Missouri River",
-					"river 200 miles (322 kilometers) long in northern South Dakota flowing east into the Missouri River"
-				],
-				"fl": "geographical name"
-			},
-			{
-				"shortdef": [
-					"river 460 miles (740 kilometers) long in southeastern Kansas and northeastern Oklahoma flowing southeast and south into the Arkansas River"
-				],
-				"fl": "geographical name"
-			}
 		]
 	},
 	{
@@ -61473,7 +56391,7 @@ module.exports = [
 				"shortdef": [
 					"—used to express surprise or delight"
 				],
-				"fl": "interjection"
+				"fl": "verb"
 			},
 			{
 				"shortdef": [
@@ -61679,9 +56597,6 @@ module.exports = [
 		"nvowels": 1,
 		"def": [
 			{
-				"shortdef": []
-			},
-			{
 				"shortdef": [
 					"to move in a brusque or headlong manner",
 					"to kick or plunge vigorously",
@@ -61807,20 +56722,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"Austin: father 1812—1886 and son 1836—1915 American physicians"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"river 265 miles (426 kilometers) long in western Georgia flowing south and southwest into Lake Seminole",
-					"city in southeast central Michigan north-northwest of Detroit population 102,434",
-					"administrative area of northeastern Wales bordering England and the Irish Sea area 169 square miles (438 square kilometers), population 152,506"
-				],
-				"fl": "geographical name"
-			}
 		]
 	},
 	{
@@ -62017,9 +56918,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": []
-			}
 		]
 	},
 	{
@@ -62217,9 +57115,6 @@ module.exports = [
 				],
 				"fl": "verb"
 			},
-			{
-				"shortdef": []
-			}
 		]
 	},
 	{
@@ -62294,7 +57189,7 @@ module.exports = [
 				"shortdef": [
 					"outdoors"
 				],
-				"fl": "noun, plural in form but singular in construction"
+				"fl": "noun"
 			},
 			{
 				"shortdef": [
@@ -62374,12 +57269,6 @@ module.exports = [
 				],
 				"fl": "verb"
 			},
-			{
-				"shortdef": [
-					"Thomas (Dale) 1947— American politician"
-				],
-				"fl": "biographical name"
-			}
 		]
 	},
 	{
@@ -62538,37 +57427,12 @@ module.exports = [
 				],
 				"fl": "adverb"
 			},
-			{
-				"shortdef": [
-					"Wilbur Lucius 1862—1948 American educator and politician"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"river 300 miles (483 kilometers) long in western Cameroon and southeastern Nigeria flowing west and south into the Gulf of Guinea"
-				],
-				"fl": "geographical name"
-			},
-			{
-				"shortdef": [
-					"to obstruct in ice hockey or lacrosse by thrusting one's stick held in both hands across an opponent's face or body",
-					"to check (something, such as data or reports) from various angles or sources to determine validity or accuracy"
-				],
-				"fl": "verb"
-			},
-			{
-				"shortdef": [
-					"an act or instance of cro,ss-checking"
-				],
-				"fl": "noun"
-			}
 		]
 	},
 	{
-		"n": 5,
+		"n": 11,
 		"count": 1,
-		"text": "criss",
+		"text": "criss-cross",
 		"books": [
 			{
 				"book": "birdland",
@@ -62586,124 +57450,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"warp weft"
 				],
-				"fl": "unknown"
+				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -63191,18 +57941,6 @@ module.exports = [
 				],
 				"fl": "verb"
 			},
-			{
-				"shortdef": [
-					"village in north central Maharashtra, India, in the Ajanta Range (hills) north-northeast of Aurangabad; site of Ajanta Caves (temples excavated out of rock cliffs)"
-				],
-				"fl": "geographical name"
-			},
-			{
-				"shortdef": [
-					"village northwest of Aurangabad in the western India state of Maharashtra; site of the Ellora Caves (temples excavated out of rock cliffs)"
-				],
-				"fl": "geographical name"
-			}
 		]
 	},
 	{
@@ -63933,7 +58671,7 @@ module.exports = [
 				"shortdef": [
 					"out of line : at an angle"
 				],
-				"fl": "adverb or adjective"
+				"fl": "adjective"
 			}
 		]
 	},
@@ -65353,7 +60091,7 @@ module.exports = [
 					"in advance : ahead",
 					"at an earlier time"
 				],
-				"fl": "adverb or adjective"
+				"fl": "adjective"
 			},
 			{
 				"shortdef": [
@@ -65403,15 +60141,12 @@ module.exports = [
 			{
 				"shortdef": [
 					"of the color yellow",
-					"become yellowish through age, disease, or discoloration : sallow",
-					"having a light olive or light brown complexion"
 				],
 				"fl": "adjective"
 			},
 			{
 				"shortdef": [
 					"something yellow or marked by a yellow color: such as",
-					"a person having light olive or light brown skin",
 					"the yolk of an egg"
 				],
 				"fl": "noun"
@@ -65423,19 +60158,6 @@ module.exports = [
 				],
 				"fl": "verb"
 			},
-			{
-				"shortdef": [
-					"river 3396 miles (5464 kilometers) long in northern China flowing from the Kunlun Mountains in Qinghai east into Bo Hai"
-				],
-				"fl": "geographical name"
-			},
-			{
-				"shortdef": [
-					"mean, contemptible",
-					"of or relating to opposition to trade unionism or a labor union"
-				],
-				"fl": "adjective"
-			}
 		]
 	},
 	{
@@ -65583,14 +60305,6 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"river 60 miles (96 kilometers) long in central Tennessee flowing northwest into the Cumberland River"
-				],
-				"fl": "geographical name"
-			},
-			{
-				"shortdef": [
-					"to hurl stones at; especially : to kill by pelting with stones",
-					"to make hard or insensitive to feeling",
 					"to face, pave, or fortify with stones"
 				],
 				"fl": "verb"
@@ -65947,9 +60661,6 @@ module.exports = [
 		"nvowels": 1,
 		"def": [
 			{
-				"shortdef": []
-			},
-			{
 				"shortdef": [
 					"the lungs especially of a slaughtered animal"
 				],
@@ -66250,7 +60961,7 @@ module.exports = [
 				"shortdef": [
 					"a service that delivers daily hot meals to the homes of elderly or disabled people"
 				],
-				"fl": "noun, plural in form but singular in construction"
+				"fl": "noun"
 			}
 		]
 	},
@@ -66432,9 +61143,6 @@ module.exports = [
 				"fl": "noun"
 			},
 			{
-				"shortdef": []
-			},
-			{
 				"shortdef": [
 					"a fault about which movement is predominantly horizontal",
 					"a slipping movement along the strike of a fault"
@@ -66490,7 +61198,7 @@ module.exports = [
 					"of or relating to a position or state",
 					"inhibiting the growth of"
 				],
-				"fl": "adjective combining form"
+				"fl": "adjective"
 			}
 		]
 	},
@@ -66599,12 +61307,6 @@ module.exports = [
 					"to fit with springs"
 				],
 				"fl": "verb"
-			},
-			{
-				"shortdef": []
-			},
-			{
-				"shortdef": []
 			},
 			{
 				"shortdef": [
@@ -67133,9 +61835,6 @@ module.exports = [
 				"fl": "adjective"
 			},
 			{
-				"shortdef": []
-			},
-			{
 				"shortdef": [
 					"to fix or trace out the bounds or limits of",
 					"to plot the course of : chart",
@@ -67317,9 +62016,6 @@ module.exports = [
 				],
 				"fl": "adverb"
 			},
-			{
-				"shortdef": []
-			}
 		]
 	},
 	{
@@ -68843,12 +63539,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"river 1000 miles (1609 kilometers) long in southwest central Africa rising in central Angola and flowing south and east to empty into the Okavango Swamps or Okavango Delta (great marsh area north of Lake Ngami in northwestern Botswana)"
-				],
-				"fl": "geographical name"
-			}
 		]
 	},
 	{
@@ -68937,10 +63627,7 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [],
-				"fl": "unknown"
-			},
+			
 			{
 				"shortdef": [
 					"to keep waiting",
@@ -69107,12 +63794,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"—used for a lip balm in stick form"
-				],
-				"fl": "trademark"
-			}
 		]
 	},
 	{
@@ -70798,7 +65479,7 @@ module.exports = [
 				"shortdef": [
 					"a small pincers for holding small objects or for bending and cutting wire"
 				],
-				"fl": "noun, plural in form but singular or plural in construction"
+				"fl": "noun"
 			}
 		]
 	},
@@ -70946,7 +65627,7 @@ module.exports = [
 				"shortdef": [
 					"involving two people or going directly from one person to another person"
 				],
-				"fl": "adjective or adverb"
+				"fl": "adjective"
 			}
 		]
 	},
@@ -71039,25 +65720,6 @@ module.exports = [
 				],
 				"fl": "adjective"
 			},
-			{
-				"shortdef": [
-					"of, relating to, or sympathizing with Orangemen"
-				],
-				"fl": "adjective"
-			},
-			{
-				"shortdef": [
-					"city in southwestern California north of Santa Ana population 136,416",
-					"river 1300 miles (2092 kilometers) long in southern Africa flowing from the Drakensberg Mountains in Lesotho west into the Atlantic Ocean"
-				],
-				"fl": "geographical name"
-			},
-			{
-				"shortdef": [
-					"city in southeastern France north of Avignon population 29,135"
-				],
-				"fl": "geographical name"
-			}
 		]
 	},
 	{
@@ -71081,10 +65743,9 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"city in western Texas population 99,940",
 					"city and port on the Black Sea in southern Ukraine population 1,012,500"
 				],
-				"fl": "geographical name"
+				"fl": "noun"
 			}
 		]
 	},
@@ -71403,9 +66064,6 @@ module.exports = [
 				"fl": "adjective"
 			},
 			{
-				"shortdef": []
-			},
-			{
 				"shortdef": [
 					"to provide or conceal (someone or something) with a mask: such as",
 					"to conceal (something) from view",
@@ -71481,24 +66139,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"to give a veined or mottled appearance to"
-				],
-				"fl": "verb"
-			},
-			{
-				"shortdef": [
-					"a cake made with light and dark batter so as to have a mottled appearance"
-				],
-				"fl": "noun"
-			},
-			{
-				"shortdef": [
-					"gorge of the Colorado River in northern Arizona just above the Grand Canyon —sometimes considered to be the upper portion of the Grand Canyon"
-				],
-				"fl": "geographical name"
-			}
 		]
 	},
 	{
@@ -71525,7 +66165,7 @@ module.exports = [
 					"province of central Spain in northwestern New Castile area 3087 square miles (7995 square kilometers), population 6,421,874",
 					"city, capital of the province of Madrid, and capital of Spain population 3,198,645"
 				],
-				"fl": "geographical name"
+				"fl": "noun"
 			}
 		]
 	},
@@ -73171,7 +67811,7 @@ module.exports = [
 					"colored thing",
 					"coloring matter"
 				],
-				"fl": "noun combining form or adjective combining form"
+				"fl": "adjective"
 			}
 		]
 	},
@@ -73382,12 +68022,6 @@ module.exports = [
 			},
 			{
 				"shortdef": [
-					"John 1811—1889 English orator and statesman"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
 					"providing an unambiguous criterion or guideline especially in law"
 				],
 				"fl": "adjective"
@@ -73476,7 +68110,7 @@ module.exports = [
 				"shortdef": [
 					"outside the prescribed or conventional boundaries or limits"
 				],
-				"fl": "adverb or adjective"
+				"fl": "adjective"
 			},
 			{
 				"shortdef": [
@@ -74041,9 +68675,9 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"Carl Bert 1908—2000 American politician"
+					"albert hall"
 				],
-				"fl": "biographical name"
+				"fl": "noun"
 			}
 		]
 	},
@@ -74070,7 +68704,7 @@ module.exports = [
 				"shortdef": [
 					"afire"
 				],
-				"fl": "adjective or adverb"
+				"fl": "adjective"
 			}
 		]
 	},
@@ -74099,7 +68733,7 @@ module.exports = [
 					"without ties, guidance, or security",
 					"free from restraint or support"
 				],
-				"fl": "adverb or adjective"
+				"fl": "adjective"
 			}
 		]
 	},
@@ -75169,124 +69803,16 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"state of lost", "without a map"
 				],
-				"fl": "unknown"
+				"fl": "noun"
 			},
 			{
 				"shortdef": [
-					"nothingness"
+					"lost", "wandering"
 				],
-				"fl": "unknown"
+				"fl": "adjective"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -75454,9 +69980,6 @@ module.exports = [
 				],
 				"fl": "conjunction"
 			},
-			{
-				"shortdef": []
-			}
 		]
 	},
 	{
@@ -75629,12 +70152,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"Robert Strange 1916—2009 U.S. Secretary of Defense (1961—68)"
-				],
-				"fl": "biographical name"
-			}
 		]
 	},
 	{
@@ -76504,12 +71021,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"—used for a chain-link fence"
-				],
-				"fl": "trademark"
-			}
 		]
 	},
 	{
@@ -76619,12 +71130,6 @@ module.exports = [
 		},
 		"nvowels": 2,
 		"def": [
-			{
-				"shortdef": [
-					"Robert Seymour 1844—1930 English poet; poet laureate (1913—30)"
-				],
-				"fl": "biographical name"
-			},
 			{
 				"shortdef": [
 					"a structure carrying a pathway or roadway over a depression or obstacle (such as a river)",
@@ -77471,9 +71976,6 @@ module.exports = [
 		},
 		"nvowels": 2,
 		"def": [
-			{
-				"shortdef": []
-			},
 			{
 				"shortdef": [
 					"to expand (as in size, volume, or numbers) gradually beyond a normal or original limit",
@@ -78348,9 +72850,6 @@ module.exports = [
 		"nvowels": 2,
 		"def": [
 			{
-				"shortdef": []
-			},
-			{
 				"shortdef": [
 					"not having or set to a fixed date or deadline : continually adjustable through a period of time to provide flexibility for individual circumstances"
 				],
@@ -78655,20 +73154,6 @@ module.exports = [
 					"extent of material read"
 				],
 				"fl": "noun"
-			},
-			{
-				"shortdef": [
-					"1st Marquis of 1860-1935 Rufus Daniel Isaacs British statesman; viceroy of India (1921-26)"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"town in eastern Massachusetts north of Boston population 24,747",
-					"city on the Schuylkill River in southeastern Pennsylvania population 88,082",
-					"town on the Thames River in southern England that is the capital of Berkshire population 219,000"
-				],
-				"fl": "geographical name"
 			},
 			{
 				"shortdef": [
@@ -79237,7 +73722,7 @@ module.exports = [
 					"the physical processes and phenomena of a particular system",
 					"the physical properties and composition of something"
 				],
-				"fl": "noun, plural in form but singular or plural in construction"
+				"fl": "noun"
 			},
 			{
 				"shortdef": [
@@ -79663,13 +74148,6 @@ module.exports = [
 				],
 				"fl": "adjective"
 			},
-			{
-				"shortdef": [
-					"city near the Rio Grande in southern Texas population 77,058",
-					"municipality on the Fraser River in southwestern British Columbia, Canada population 36,426"
-				],
-				"fl": "geographical name"
-			}
 		]
 	},
 	{
@@ -80297,7 +74775,7 @@ module.exports = [
 					"to meet each other at a particular place",
 					"to become a member of a group or organization"
 				],
-				"fl": "phrasal verb"
+				"fl": "verb"
 			}
 		]
 	},
@@ -80676,7 +75154,7 @@ module.exports = [
 				"shortdef": [
 					"written or transmitted in a (specified) way"
 				],
-				"fl": "adjective combining form"
+				"fl": "adjective"
 			}
 		]
 	},
@@ -81173,12 +75651,6 @@ module.exports = [
 					"to turn (an oar blade) almost horizontal when lifting from the water at the end of a stroke to reduce air resistance"
 				],
 				"fl": "verb"
-			},
-			{
-				"shortdef": [
-					"river 100 miles (161 kilometers) long in north central California flowing south into the Sacramento River"
-				],
-				"fl": "geographical name"
 			},
 			{
 				"shortdef": [
@@ -82013,10 +76485,6 @@ module.exports = [
 				"fl": "noun"
 			},
 			{
-				"shortdef": [],
-				"fl": "unknown"
-			},
-			{
 				"shortdef": [
 					"a feature that finds grammatical errors"
 				],
@@ -82123,7 +76591,7 @@ module.exports = [
 				"shortdef": [
 					"certain ones"
 				],
-				"fl": "pronoun, plural in construction"
+				"fl": "pronoun"
 			}
 		]
 	},
@@ -82256,14 +76724,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"caverns in southeastern New Mexico in Carlsbad Caverns National Park",
-					"city in southwestern California north-northwest of San Diego population 105,328",
-					"city in southeastern New Mexico on the Pecos River population 26,138"
-				],
-				"fl": "geographical name"
-			}
 		]
 	},
 	{
@@ -83532,12 +77992,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"—used for a chain-link fence"
-				],
-				"fl": "trademark"
-			}
 		]
 	},
 	{
@@ -83676,7 +78130,7 @@ module.exports = [
 				"shortdef": [
 					"to fall, flow, or run over the edge of a container or to cause or allow (something) to fall, flow, or run over the edge of a container —sometimes used figuratively"
 				],
-				"fl": "phrasal verb"
+				"fl": "verb"
 			}
 		]
 	},
@@ -85647,7 +80101,7 @@ module.exports = [
 				"shortdef": [
 					"an acute viral inflammation of the sensory ganglia of spinal and cranial nerves that is associated with a vesicular eruption and neuralgic pains and is caused by reactivation of the herpesvirus causing chicken pox —called also herpes zoster, zoster"
 				],
-				"fl": "noun, plural in form but singular in construction"
+				"fl": "noun"
 			},
 			{
 				"shortdef": [
@@ -86217,14 +80671,8 @@ module.exports = [
 					"city and port on Casco Bay in southwestern Maine population 66,194",
 					"city and port at the confluence of the Columbia and Willamette rivers in northwestern Oregon population 583,776"
 				],
-				"fl": "geographical name"
+				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"Salmon Portland 1808—1873 American statesman; chief justice U.S. Supreme Court (1864—73)"
-				],
-				"fl": "biographical name"
-			}
 		]
 	},
 	{
@@ -86647,124 +81095,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"smoke"
 				],
-				"fl": "unknown"
+				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -88673,12 +83007,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"isolated island in the South Atlantic belonging to the British colony of Saint Helena area 34 square miles (88 square kilometers), population 1400"
-				],
-				"fl": "geographical name"
-			}
 		]
 	},
 	{
@@ -89936,124 +84264,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"asphalt dome", "vew from high above the city street","landscape of roofs", "a canopy of leaves and branches"
 				],
-				"fl": "unknown"
+				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -90720,124 +84934,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"without a frame"
 				],
-				"fl": "unknown"
+				"fl": "adjective"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -91098,124 +85198,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"wandering", "nomadic", "bypassed by the last continental glacier", "a lack of glacial drift ::: the deposits of silt, gravel, and rock that retreating glaciers leave behind"
 				],
-				"fl": "unknown"
+				"fl": "adjective"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -91432,7 +85418,7 @@ module.exports = [
 				"shortdef": [
 					"to gather (things) together"
 				],
-				"fl": "phrasal verb"
+				"fl": "verb"
 			}
 		]
 	},
@@ -92202,9 +86188,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": []
-			}
 		]
 	},
 	{
@@ -93857,124 +87840,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"infinite"
 				],
-				"fl": "unknown"
+				"fl": "adjective"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -94648,124 +88517,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"the state of between-ness"
 				],
-				"fl": "unknown"
+				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -95662,12 +89417,6 @@ module.exports = [
 			},
 			{
 				"shortdef": [
-					"Emanuel 1949— American (Ukrainian-born of Polish parents) pianist"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
 					"a broadax formerly used as a weapon of war",
 					"a usually older woman who is sharp-tongued, domineering, or combative"
 				],
@@ -95827,12 +89576,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": []
-			},
-			{
-				"shortdef": []
-			}
 		]
 	},
 	{
@@ -95919,12 +89662,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"Robert Arthur Talbot Gascoyne-1830—1903 3rd Marquis ofSalisbury English statesman"
-				],
-				"fl": "biographical name"
-			}
 		]
 	},
 	{
@@ -96196,21 +89933,6 @@ module.exports = [
 				],
 				"fl": "adjective"
 			},
-			{
-				"shortdef": [
-					"river 650 miles (1046 kilometers) long in southern New Guinea flowing southeast into the Gulf of Papua"
-				],
-				"fl": "geographical name"
-			},
-			{
-				"shortdef": []
-			},
-			{
-				"shortdef": []
-			},
-			{
-				"shortdef": []
-			}
 		]
 	},
 	{
@@ -96354,12 +90076,6 @@ module.exports = [
 			},
 			{
 				"shortdef": [
-					"1st century a.d. Greek scientist"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
 					"something that functions or operates underwater; specifically : a naval vessel designed to operate underwater",
 					"a large sandwich on a long split roll with any of a variety of fillings (such as meatballs or cold cuts, cheese, lettuce, and tomato) —called also grinder, hero, hoagie, Italian sandwich, po'boy, sub, torpedo"
 				],
@@ -96492,9 +90208,6 @@ module.exports = [
 				],
 				"fl": "adjective"
 			},
-			{
-				"shortdef": []
-			}
 		]
 	},
 	{
@@ -96871,24 +90584,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"Alexander Graham 1847—1922 American (Scottish-born) inventor"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"city in southwestern California southeast of Los Angeles population 35,477"
-				],
-				"fl": "geographical name"
-			},
-			{
-				"shortdef": [
-					"pants with wide flaring bottoms"
-				],
-				"fl": "plural noun"
-			}
 		]
 	},
 	{
@@ -96960,7 +90655,7 @@ module.exports = [
 			"u": 0
 		},
 		"nvowels": 0,
-		"def": []
+		"def": [ {"shortdef": ["1914"],"fl": "number"}]
 	},
 	{
 		"n": 4,
@@ -96986,9 +90681,6 @@ module.exports = [
 					"aware of and actively attentive to important facts and issues (especially issues of racial and social justice)"
 				],
 				"fl": "adjective"
-			},
-			{
-				"shortdef": []
 			},
 			{
 				"shortdef": [
@@ -97116,30 +90808,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"Benjamin 1738—1820 American painter"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Nathanael 1903—1940 originally Nathan Wallenstein Weinstein American novelist"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Dame Rebecca 1892—1983 pseudonym of Cicily Isabel Andrews née Fairfield English critic and novelist"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Thomas"
-				],
-				"fl": "biographical name"
-			}
 		]
 	},
 	{
@@ -97184,12 +90852,6 @@ module.exports = [
 				],
 				"fl": "adjective"
 			},
-			{
-				"shortdef": [
-					"town in Warwickshire, central England, south-southeast of Birmingham population 28,000"
-				],
-				"fl": "geographical name"
-			}
 		]
 	},
 	{
@@ -97724,7 +91386,7 @@ module.exports = [
 					"river 981 miles (1578 kilometers) long in the eastern part of the U.S. flowing west from the junction of the Allegheny and Monongahela rivers in western Pennsylvania, forming the boundaries between Ohio and West Virginia, Ohio and Kentucky, Indiana and Kentucky, and Illinois and Kentucky, and then flowing into the Mississippi River at the southern tip of Illinois",
 					"state in northeast central U.S. bordering on Lake Erie; capital Columbus area 41,222 square miles (106,765 square kilometers), population 11,536,504"
 				],
-				"fl": "geographical name"
+				"fl": "noun"
 			}
 		]
 	},
@@ -97768,9 +91430,6 @@ module.exports = [
 					"at the actual time of occurrence : during, from, or at a live production"
 				],
 				"fl": "adverb"
-			},
-			{
-				"shortdef": []
 			},
 			{
 				"shortdef": [
@@ -97911,7 +91570,7 @@ module.exports = [
 					"river 291 miles (468 kilometers) long in the state of Iowa flowing southeast into the Mississippi River",
 					"state of the central U.S. between the Mississippi River on the east and the Missouri River on the west; capital Des Moines area 56,275 square miles (145,752 square kilometers), population 3,046,355"
 				],
-				"fl": "geographical name"
+				"fl": "noun"
 			}
 		]
 	},
@@ -97980,10 +91639,6 @@ module.exports = [
 					"to form into or surround with a halo"
 				],
 				"fl": "verb"
-			},
-			{
-				"shortdef": [],
-				"fl": "combining form"
 			},
 			{
 				"shortdef": [
@@ -98087,9 +91742,6 @@ module.exports = [
 		},
 		"nvowels": 1,
 		"def": [
-			{
-				"shortdef": []
-			},
 			{
 				"shortdef": [
 					"to move in or pass through the air with wings",
@@ -98280,7 +91932,7 @@ module.exports = [
 					"without payment of customs duties : free from duties",
 					"relating to or selling duty-free goods"
 				],
-				"fl": "adjective or adverb"
+				"fl": "adjective"
 			},
 			{
 				"shortdef": [
@@ -98461,18 +92113,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"—used especially to express annoyance or dismay"
-				],
-				"fl": "interjection"
-			},
-			{
-				"shortdef": [
-					"severe, sore"
-				],
-				"fl": "adjective"
-			}
 		]
 	},
 	{
@@ -98565,12 +92205,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"city on the Deschutes River in central Oregon population 76,639"
-				],
-				"fl": "geographical name"
-			}
 		]
 	},
 	{
@@ -98713,9 +92347,6 @@ module.exports = [
 				],
 				"fl": "adjective"
 			},
-			{
-				"shortdef": []
-			}
 		]
 	},
 	{
@@ -98921,9 +92552,6 @@ module.exports = [
 				],
 				"fl": "verb"
 			},
-			{
-				"shortdef": []
-			}
 		]
 	},
 	{
@@ -99090,9 +92718,6 @@ module.exports = [
 					"the number thrown with a cast of dice"
 				],
 				"fl": "noun"
-			},
-			{
-				"shortdef": []
 			},
 			{
 				"fl": "noun"
@@ -99450,12 +93075,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"Robert 1634—1716 English clergyman"
-				],
-				"fl": "biographical name"
-			}
 		]
 	},
 	{
@@ -99726,7 +93345,7 @@ module.exports = [
 					"one suffering from a disorder (of such a part or system)",
 					"one perceiving"
 				],
-				"fl": "noun combining form"
+				"fl": "noun"
 			},
 			{
 				"shortdef": [
@@ -99979,12 +93598,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"—used for an underwater breathing apparatus"
-				],
-				"fl": "trademark"
-			}
 		]
 	},
 	{
@@ -100300,30 +93913,6 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"Bill 1955— William Henry Gates III American computer software manufacturer"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Henry Louis, Jr. 1950— American educator"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Horatio circa 1728—1806 American general in Revolution"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Robert Michael 1943— U.S. Secretary of Defense (2006—11)"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
 					"an opening in a wall or fence",
 					"a city or castle entrance often with defensive structures (such as towers)",
 					"the frame or door that closes a gate"
@@ -100349,7 +93938,7 @@ module.exports = [
 				"shortdef": [
 					"usually political scandal often involving the concealment of wrongdoing"
 				],
-				"fl": "noun combining form"
+				"fl": "noun"
 			}
 		]
 	},
@@ -100442,9 +94031,6 @@ module.exports = [
 					"an instance of collecting and moving animals (such as game or cattle) together in a desired direction; also : the animals gathered and driven"
 				],
 				"fl": "noun"
-			},
-			{
-				"shortdef": []
 			},
 			{
 				"shortdef": [
@@ -100761,124 +94347,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"truck"
 				],
-				"fl": "unknown"
+				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -101237,12 +94709,6 @@ module.exports = [
 				"fl": "adjective"
 			},
 			{
-				"shortdef": []
-			},
-			{
-				"shortdef": []
-			},
-			{
 				"shortdef": [
 					"fully awake",
 					"alertly watchful especially for advantages or opportunities"
@@ -101408,124 +94874,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"type of gas station"
 				],
-				"fl": "unknown"
+				"fl": "adjective"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -101559,54 +94911,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"Svante August 1859—1927 Swedish physicist and chemist"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"August 1840—1913 German Social Democrat leader and writer"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Max (Karl August) 1838—1920 German composer"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Gottfried August 1747—1794 German poet"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Richard August Carl Emil 1825—1909 German chemist"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Hans (Karl August Simon) von 1873—1964 Swedish (German-born) chemist"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Friedrich Wilhelm August 1782—1852 German educator"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Ernst Heinrich 1834—1919 German biologist and philosopher"
-				],
-				"fl": "biographical name"
-			}
 		]
 	},
 	{
@@ -101770,9 +95074,6 @@ module.exports = [
 				],
 				"fl": "verb"
 			},
-			{
-				"shortdef": []
-			}
 		]
 	},
 	{
@@ -101833,7 +95134,7 @@ module.exports = [
 					"on, onto, or within a vehicle (such as a car or ship)",
 					"in or into a group, association, or organization"
 				],
-				"fl": "adverb or adjective"
+				"fl": "adjective"
 			},
 			{
 				"shortdef": [
@@ -101845,12 +95146,12 @@ module.exports = [
 	},
 	{
 		"n": 6,
-		"count": 3,
+		"count": 4,
 		"text": "(ze)ro",
 		"books": [
 			{
 				"book": "blueWindow",
-				"count": 2
+				"count": 3
 			},
 			{
 				"book": "fieldNotes",
@@ -102118,9 +95419,6 @@ module.exports = [
 		},
 		"nvowels": 2,
 		"def": [
-			{
-				"shortdef": []
-			},
 			{
 				"shortdef": [
 					"to take the property of another wrongfully and especially as a habitual or regular practice",
@@ -102834,7 +96132,7 @@ module.exports = [
 				"shortdef": [
 					"state in the Great Basin of the western U.S.; capital Carson City area 110,567 square miles (286,368 square kilometers), population 2,700,551"
 				],
-				"fl": "geographical name"
+				"fl": "noun"
 			}
 		]
 	},
@@ -102894,16 +96192,10 @@ module.exports = [
 			},
 			{
 				"shortdef": [
-					"Martha 1941— Argentine pianist"
+					"last passenger pigeon"
 				],
-				"fl": "biographical name"
+				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"Martha 1893—1991 American choreographer and dancer"
-				],
-				"fl": "biographical name"
-			}
 		]
 	},
 	{
@@ -102958,7 +96250,7 @@ module.exports = [
 				"shortdef": [
 					"to cause (someone) to have (something unwanted or unpleasant) —often used as (be) lumbered with"
 				],
-				"fl": "phrasal verb"
+				"fl": "verb"
 			}
 		]
 	},
@@ -103019,16 +96311,9 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"John Griffith 1876—1916 Jack London American writer"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
 					"city and port on both sides of the Thames River in southeastern England; capital of the United Kingdom formerly constituting an administrative county; comprises the City of London or informally The City (approximately coextensive with ancient Londinium; population 7400) and 32 other boroughs, which together are referred to as the metropolitan county of Greater London (area 632 square miles, or 1637 square kilometers, population 8,174,000)",
-					"city on the Thames River in southeastern Ontario, Canada population 366,151"
 				],
-				"fl": "geographical name"
+				"fl": "noun"
 			}
 		]
 	},
@@ -103969,7 +97254,7 @@ module.exports = [
 					"in, to, or toward the back",
 					"later in time"
 				],
-				"fl": "adverb or adjective"
+				"fl": "adjective"
 			},
 			{
 				"shortdef": [
@@ -104167,70 +97452,6 @@ module.exports = [
 				"shortdef": [
 					"being on fire",
 					"radiant with light or emotion"
-				],
-				"fl": "adjective or adverb"
-			}
-		]
-	},
-	{
-		"n": 6,
-		"count": 1,
-		"text": "(z)ero",
-		"books": [
-			{
-				"book": "blueWindow",
-				"count": 1
-			}
-		],
-		"vowels": {
-			"a": 0,
-			"e": 1,
-			"i": 0,
-			"o": 1,
-			"u": 0
-		},
-		"nvowels": 2,
-		"def": [
-			{
-				"shortdef": [
-					"the arithmetical symbol 0 or [SYMBOL] denoting the absence of all magnitude or quantity",
-					"additive identity; specifically : the number between the set of all negative numbers and the set of all positive numbers",
-					"a value of an independent variable that makes a function equal to zero"
-				],
-				"fl": "noun"
-			},
-			{
-				"shortdef": [
-					"of, relating to, or being a zero",
-					"having no magnitude or quantity : not any",
-					"having no phonetic manifestation"
-				],
-				"fl": "adjective"
-			},
-			{
-				"shortdef": [
-					"to determine or adjust the zero of",
-					"to concentrate firepower on the exact range of —usually used with in",
-					"to bring to bear on the exact range of a target —usually used with in"
-				],
-				"fl": "verb"
-			},
-			{
-				"shortdef": [
-					"resulting in neither a surplus nor a deficit of something specified when gains and losses are added together; especially, of buildings : producing enough energy (as through solar panels or passive heating) to offset any energy consumed"
-				],
-				"fl": "adjective"
-			},
-			{
-				"shortdef": [
-					"registering less than zero on some scale (especially the Fahrenheit scale)",
-					"characterized by or suitable for subzero temperatures"
-				],
-				"fl": "adjective"
-			},
-			{
-				"shortdef": [
-					"having each item justified on the basis of cost or need"
 				],
 				"fl": "adjective"
 			}
@@ -105255,13 +98476,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"city in central Michigan northwest of Saginaw population 41,863",
-					"city in western Texas northeast of Odessa population 111,147"
-				],
-				"fl": "geographical name"
-			}
 		]
 	},
 	{
@@ -105892,7 +99106,7 @@ module.exports = [
 					"river in Chicago, Illinois, having a northern branch and a southern branch and originally flowing east into Lake Michigan but now flowing south through the southern branch and Chicago Sanitary and Ship Canal into the Des Plaines River",
 					"city and port on Lake Michigan in northeastern Illinois population 2,695,598"
 				],
-				"fl": "geographical name"
+				"fl": "noun"
 			}
 		]
 	},
@@ -106365,12 +99579,6 @@ module.exports = [
 				],
 				"fl": "verb"
 			},
-			{
-				"shortdef": [
-					"town on the Stour River in Kent, southeastern England population 4600"
-				],
-				"fl": "geographical name"
-			}
 		]
 	},
 	{
@@ -107184,7 +100392,7 @@ module.exports = [
 				"shortdef": [
 					"state in the central U.S.; capital Lincoln area 77,355 square miles (200,349 square kilometers), population 1,826,341"
 				],
-				"fl": "geographical name"
+				"fl": "noun"
 			}
 		]
 	},
@@ -107328,124 +100536,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"dark", "no lamp", "no fire"
 				],
-				"fl": "unknown"
+				"fl": "adjective"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -107469,124 +100563,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"no sound", "no bird", "hole in the sky"
 				],
-				"fl": "unknown"
+				"fl": "adjective"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -108019,124 +100999,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"hole in the sky", "lonely sky", "lonely forest", "vacant field"
 				],
-				"fl": "unknown"
+				"fl": "adjective"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -108168,6 +101034,12 @@ module.exports = [
 					"a traveler in a public or private conveyance"
 				],
 				"fl": "noun"
+			},
+			{
+				"shortdef": [
+					"type of pigeon"
+				],
+				"fl": "adjective"
 			}
 		]
 	},
@@ -108219,82 +101091,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"passenger", "rider", "hero", "(ze)ro"
 				],
-				"fl": "unknown"
+				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -108924,12 +101724,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"island (atoll) in the Line Islands area 234 square miles (608 square kilometers), population 674"
-				],
-				"fl": "geographical name"
-			}
 		]
 	},
 	{
@@ -109041,7 +101835,7 @@ module.exports = [
 				"shortdef": [
 					"city on the Ohio River in southwestern Ohio population 296,943"
 				],
-				"fl": "geographical name"
+				"fl": "noun"
 			}
 		]
 	},
@@ -109506,124 +102300,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"street lamps", "halo", "night-lit shadows"
 				],
-				"fl": "unknown"
+				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -109899,10 +102579,6 @@ module.exports = [
 				"fl": "symbol"
 			},
 			{
-				"shortdef": [],
-				"fl": "adjective suffix"
-			},
-			{
 				"shortdef": [
 					"made of : consisting of"
 				],
@@ -109914,10 +102590,6 @@ module.exports = [
 				],
 				"fl": "adjective"
 			},
-			{
-				"shortdef": [],
-				"fl": "noun"
-			}
 		]
 	},
 	{
@@ -109938,7 +102610,7 @@ module.exports = [
 			"u": 0
 		},
 		"nvowels": 0,
-		"def": []
+		"def": [ {"shortdef": ["I"],"fl": "pronoun"},]
 	},
 	{
 		"n": 1,
@@ -110083,10 +102755,6 @@ module.exports = [
 				"fl": "noun suffix"
 			},
 			{
-				"shortdef": [],
-				"fl": "noun suffix"
-			},
-			{
 				"shortdef": [
 					"little one : dear little one",
 					"one belonging to : one having to do with",
@@ -110156,7 +102824,7 @@ module.exports = [
 			"u": 0
 		},
 		"nvowels": 0,
-		"def": []
+		"def": [ {"shortdef": ["0"],"fl": "symbol"},]
 	},
 	{
 		"n": 1,
@@ -110176,7 +102844,7 @@ module.exports = [
 			"u": 0
 		},
 		"nvowels": 0,
-		"def": []
+		"def": [ {"shortdef": ["!"],"fl": "symbol"},]
 	},
 	{
 		"n": 2,
@@ -110196,7 +102864,7 @@ module.exports = [
 			"u": 0
 		},
 		"nvowels": 0,
-		"def": []
+		"def": [ {"shortdef": ["||"],"fl": "symbol"},]
 	},
 	{
 		"n": 2,
@@ -110320,12 +102988,6 @@ module.exports = [
 			},
 			{
 				"shortdef": [
-					"DeDu, etc. for many names beginning with these elements see the specific family names"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
 					"to reduce in relative importance; also : play down"
 				],
 				"fl": "verb"
@@ -110367,7 +103029,7 @@ module.exports = [
 				"shortdef": [
 					"of superiority : of or with condescension"
 				],
-				"fl": "adjective or adverb"
+				"fl": "adjective"
 			}
 		]
 	},
@@ -110389,7 +103051,7 @@ module.exports = [
 			"u": 0
 		},
 		"nvowels": 0,
-		"def": []
+		"def": [ {"shortdef": ["89"],"fl": "number"},]
 	},
 	{
 		"n": 2,
@@ -110409,7 +103071,7 @@ module.exports = [
 			"u": 0
 		},
 		"nvowels": 0,
-		"def": []
+		"def": [ {"shortdef": ["48"],"fl": "number"},]
 	},
 	{
 		"n": 2,
@@ -110429,7 +103091,7 @@ module.exports = [
 			"u": 0
 		},
 		"nvowels": 0,
-		"def": []
+		"def": [ {"shortdef": ["43"],"fl": "number"},]
 	},
 	{
 		"n": 2,
@@ -110522,9 +103184,6 @@ module.exports = [
 					"essence, gist"
 				],
 				"fl": "noun"
-			},
-			{
-				"shortdef": []
 			},
 			{
 				"shortdef": [
@@ -110625,12 +103284,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"mountain pass 1640 feet (500 meters) and early emigrant route through a ridge of the Cumberland Plateau in northeastern Tennessee southeast of Middlesboro, Kentucky"
-				],
-				"fl": "geographical name"
-			}
 		]
 	},
 	{
@@ -110672,12 +103325,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"—used to express mild surprise, hesitation, approval, disapproval, or impatience"
-				],
-				"fl": "interjection"
-			}
 		]
 	},
 	{
@@ -110734,15 +103381,11 @@ module.exports = [
 				"fl": "combining form"
 			},
 			{
-				"shortdef": [],
-				"fl": "noun combining form"
-			},
-			{
 				"shortdef": [
 					"discourse : talk",
 					"student : specialist"
 				],
-				"fl": "noun combining form"
+				"fl": "noun"
 			}
 		]
 	},
@@ -110914,24 +103557,6 @@ module.exports = [
 				],
 				"fl": "verb"
 			},
-			{
-				"shortdef": [
-					"John 1627—1705 English naturalist"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Nicholas 1911—1979 born Raymond Nicholas Kienzle American film director"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Satyajit 1921—1992 Indian film director, writer, and producer"
-				],
-				"fl": "biographical name"
-			}
 		]
 	},
 	{
@@ -110990,124 +103615,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"carbon dioxide"
 				],
-				"fl": "unknown"
+				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -111133,7 +103644,7 @@ module.exports = [
 				"shortdef": [
 					"earlier than the present time"
 				],
-				"fl": "adjective or adverb"
+				"fl": "adjective"
 			},
 			{
 				"shortdef": [
@@ -111506,7 +104017,7 @@ module.exports = [
 					"way : path",
 					"electrode"
 				],
-				"fl": "noun combining form"
+				"fl": "noun"
 			}
 		]
 	},
@@ -111528,12 +104039,7 @@ module.exports = [
 			"u": 0
 		},
 		"nvowels": 0,
-		"def": [{
-				"shortdef": [
-					"night"
-				],
-				"fl": "noun"
-			}]
+		"def": [ {"shortdef": ["night"],"fl": "noun"},]
 	},
 	{
 		"n": 3,
@@ -111654,30 +104160,6 @@ module.exports = [
 					"to sue or prosecute at law"
 				],
 				"fl": "verb"
-			},
-			{
-				"shortdef": [
-					"(Andrew) Bonar 1858—1923 British (Canadian-born) statesman"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Edward 1750—1818 1st BaronEllenborough English jurist"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"John 1671—1729 Scottish financier and speculator"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"William 1686—1761 English writer"
-				],
-				"fl": "biographical name"
 			},
 			{
 				"shortdef": [
@@ -111849,9 +104331,6 @@ module.exports = [
 				"fl": "verb"
 			},
 			{
-				"shortdef": []
-			},
-			{
 				"shortdef": [
 					"routine, dull",
 					"bored, indifferent"
@@ -111887,12 +104366,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"city and port in central Vietnam; formerly capital of Annam population 302,983"
-				],
-				"fl": "geographical name"
-			}
 		]
 	},
 	{
@@ -111928,18 +104401,6 @@ module.exports = [
 					"to remove (weeds) by hoeing"
 				],
 				"fl": "verb"
-			},
-			{
-				"shortdef": [
-					"Richard March 1812—1886 son of Robert Hoe American inventor"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Robert 1784—1833 American (English-born) printing-press manufacturer"
-				],
-				"fl": "biographical name"
 			},
 			{
 				"shortdef": [
@@ -112009,7 +104470,7 @@ module.exports = [
 				"shortdef": [
 					"not many persons or things"
 				],
-				"fl": "pronoun, plural in construction"
+				"fl": "pronoun"
 			},
 			{
 				"shortdef": [
@@ -112023,12 +104484,8 @@ module.exports = [
 					"a small number of units or individuals",
 					"a special limited number"
 				],
-				"fl": "noun, plural in construction"
+				"fl": "noun"
 			},
-			{
-				"shortdef": [],
-				"fl": "adjective"
-			}
 		]
 	},
 	{
@@ -112062,9 +104519,6 @@ module.exports = [
 					"depends on experience"
 				],
 				"fl": "abbreviation"
-			},
-			{
-				"shortdef": []
 			},
 			{
 				"shortdef": [
@@ -112108,30 +104562,6 @@ module.exports = [
 				],
 				"fl": "verb"
 			},
-			{
-				"shortdef": [
-					"dinar"
-				],
-				"fl": "abbreviation"
-			},
-			{
-				"shortdef": [
-					"German Industrial Standards"
-				],
-				"fl": "abbreviation"
-			},
-			{
-				"shortdef": [
-					"Muhī-ud-Dīn Muhammad 1618—1707Aurangzeb Mogul emperor of India (1658—1707)"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Farīd od-Dīn Mohammad ebn Ebrāhīm circa 1142—circa 1220 Persian mystical poet"
-				],
-				"fl": "biographical name"
-			}
 		]
 	},
 	{
@@ -112391,12 +104821,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"John 1705—1782 4th Earl ofLoudoun British general in America"
-				],
-				"fl": "biographical name"
-			}
 		]
 	},
 	{
@@ -112791,9 +105215,6 @@ module.exports = [
 				],
 				"fl": "verb"
 			},
-			{
-				"shortdef": []
-			}
 		]
 	},
 	{
@@ -112835,7 +105256,7 @@ module.exports = [
 					"one suffering from a disorder (of such a part or system)",
 					"one perceiving"
 				],
-				"fl": "noun combining form"
+				"fl": "noun"
 			},
 			{
 				"shortdef": [
@@ -112879,9 +105300,6 @@ module.exports = [
 					"to turn over the pages of"
 				],
 				"fl": "verb"
-			},
-			{
-				"shortdef": []
 			},
 			{
 				"shortdef": [
@@ -113577,9 +105995,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": []
-			}
 		]
 	},
 	{
@@ -113693,7 +106108,7 @@ module.exports = [
 				"shortdef": [
 					"marked by successive degrees usually of limited extent : gradual"
 				],
-				"fl": "adjective or adverb"
+				"fl": "adjective"
 			},
 			{
 				"shortdef": [
@@ -113753,7 +106168,7 @@ module.exports = [
 				"shortdef": [
 					"not straight : askew —often used figuratively"
 				],
-				"fl": "adjective or adverb"
+				"fl": "adjective"
 			}
 		]
 	},
@@ -113776,9 +106191,6 @@ module.exports = [
 		},
 		"nvowels": 1,
 		"def": [
-			{
-				"shortdef": []
-			},
 			{
 				"shortdef": [
 					"a former monetary subunit equal to 1/10₀ kroon"
@@ -114108,13 +106520,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [],
-				"fl": "noun"
-			},
-			{
-				"shortdef": []
-			}
 		]
 	},
 	{
@@ -114246,9 +106651,6 @@ module.exports = [
 					"by any means : at all"
 				],
 				"fl": "adverb"
-			},
-			{
-				"shortdef": []
 			},
 			{
 				"shortdef": [
@@ -114605,12 +107007,6 @@ module.exports = [
 				],
 				"fl": "verb"
 			},
-			{
-				"shortdef": [
-					"town in Greater Manchester, northwestern England population 172,200"
-				],
-				"fl": "geographical name"
-			}
 		]
 	},
 	{
@@ -114957,12 +107353,6 @@ module.exports = [
 			},
 			{
 				"shortdef": [
-					"—used in fox hunting on seeing a fox break cover"
-				],
-				"fl": "interjection"
-			},
-			{
-				"shortdef": [
 					"a view from a high angle as if seen by a bird in flight",
 					"an overall or cursory look at something"
 				],
@@ -114978,7 +107368,7 @@ module.exports = [
 				"shortdef": [
 					"field"
 				],
-				"fl": "noun phrase"
+				"fl": "noun"
 			},
 			{
 				"shortdef": [
@@ -115002,7 +107392,7 @@ module.exports = [
 				"shortdef": [
 					"a position or perspective from which something is considered or evaluated : standpoint"
 				],
-				"fl": "noun phrase"
+				"fl": "noun"
 			}
 		]
 	},
@@ -115250,12 +107640,6 @@ module.exports = [
 			},
 			{
 				"shortdef": [
-					"(Theobald) Wolfe 1763—1798 Irish revolutionary"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
 					"relatively insensitive to differences in musical pitch",
 					"having or showing an obtuse insensitivity or lack of perception particularly in matters of public sentiment, opinion, or taste"
 				],
@@ -115376,9 +107760,6 @@ module.exports = [
 		"nvowels": 1,
 		"def": [
 			{
-				"shortdef": []
-			},
-			{
 				"shortdef": [
 					"to draw out and twist fiber into yarn or thread",
 					"to form a thread by extruding a viscous rapidly hardening fluid —used especially of a spider or insect",
@@ -115493,12 +107874,6 @@ module.exports = [
 					"a session of group singing"
 				],
 				"fl": "noun"
-			},
-			{
-				"shortdef": []
-			},
-			{
-				"shortdef": []
 			},
 			{
 				"shortdef": [
@@ -115723,14 +108098,6 @@ module.exports = [
 			},
 			{
 				"shortdef": [
-					"river 200 miles (322 kilometers) long in Arizona flowing west into the Gila River",
-					"river 100 miles (161 kilometers) long in north central Kentucky flowing into the Ohio River",
-					"river 200 miles (322 kilometers) long in northeastern Missouri flowing southeast into the Mississippi River"
-				],
-				"fl": "geographical name"
-			},
-			{
-				"shortdef": [
 					"having black-and-white or dark and light color intermingled in small flecks"
 				],
 				"fl": "adjective"
@@ -115756,9 +108123,6 @@ module.exports = [
 		},
 		"nvowels": 2,
 		"def": [
-			{
-				"shortdef": []
-			},
 			{
 				"shortdef": [
 					"aforementioned"
@@ -116075,12 +108439,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"town on Cap d'Antibes in southeastern France"
-				],
-				"fl": "geographical name"
-			}
 		]
 	},
 	{
@@ -116498,9 +108856,6 @@ module.exports = [
 				],
 				"fl": "adjective"
 			},
-			{
-				"shortdef": []
-			}
 		]
 	},
 	{
@@ -116813,24 +109168,6 @@ module.exports = [
 			},
 			{
 				"shortdef": [
-					"(James Henry) Leigh 1784—1859 English writer"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Sir R(ichard) Timothy 1943— British molecular biologist"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"(William) Holman 1827—1910 English painter"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
 					"a method of typing in which one looks at the keyboard and types using usually the index fingers"
 				],
 				"fl": "noun"
@@ -116900,30 +109237,6 @@ module.exports = [
 				],
 				"fl": "verb"
 			},
-			{
-				"shortdef": [
-					"Ambrose Powell 1825—1865 American Confederate general"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Archibald Vivian 1886—1977 English physiologist"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"James Jerome 1838—1916 American (Canadian-born) financier"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Sir Rowland 1795—1879 English postal reformer"
-				],
-				"fl": "biographical name"
-			}
 		]
 	},
 	{
@@ -117379,21 +109692,6 @@ module.exports = [
 		},
 		"nvowels": 1,
 		"def": [
-			{
-				"shortdef": []
-			},
-			{
-				"shortdef": [
-					"John 1827—1862 American (Irish-born) actor"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"John 1853—1927 son of John Drew American actor"
-				],
-				"fl": "biographical name"
-			},
 			{
 				"shortdef": [
 					"to cause to move continuously toward or after a force applied in advance : pull : such as",
@@ -117902,9 +110200,6 @@ module.exports = [
 		"nvowels": 2,
 		"def": [
 			{
-				"shortdef": []
-			},
-			{
 				"shortdef": [
 					"a slender grooved lead rod used to hold together panes of glass especially in a stained-glass window"
 				],
@@ -117978,12 +110273,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"Buzz 1930— originally Edwin Eugene Aldrin, Jr. American astronaut"
-				],
-				"fl": "biographical name"
-			}
 		]
 	},
 	{
@@ -118134,7 +110423,7 @@ module.exports = [
 			"u": 0
 		},
 		"nvowels": 0,
-		"def": []
+		"def": [ {"shortdef": ["3:48", "time"],"fl": "symbol"},]
 	},
 	{
 		"n": 4,
@@ -118154,7 +110443,7 @@ module.exports = [
 			"u": 0
 		},
 		"nvowels": 0,
-		"def": []
+		"def": [ {"shortdef": ["1958", "year"],"fl": "number"},]
 	},
 	{
 		"n": 4,
@@ -118174,7 +110463,7 @@ module.exports = [
 			"u": 0
 		},
 		"nvowels": 0,
-		"def": []
+		"def": [ {"shortdef": ["1938", "year"],"fl": "number"},]
 	},
 	{
 		"n": 4,
@@ -118194,7 +110483,7 @@ module.exports = [
 			"u": 0
 		},
 		"nvowels": 0,
-		"def": []
+		"def": [ {"shortdef": ["1906", "year"],"fl": "number"},]
 	},
 	{
 		"n": 5,
@@ -118289,25 +110578,6 @@ module.exports = [
 				],
 				"fl": "verb"
 			},
-			{
-				"shortdef": [
-					"a foppish young man",
-					"lover, beau"
-				],
-				"fl": "noun"
-			},
-			{
-				"shortdef": [
-					"woo, court"
-				],
-				"fl": "verb"
-			},
-			{
-				"shortdef": [
-					"Dame Muriel (Sarah) 1918—2006 née Camberg British writer"
-				],
-				"fl": "biographical name"
-			}
 		]
 	},
 	{
@@ -118356,7 +110626,7 @@ module.exports = [
 					"something written or drawn",
 					"instrument for making or transmitting records or images"
 				],
-				"fl": "noun combining form"
+				"fl": "noun"
 			}
 		]
 	},
@@ -118779,12 +111049,6 @@ module.exports = [
 				],
 				"fl": "verb"
 			},
-			{
-				"shortdef": [
-					"Sir Ernst Boris 1906—1979 British (German-born) biochemist"
-				],
-				"fl": "biographical name"
-			}
 		]
 	},
 	{
@@ -119377,7 +111641,7 @@ module.exports = [
 				"shortdef": [
 					"—used with a present participle to indicate action completed and especially just completed"
 				],
-				"fl": "auxiliary verb"
+				"fl": "verb"
 			},
 			{
 				"shortdef": [
@@ -119719,7 +111983,7 @@ module.exports = [
 					"the very foundation or source",
 					"the basic level of society or of an organization especially as viewed in relation to higher or more centralized positions of power"
 				],
-				"fl": "noun, plural in form but singular or plural in construction"
+				"fl": "noun"
 			},
 			{
 				"shortdef": [
@@ -120106,7 +112370,7 @@ module.exports = [
 				"shortdef": [
 					"at a soft volume : soft —used as a direction in music"
 				],
-				"fl": "adverb or adjective"
+				"fl": "adjective"
 			},
 			{
 				"shortdef": [
@@ -120116,15 +112380,9 @@ module.exports = [
 			},
 			{
 				"shortdef": [
-					"Renzo 1937— Italian architect"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
 					"loud then immediately soft —used as a direction in music"
 				],
-				"fl": "adverb or adjective"
+				"fl": "adjective"
 			}
 		]
 	},
@@ -120255,16 +112513,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"Samuel Finley Breese 1791—1872 American artist and inventor"
+					"morse code"
 				],
-				"fl": "biographical name"
+				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"Mary (Morse) 1821—1910 née Baker American founder of the Christian Science Church"
-				],
-				"fl": "biographical name"
-			}
 		]
 	},
 	{
@@ -120326,10 +112578,6 @@ module.exports = [
 					"to set apart by or as if by a line or boundary —usually used with off"
 				],
 				"fl": "verb"
-			},
-			{
-				"shortdef": [],
-				"fl": "noun"
 			},
 			{
 				"shortdef": [
@@ -120668,42 +112916,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"Andrew Jackson, Jr. 1932— U.S. ambassador to U.N. (1977—79)"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Brigham 1801—1877 American Mormon leader"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Cy originally Denton True Young 1867—1955 American baseball player"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Michael W(arren) 1949— American geneticist"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Owen D. 1874—1962 American lawyer"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Whitney Moore 1921—1971 American civil rights leader"
-				],
-				"fl": "biographical name"
-			}
 		]
 	},
 	{
@@ -120725,9 +112937,6 @@ module.exports = [
 		},
 		"nvowels": 1,
 		"def": [
-			{
-				"shortdef": []
-			},
 			{
 				"shortdef": [
 					"to squeeze or twist especially so as to make dry or to extract moisture or liquid",
@@ -120886,12 +113095,6 @@ module.exports = [
 				],
 				"fl": "verb"
 			},
-			{
-				"shortdef": []
-			},
-			{
-				"shortdef": []
-			}
 		]
 	},
 	{
@@ -120932,7 +113135,7 @@ module.exports = [
 					"in a (specified) spatial or temporal direction",
 					"toward a (specified) point, position, or area"
 				],
-				"fl": "adverb suffix"
+				"fl": "adverb"
 			},
 			{
 				"shortdef": [
@@ -121223,9 +113426,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": []
-			}
 		]
 	},
 	{
@@ -121482,9 +113682,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": []
-			}
 		]
 	},
 	{
@@ -121523,7 +113720,7 @@ module.exports = [
 				"shortdef": [
 					"—used as a code word for the letter t"
 				],
-				"fl": "communications code word"
+				"fl": "noun"
 			}
 		]
 	},
@@ -122985,34 +115182,6 @@ module.exports = [
 	{
 		"n": 5,
 		"count": 1,
-		"text": "monte",
-		"books": [
-			{
-				"book": "fieldNotes",
-				"count": 1
-			}
-		],
-		"vowels": {
-			"a": 0,
-			"e": 1,
-			"i": 0,
-			"o": 1,
-			"u": 0
-		},
-		"nvowels": 2,
-		"def": [
-			{
-				"shortdef": [
-					"a card game in which players select any two of four cards turned face up in a layout and bet that one of them will be matched before the other as cards are dealt one at a time from the pack —called also monte bank",
-					"three-card monte"
-				],
-				"fl": "noun"
-			}
-		]
-	},
-	{
-		"n": 5,
-		"count": 1,
 		"text": "memex",
 		"books": [
 			{
@@ -123031,124 +115200,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"a hypothetical electromechanical device", "a memory machine"
 				],
-				"fl": "unknown"
+				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -123249,12 +115304,6 @@ module.exports = [
 					"an early form of optical projector of still pictures using a transparent slide"
 				],
 				"fl": "noun"
-			},
-			{
-				"shortdef": [
-					"—used for a felt-tipped pen"
-				],
-				"fl": "trademark"
 			},
 			{
 				"shortdef": [
@@ -123694,10 +115743,7 @@ module.exports = [
 				],
 				"fl": "verb"
 			},
-			{
-				"shortdef": [],
-				"fl": "unknown"
-			},
+			
 			{
 				"shortdef": [
 					"involving, made up of, or occurring between two or more African people, groups, or nations"
@@ -123726,13 +115772,13 @@ module.exports = [
 				"shortdef": [
 					"among or between themselves"
 				],
-				"fl": "adverb or adjective"
+				"fl": "adjective"
 			},
 			{
 				"shortdef": [
 					"between living persons; especially : from one living person to another"
 				],
-				"fl": "adverb or adjective"
+				"fl": "adjective"
 			}
 		]
 	},
@@ -123931,7 +115977,7 @@ module.exports = [
 				"shortdef": [
 					"slowly and solemnly —used as a direction in music"
 				],
-				"fl": "adverb or adjective"
+				"fl": "adjective"
 			},
 			{
 				"shortdef": [
@@ -124995,9 +117041,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": []
-			}
 		]
 	},
 	{
@@ -125031,45 +117074,6 @@ module.exports = [
 					"any of several weedy bromegrasses related to chess"
 				],
 				"fl": "noun"
-			}
-		]
-	},
-	{
-		"n": 5,
-		"count": 1,
-		"text": "carlo",
-		"books": [
-			{
-				"book": "fieldNotes",
-				"count": 1
-			}
-		],
-		"vowels": {
-			"a": 1,
-			"e": 0,
-			"i": 0,
-			"o": 1,
-			"u": 0
-		},
-		"nvowels": 2,
-		"def": [
-			{
-				"shortdef": [
-					"Carlo 1707—1793 Italian dramatist"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Gian Carlo 1911—2007 American (Italian-born) composer"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Carlo 1934— Italian physicist"
-				],
-				"fl": "biographical name"
 			}
 		]
 	},
@@ -125170,12 +117174,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": []
-			},
-			{
-				"shortdef": []
-			}
 		]
 	},
 	{
@@ -125261,12 +117259,6 @@ module.exports = [
 				],
 				"fl": "verb"
 			},
-			{
-				"shortdef": [
-					"Herbert Lawrence 1909—2001Herblock American editorial cartoonist"
-				],
-				"fl": "biographical name"
-			}
 		]
 	},
 	{
@@ -126293,10 +118285,7 @@ module.exports = [
 				],
 				"fl": "adjective"
 			},
-			{
-				"shortdef": [],
-				"fl": "unknown"
-			},
+			
 			{
 				"shortdef": [
 					"to reduce to powder or small fragments by friction (as in a mill or with the teeth)",
@@ -126680,7 +118669,7 @@ module.exports = [
 				"shortdef": [
 					"someone or something that moves in a way that is very graceful or beautiful"
 				],
-				"fl": "noun phrase"
+				"fl": "noun"
 			},
 			{
 				"shortdef": [
@@ -127341,13 +119330,6 @@ module.exports = [
 			},
 			{
 				"shortdef": [
-					"for a long time —used in negative statements",
-					"in a full or complete way —used in negative statements"
-				],
-				"fl": "idiom"
-			},
-			{
-				"shortdef": [
 					"from a distance that is the length of a person's arm",
 					"in a condition that individuals act independently and without one having undue influence over another"
 				],
@@ -127430,7 +119412,7 @@ module.exports = [
 					"something written or drawn",
 					"instrument for making or transmitting records or images"
 				],
-				"fl": "noun combining form"
+				"fl": "noun"
 			}
 		]
 	},
@@ -127592,7 +119574,7 @@ module.exports = [
 					"curriculum",
 					"course"
 				],
-				"fl": "noun phrase"
+				"fl": "noun"
 			},
 			{
 				"shortdef": [
@@ -127604,13 +119586,13 @@ module.exports = [
 				"shortdef": [
 					"the actions to be taken"
 				],
-				"fl": "noun phrase"
+				"fl": "noun"
 			},
 			{
 				"shortdef": [
 					"the things that have happened, that are happening, or that will happen"
 				],
-				"fl": "noun phrase"
+				"fl": "noun"
 			},
 			{
 				"shortdef": [
@@ -127758,10 +119740,7 @@ module.exports = [
 				],
 				"fl": "verb"
 			},
-			{
-				"shortdef": [],
-				"fl": "unknown"
-			},
+			
 			{
 				"shortdef": [
 					"a cipher in which the letters of the plaintext are systematically replaced by substitute letters"
@@ -127815,7 +119794,7 @@ module.exports = [
 				"shortdef": [
 					"an amusement ride consisting of a steep incline down which boats slide into a pool at the bottom"
 				],
-				"fl": "noun, plural in form but singular in construction"
+				"fl": "noun"
 			}
 		]
 	},
@@ -127889,7 +119868,7 @@ module.exports = [
 				"shortdef": [
 					"an enlisted man designated to handle administrative matters in a unit especially after duty hours —abbreviation CQ"
 				],
-				"fl": "noun phrase"
+				"fl": "noun"
 			},
 			{
 				"shortdef": [
@@ -127924,9 +119903,6 @@ module.exports = [
 		},
 		"nvowels": 2,
 		"def": [
-			{
-				"shortdef": []
-			},
 			{
 				"shortdef": [
 					"pregnant —often used in the phrase get caught"
@@ -128008,7 +119984,7 @@ module.exports = [
 				"shortdef": [
 					"to rain very heavily"
 				],
-				"fl": "phrasal verb"
+				"fl": "verb"
 			},
 			{
 				"shortdef": [
@@ -128137,48 +120113,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"Alice Malsenior 1944— American writer"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"John E(rnest) 1941— British biochemist"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"William 1824—1860 American filibuster"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"George (Herbert Walker) 1924—2018 American politician; vice president of the U.S. (1981—89); 41st president of the U.S. (1989—93)"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"George W(alker) 1946— son of George H. W. Bush American politician; 43rd president of the U.S. (2001—09)"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Walker 1903—1975 American photographer"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Walker 1916—1990 American writer"
-				],
-				"fl": "biographical name"
-			}
 		]
 	},
 	{
@@ -128469,24 +120403,6 @@ module.exports = [
 				],
 				"fl": "verb"
 			},
-			{
-				"shortdef": [
-					"to die because of not having enough fluids in the body"
-				],
-				"fl": "idiom"
-			},
-			{
-				"shortdef": [
-					"to cause oneself/someone to stop feeling thirsty"
-				],
-				"fl": "idiom"
-			},
-			{
-				"shortdef": [
-					"to cause oneself to stop feeling thirsty : to cause someone to stop feeling thirsty"
-				],
-				"fl": "idiom"
-			}
 		]
 	},
 	{
@@ -128603,7 +120519,7 @@ module.exports = [
 				"shortdef": [
 					"to fight or argue with (someone or something)"
 				],
-				"fl": "phrasal verb"
+				"fl": "verb"
 			},
 			{
 				"shortdef": [
@@ -129116,9 +121032,9 @@ module.exports = [
 		]
 	},
 	{
-		"n": 6,
+		"n": 7,
 		"count": 1,
-		"text": "scence",
+		"text": "science",
 		"books": [
 			{
 				"book": "fieldNotes",
@@ -129136,124 +121052,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"the state of knowing : knowledge","a department of systematized knowledge as an object of study"
 				],
-				"fl": "unknown"
+				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -129640,7 +121442,7 @@ module.exports = [
 				"shortdef": [
 					"something that will result in disaster"
 				],
-				"fl": "noun phrase"
+				"fl": "noun"
 			}
 		]
 	},
@@ -129850,7 +121652,7 @@ module.exports = [
 				"shortdef": [
 					"the service book of the Anglican Communion"
 				],
-				"fl": "noun phrase"
+				"fl": "noun"
 			}
 		]
 	},
@@ -129916,12 +121718,6 @@ module.exports = [
 					"of, relating to, or being a portal vein or a portal system"
 				],
 				"fl": "adjective"
-			},
-			{
-				"shortdef": [
-					"Charles Frederick Algernon 1893—1971 1st Viscount Portal of Hungerford British air marshal"
-				],
-				"fl": "biographical name"
 			},
 			{
 				"shortdef": [
@@ -130168,7 +121964,7 @@ module.exports = [
 					"to put a small amount of (something) on many different parts of (a surface) —usually used as (be) peppered with",
 					"to put (something) in many places in (a story, speech, etc.)"
 				],
-				"fl": "phrasal verb"
+				"fl": "verb"
 			}
 		]
 	},
@@ -130297,7 +122093,7 @@ module.exports = [
 				"shortdef": [
 					"the country where something or someone comes from"
 				],
-				"fl": "noun phrase"
+				"fl": "noun"
 			},
 			{
 				"shortdef": [
@@ -130327,13 +122123,13 @@ module.exports = [
 				"shortdef": [
 					"the place where something is made or created"
 				],
-				"fl": "noun phrase"
+				"fl": "noun"
 			},
 			{
 				"shortdef": [
 					"the place where something comes from : the place where something originates"
 				],
-				"fl": "noun phrase"
+				"fl": "noun"
 			},
 			{
 				"shortdef": [
@@ -130475,94 +122271,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"multiple beings"
 				],
-				"fl": "unknown"
+				"fl": "adjective"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -130628,9 +122340,6 @@ module.exports = [
 					"to put an end to"
 				],
 				"fl": "verb"
-			},
-			{
-				"shortdef": []
 			},
 			{
 				"shortdef": [
@@ -130735,7 +122444,7 @@ module.exports = [
 					"of, employing, or obtained by (such) a meter",
 					"of or relating to (such) an art, process, or science of measuring"
 				],
-				"fl": "adjective combining form"
+				"fl": "adjective"
 			},
 			{
 				"shortdef": [
@@ -130777,7 +122486,7 @@ module.exports = [
 				"shortdef": [
 					"differential calculus"
 				],
-				"fl": "noun phrase"
+				"fl": "noun"
 			},
 			{
 				"shortdef": [
@@ -130893,7 +122602,7 @@ module.exports = [
 	{
 		"n": 6,
 		"count": 1,
-		"text": "maloch",
+		"text": "moloch",
 		"books": [
 			{
 				"book": "fieldNotes",
@@ -130911,124 +122620,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"commerce", "industry(!)", "Moloch the vast stone of war! Moloch the stunned governments! Moloch whose mind is pure machinery! Moloch whose blood is running money! Moloch whose fingers -ginsberg from howl"
 				],
-				"fl": "unknown"
+				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -131200,13 +122795,13 @@ module.exports = [
 				"shortdef": [
 					"to think about what will happen in the future —often + to"
 				],
-				"fl": "phrasal verb"
+				"fl": "verb"
 			},
 			{
 				"shortdef": [
 					"to think about something in the past"
 				],
-				"fl": "phrasal verb"
+				"fl": "verb"
 			}
 		]
 	},
@@ -131287,7 +122882,7 @@ module.exports = [
 				"shortdef": [
 					"the probability of rejecting the null hypothesis in a statistical test when it is true —called also significance level"
 				],
-				"fl": "noun phrase"
+				"fl": "noun"
 			},
 			{
 				"shortdef": [
@@ -131370,7 +122965,7 @@ module.exports = [
 				"shortdef": [
 					"the principal member of the opposition party in a British legislative body who is given the status of a salaried government official and an important role in organizing the business of the house"
 				],
-				"fl": "noun phrase"
+				"fl": "noun"
 			},
 			{
 				"shortdef": [
@@ -133427,7 +125022,7 @@ module.exports = [
 				"shortdef": [
 					"any of various plants (as of the genera Hackelia and Cynoglossum of the borage family) with prickly or adhesive fruits; also : one of these fruits"
 				],
-				"fl": "noun, plural in form but singular or plural in construction"
+				"fl": "noun"
 			},
 			{
 				"shortdef": [
@@ -133440,14 +125035,14 @@ module.exports = [
 					"bur marigold; also : its prickly achenes",
 					"beggar's-lice"
 				],
-				"fl": "noun, plural in form but singular or plural in construction"
+				"fl": "noun"
 			}
 		]
 	},
 	{
-		"n": 6,
+		"n": 7,
 		"count": 1,
-		"text": "averge",
+		"text": "average",
 		"books": [
 			{
 				"book": "fieldNotes",
@@ -133465,124 +125060,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"a single value (such as a mean, mode, or median) that summarizes or represents the general significance of a set of unequal values","mean","an estimation of or approximation to an arithmetic mean"
 				],
-				"fl": "unknown"
+				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -133635,124 +125116,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"an elementary form of radio tube developed in 1906 "
 				],
-				"fl": "unknown"
+				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -133812,36 +125179,12 @@ module.exports = [
 			},
 			{
 				"shortdef": [
-					"William 1856—1924 Scottish critic and dramatist"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
 					"principal, chief",
 					"mischievous, saucy",
 					"marked by a deliberate and often forced playfulness, irony, or impudence"
 				],
 				"fl": "adjective"
 			},
-			{
-				"shortdef": [
-					"John Archer 1867—1942 American marine-corps general"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Archer John Porter 1910—2002 British chemist"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Alexander Archer 1887—1973 American general"
-				],
-				"fl": "biographical name"
-			}
 		]
 	},
 	{
@@ -134009,124 +125352,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"type of circus", "form of binder"
 				],
-				"fl": "unknown"
+				"fl": "adjective"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -134196,7 +125425,7 @@ module.exports = [
 					"requiring or utilizing (such) a kind of nutrition",
 					"-tropic"
 				],
-				"fl": "adjective combining form"
+				"fl": "adjective"
 			}
 		]
 	},
@@ -134400,7 +125629,7 @@ module.exports = [
 				"shortdef": [
 					"the principal member of the opposition party in a British legislative body who is given the status of a salaried government official and an important role in organizing the business of the house"
 				],
-				"fl": "noun phrase"
+				"fl": "noun"
 			},
 			{
 				"shortdef": [
@@ -134558,7 +125787,7 @@ module.exports = [
 					"quantitative study (as by automated methods of data processing or application of mathematical models) (of a specified field or discipline)",
 					"the science of measuring (a specified area of body of data) : -metry"
 				],
-				"fl": "noun combining form"
+				"fl": "noun"
 			},
 			{
 				"shortdef": [
@@ -134964,21 +126193,21 @@ module.exports = [
 				"shortdef": [
 					"to show that (someone) is (a particular type of person)"
 				],
-				"fl": "phrasal verb"
+				"fl": "verb"
 			},
 			{
 				"shortdef": [
 					"to step heavily on (something) with one's foot",
 					"to end (something) in a forceful way"
 				],
-				"fl": "phrasal verb"
+				"fl": "verb"
 			},
 			{
 				"shortdef": [
 					"to stop or destroy (something bad)",
 					"to stop (something) from burning by stepping on it forcefully with the feet"
 				],
-				"fl": "phrasal verb"
+				"fl": "verb"
 			}
 		]
 	},
@@ -135284,10 +126513,7 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [],
-				"fl": "unknown"
-			},
+			
 			{
 				"shortdef": [
 					"to form or have in the mind",
@@ -135644,94 +126870,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"red sky in morning, sailors take warning"
 				],
-				"fl": "unknown"
+				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -135949,7 +127091,7 @@ module.exports = [
 				"shortdef": [
 					"intimate journal : private diary"
 				],
-				"fl": "French noun phrase"
+				"fl": "noun"
 			}
 		]
 	},
@@ -136148,12 +127290,6 @@ module.exports = [
 		},
 		"nvowels": 2,
 		"def": [
-			{
-				"shortdef": [
-					"town in central Indiana north of Indianapolis population 76,794"
-				],
-				"fl": "geographical name"
-			},
 			{
 				"shortdef": [
 					"one that fishes",
@@ -136437,7 +127573,7 @@ module.exports = [
 				"shortdef": [
 					"a reversal in position or attitude"
 				],
-				"fl": "noun phrase"
+				"fl": "noun"
 			},
 			{
 				"shortdef": [
@@ -136471,7 +127607,7 @@ module.exports = [
 				"shortdef": [
 					"to shift to a lower gear in a motor vehicle"
 				],
-				"fl": "phrasal verb"
+				"fl": "verb"
 			},
 			{
 				"shortdef": [
@@ -136632,12 +127768,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"Louis 1809—1852 French blind teacher of the blind"
-				],
-				"fl": "biographical name"
-			}
 		]
 	},
 	{
@@ -136972,7 +128102,7 @@ module.exports = [
 					"to look for (someone or something expected)",
 					"to look for (something that one wants to get or use)"
 				],
-				"fl": "phrasal verb"
+				"fl": "verb"
 			}
 		]
 	},
@@ -137038,7 +128168,7 @@ module.exports = [
 				"shortdef": [
 					"information about possible danger or trouble"
 				],
-				"fl": "noun phrase"
+				"fl": "noun"
 			},
 			{
 				"shortdef": [
@@ -137394,7 +128524,7 @@ module.exports = [
 				"shortdef": [
 					"to be full of (life and activity) : to have many (people or animals) moving around inside —usually used as (be) teeming with —sometimes used figuratively"
 				],
-				"fl": "phrasal verb"
+				"fl": "verb"
 			}
 		]
 	},
@@ -138536,7 +129666,7 @@ module.exports = [
 				"shortdef": [
 					"a theory of fundamental particles based on the assumption that quarks are distinguished by differences in color and are held together (as in hadrons) by an exchange of gluons"
 				],
-				"fl": "noun, plural in form but singular or plural in construction"
+				"fl": "noun"
 			},
 			{
 				"shortdef": [
@@ -138554,7 +129684,7 @@ module.exports = [
 				"shortdef": [
 					"quantum mechanics applied to electrical interactions (as between nuclear particles)"
 				],
-				"fl": "noun, plural in form but usually singular in construction"
+				"fl": "noun"
 			},
 			{
 				"shortdef": [
@@ -139623,9 +130753,9 @@ module.exports = [
 		]
 	},
 	{
-		"n": 7,
+		"n": 8,
 		"count": 1,
-		"text": "metalic",
+		"text": "metallic",
 		"books": [
 			{
 				"book": "fieldNotes",
@@ -139643,124 +130773,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"Made of, appearing to be made of, resembling, or related to metal"
 				],
-				"fl": "unknown"
+				"fl": "adjective"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -139835,32 +130851,8 @@ module.exports = [
 				"shortdef": [
 					"James Clerk 1831—1879 Scottish physicist"
 				],
-				"fl": "biographical name"
+				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"Maxwell 1888—1959 American dramatist"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"J(ohn) M(axwell) 1940— South African writer"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"William Maxwell 1818—1901 American lawyer and statesman"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"Maxwell Davenport 1901—1987 American general"
-				],
-				"fl": "biographical name"
-			}
 		]
 	},
 	{
@@ -140263,9 +131255,6 @@ module.exports = [
 		"nvowels": 3,
 		"def": [
 			{
-				"shortdef": []
-			},
-			{
 				"shortdef": [
 					"a list (as of bibliographical information or citations to a body of literature) arranged usually in alphabetical order of some specified datum (such as author, subject, or keyword): such as",
 					"a list of items (such as topics or names) treated in a printed work that gives for each item the page number where it may be found",
@@ -140316,27 +131305,9 @@ module.exports = [
 			},
 			{
 				"shortdef": [
-					"highway extending over 1500 miles (2414 kilometers) from Dawson Creek in northeastern British Columbia, Canada, to Fairbanks, Alaska"
-				],
-				"fl": "geographical name"
-			},
-			{
-				"shortdef": [
-					"former highway 3332 miles (5361 kilometers) long from New York City to San Francisco completed in 1927 —name later used locally for sections of the highway still in use"
-				],
-				"fl": "geographical name"
-			},
-			{
-				"shortdef": [
 					"system of highways extending nearly 30,000 miles (48,270 kilometers) from the U.S.—Canada border to Santiago, Chile, except for an uncompleted stretch in the area of the border between Panama and Colombia"
 				],
-				"fl": "geographical name"
-			},
-			{
-				"shortdef": [
-					"highway 371 miles (597 kilometers) long between Valdez and Fairbanks, Alaska, that was completed in 1923"
-				],
-				"fl": "geographical name"
+				"fl": "noun"
 			},
 			{
 				"shortdef": [
@@ -140578,7 +131549,7 @@ module.exports = [
 				"shortdef": [
 					"the right of a merchant ship to travel any waters except territorial waters either in peace or war"
 				],
-				"fl": "noun phrase"
+				"fl": "noun"
 			},
 			{
 				"shortdef": [
@@ -140590,25 +131561,25 @@ module.exports = [
 				"shortdef": [
 					"the right to choose what religion to follow and to worship without interference"
 				],
-				"fl": "noun phrase"
+				"fl": "noun"
 			},
 			{
 				"shortdef": [
 					"the legal right to express one's opinions freely"
 				],
-				"fl": "noun phrase"
+				"fl": "noun"
 			},
 			{
 				"shortdef": [
 					"the right to express one's opinions freely"
 				],
-				"fl": "noun phrase"
+				"fl": "noun"
 			},
 			{
 				"shortdef": [
 					"the right of newspapers, magazines, etc., to report news without being controlled by the government"
 				],
-				"fl": "noun phrase"
+				"fl": "noun"
 			},
 			{
 				"shortdef": [
@@ -140621,7 +131592,7 @@ module.exports = [
 					"any of a limited number of ways in which a body may move or in which a dynamic system may change",
 					"one of the capabilities of a statistic for variation of which there are as many as the number of unrestricted and independent variables determining its value"
 				],
-				"fl": "noun phrase"
+				"fl": "noun"
 			}
 		]
 	},
@@ -141127,124 +132098,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"window pane sun lit"
 				],
-				"fl": "unknown"
+				"fl": "adjective"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -142070,12 +132927,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"Edmond-Charles-Édouard 1763—1834 Citizen Genet French diplomat in U.S."
-				],
-				"fl": "biographical name"
-			}
 		]
 	},
 	{
@@ -142448,7 +133299,7 @@ module.exports = [
 				"shortdef": [
 					"someone who owns or manages a large, successful business or company"
 				],
-				"fl": "noun phrase"
+				"fl": "noun"
 			},
 			{
 				"shortdef": [
@@ -142550,7 +133401,7 @@ module.exports = [
 				"shortdef": [
 					"city and port on Lake Erie and the Niagara River in western New York population 261,310"
 				],
-				"fl": "geographical name"
+				"fl": "noun"
 			}
 		]
 	},
@@ -142804,12 +133655,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"United States military and communication base located on an inlet of Baffin Bay in northwestern Greenland"
-				],
-				"fl": "geographical name"
-			}
 		]
 	},
 	{
@@ -143024,7 +133869,7 @@ module.exports = [
 				"shortdef": [
 					"an unconditional written order from one person to another to pay a specified sum of money to a designated person"
 				],
-				"fl": "noun phrase"
+				"fl": "noun"
 			},
 			{
 				"shortdef": [
@@ -143925,124 +134770,17 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"Alfred Clarence Redfield (November 15, 1890 – March 17, 1983) was an American oceanographer known for having discovered the Redfield ratio, which describes the ratio between nutrients in plankton and ocean water."
 				],
-				"fl": "unknown"
+				"fl": "noun"
 			},
 			{
 				"shortdef": [
-					"nothingness"
+					"In 1934, Alfred Redfield discovered that the ratio of carbon to nitrogen to phosphorus is a nearly constant 106:16:1 throughout the world's oceans, in both phytoplankton biomass and in dissolved nutrient pools"
 				],
-				"fl": "unknown"
+				"fl": "adjective"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
+			
 		]
 	},
 	{
@@ -144172,9 +134910,9 @@ module.exports = [
 		]
 	},
 	{
-		"n": 8,
+		"n": 9,
 		"count": 2,
-		"text": "millenia",
+		"text": "millennia",
 		"books": [
 			{
 				"book": "fieldNotes",
@@ -144192,124 +134930,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"a period of 1000 years"
 				],
-				"fl": "unknown"
+				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -144501,7 +135125,7 @@ module.exports = [
 				"shortdef": [
 					"the difference between apparent time and mean time usually expressed as a correction which is to be added to apparent time to give local mean time"
 				],
-				"fl": "noun phrase"
+				"fl": "noun"
 			},
 			{
 				"shortdef": [
@@ -144850,7 +135474,7 @@ module.exports = [
 				"shortdef": [
 					"a congregation belonging to a Pentecostal body founded in the U.S. in 1914"
 				],
-				"fl": "noun phrase"
+				"fl": "noun"
 			},
 			{
 				"shortdef": [
@@ -144864,7 +135488,7 @@ module.exports = [
 				"shortdef": [
 					"a legislative body or the lower house of a legislature (as in various British colonies, protectorates, and countries of the Commonwealth of Nations)"
 				],
-				"fl": "noun phrase"
+				"fl": "noun"
 			},
 			{
 				"shortdef": [
@@ -144983,16 +135607,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [],
-				"fl": "geographical name"
-			},
-			{
-				"shortdef": [
-					"volcano 10,456 feet (3187 meters) high at the southern end of the Cascade Range in northern California"
-				],
-				"fl": "geographical name"
-			}
 		]
 	},
 	{
@@ -145392,18 +136006,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"lake in northeastern South Dakota and western Minnesota; drained by a headstream of the Red River"
-				],
-				"fl": "geographical name"
-			},
-			{
-				"shortdef": [
-					"inlet of Lake Michigan on the northwest coast of Michigan's Lower Peninsula"
-				],
-				"fl": "geographical name"
-			}
 		]
 	},
 	{
@@ -145485,124 +136087,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"too long fair",
 				],
-				"fl": "unknown"
+				"fl": "adjective"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -145751,9 +136239,6 @@ module.exports = [
 				],
 				"fl": "verb"
 			},
-			{
-				"shortdef": []
-			}
 		]
 	},
 	{
@@ -145818,9 +136303,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": []
-			}
 		]
 	},
 	{
@@ -145880,7 +136362,7 @@ module.exports = [
 				"shortdef": [
 					"vast region of northern Asia chiefly in Russia extending from the Ural Mountains to the Pacific Ocean and from the Arctic Ocean into northern Kazakhstan and to the borders of China and Mongolia; roughly coextensive with Russia in Asia"
 				],
-				"fl": "geographical name"
+				"fl": "noun"
 			},
 			{
 				"shortdef": [
@@ -145898,13 +136380,13 @@ module.exports = [
 				"shortdef": [
 					"arm of the Arctic Ocean north of eastern Russia in Asia extending from the New Siberian Islands to Wrangel Island"
 				],
-				"fl": "geographical name"
+				"fl": "noun"
 			},
 			{
 				"shortdef": [
 					"islands of northeastern Russia in Asia in the Arctic Ocean between the Laptev Sea and the East Siberian Sea area 11,000 square miles (28,600 square kilometers)"
 				],
-				"fl": "geographical name"
+				"fl": "noun"
 			}
 		]
 	},
@@ -146517,124 +136999,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"a German fairy tale", 
 				],
-				"fl": "unknown"
+				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -146902,12 +137270,6 @@ module.exports = [
 					"a direct channel for information"
 				],
 				"fl": "noun"
-			},
-			{
-				"shortdef": [
-					"pipeline that came into use in 1977 to carry oil 853 miles (1372 kilometers) across Alaska from fields in the area of Prudhoe Bay in the north to the port of Valdez in the south"
-				],
-				"fl": "geographical name"
 			},
 			{
 				"shortdef": [
@@ -147410,124 +137772,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"without a mask"
 				],
-				"fl": "unknown"
+				"fl": "adjective"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -147628,100 +137876,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"last day noon"
 				],
-				"fl": "unknown"
+				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -147812,124 +137970,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"Given a family of curves, assumed to be differentiable, an isocline for that family is formed by the set of points at which some member of the family attains a given slope."
 				],
-				"fl": "unknown"
+				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -148311,124 +138355,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"ex ::: Hertzian wave, the original name of radio waves"
 				],
-				"fl": "unknown"
+				"fl": "adjective"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -148889,12 +138819,6 @@ module.exports = [
 					"one that is impractically large, out-of-date, or obsolete"
 				],
 				"fl": "noun"
-			},
-			{
-				"shortdef": [
-					"area containing rich fossil deposits in northwestern Colorado and northeastern Utah at the junction of the Green and Yampa rivers"
-				],
-				"fl": "geographical name"
 			},
 			{
 				"shortdef": [
@@ -149376,7 +139300,7 @@ module.exports = [
 				"shortdef": [
 					"to reach for and try to hold (something)"
 				],
-				"fl": "phrasal verb"
+				"fl": "verb"
 			}
 		]
 	},
@@ -149436,124 +139360,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"bus routes"
 				],
-				"fl": "unknown"
+				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -149656,12 +139466,6 @@ module.exports = [
 			},
 			{
 				"shortdef": [
-					"mountain 13,140 feet (4005 meters) in the White Mountains, southwestern Nevada"
-				],
-				"fl": "geographical name"
-			},
-			{
-				"shortdef": [
 					"the transition between the Cretaceous and Tertiary periods of geologic time characterized by a mass extinction of many forms of life including the dinosaurs; also : a geologic stratum marking this boundary"
 				],
 				"fl": "noun"
@@ -149748,10 +139552,6 @@ module.exports = [
 		"nvowels": 4,
 		"def": [
 			{
-				"shortdef": [],
-				"fl": "noun"
-			},
-			{
 				"shortdef": [
 					"any of a domain (Bacteria) of chiefly round, spiral, or rod-shaped single-celled prokaryotic microorganisms that typically live in soil, water, organic matter, or the bodies of plants and animals, that make their own food especially from sunlight or are saprophytic or parasitic, are often motile by means of flagella, reproduce especially by binary fission, and include many important pathogens; broadly : prokaryote"
 				],
@@ -149798,10 +139598,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -149938,10 +139734,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -150502,7 +140294,7 @@ module.exports = [
 				"shortdef": [
 					"a branch of genetics dealing with the structure and activity of genetic material at the molecular level"
 				],
-				"fl": "noun, plural in form but singular in construction"
+				"fl": "noun"
 			},
 			{
 				"shortdef": [
@@ -150632,12 +140424,6 @@ module.exports = [
 					"to become compressed or condensed"
 				],
 				"fl": "verb"
-			},
-			{
-				"shortdef": [
-					"mountain 11,049 feet (3368 meters) high in eastern California"
-				],
-				"fl": "geographical name"
 			},
 			{
 				"shortdef": [
@@ -151014,7 +140800,7 @@ module.exports = [
 					"the study and systematic classification of the sounds made in spoken utterance",
 					"the practical application of this science to language study"
 				],
-				"fl": "noun, plural in form but singular in construction"
+				"fl": "noun"
 			}
 		]
 	},
@@ -151357,7 +141143,7 @@ module.exports = [
 				"shortdef": [
 					"two days ago"
 				],
-				"fl": "noun phrase"
+				"fl": "noun"
 			},
 			{
 				"shortdef": [
@@ -151644,124 +141430,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"the state of thriving"
 				],
-				"fl": "unknown"
+				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -151856,9 +141528,9 @@ module.exports = [
 		]
 	},
 	{
-		"n": 9,
+		"n": 8,
 		"count": 1,
-		"text": "spinnning",
+		"text": "spinning",
 		"books": [
 			{
 				"book": "fieldNotes",
@@ -151875,125 +141547,12 @@ module.exports = [
 		"nvowels": 2,
 		"def": [
 			{
-				"shortdef": [
-					"nothingness"
+				"shortdef":[
+					"a method of fishing in which a lure is cast by use of a light flexible rod, a spinning reel, and a light line",
+					"to draw out and twist fiber into yarn or thread","to form a thread by extruding a viscous rapidly hardening fluid used especially of a spider or insect","to revolve rapidly : gyrate"
 				],
-				"fl": "unknown"
+				"fl": "verb"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -152324,7 +141883,7 @@ module.exports = [
 					"an arbitrary set of axes with reference to which the position or motion of something is described or physical laws are formulated",
 					"a set of ideas, conditions, or assumptions that determine how something will be approached, perceived, or understood"
 				],
-				"fl": "noun phrase"
+				"fl": "noun"
 			},
 			{
 				"shortdef": [
@@ -152384,124 +141943,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"breathe again"
 				],
-				"fl": "unknown"
+				"fl": "verb"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -152542,19 +141987,19 @@ module.exports = [
 				"shortdef": [
 					"a set of reasons used in order to reach a conclusion"
 				],
-				"fl": "noun phrase"
+				"fl": "noun"
 			},
 			{
 				"shortdef": [
 					"to find an explanation or solution to (something, such as a problem, question, mystery, etc.) by thinking about the possibilities"
 				],
-				"fl": "phrasal verb"
+				"fl": "verb"
 			},
 			{
 				"shortdef": [
 					"to talk with (someone) in a sensible way in order to try to change that person's thoughts or behavior"
 				],
-				"fl": "phrasal verb"
+				"fl": "verb"
 			}
 		]
 	},
@@ -154141,124 +143586,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"A character encoding provides a key to unlock (ie. crack) the code. It is a set of mappings between the bytes in the computer and the characters in the character set"
 				],
-				"fl": "unknown"
+				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -154755,7 +144086,7 @@ module.exports = [
 				"shortdef": [
 					"places where people talk about issues and make important decisions especially about political matters"
 				],
-				"fl": "noun phrase"
+				"fl": "noun"
 			}
 		]
 	},
@@ -156315,9 +145646,6 @@ module.exports = [
 				"fl": "noun"
 			},
 			{
-				"shortdef": []
-			},
-			{
 				"shortdef": [
 					"a device designed to bind or constrict or to press two or more parts together so as to hold them firmly",
 					"any of various instruments or appliances having parts brought together for holding or compressing something"
@@ -156927,29 +146255,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"Booker Taliaferro 1856—1915 American educator"
+					"bridge in minneapolis, mn"
 				],
-				"fl": "biographical name"
+				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"George 1732—1799 American general; 1st president of the U.S. (1789—97)"
-				],
-				"fl": "biographical name"
-			},
-			{
-				"shortdef": [
-					"state in the northwestern U.S. bordering the Pacific Ocean, the Strait of Juan de Fuca, Puget Sound, the Strait of Georgia, and British Columbia, Canada; capital Olympia area 68,192 square miles (177,299 square kilometers), population 6,724,540",
-					"city and capital of the U.S., coextensive with the District of Columbia and often referred to as Washington, D.C. population 601,723"
-				],
-				"fl": "geographical name"
-			},
-			{
-				"shortdef": [
-					"island of the western Pacific in the Line Islands population 1690"
-				],
-				"fl": "geographical name"
-			}
 		]
 	},
 	{
@@ -156973,124 +146282,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"not engraved"
 				],
-				"fl": "unknown"
+				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -157313,13 +146508,13 @@ module.exports = [
 				"shortdef": [
 					"to cause (someone or something) to be separate from other people or things"
 				],
-				"fl": "phrasal verb"
+				"fl": "verb"
 			},
 			{
 				"shortdef": [
 					"to remove (someone or something) from a group"
 				],
-				"fl": "phrasal verb"
+				"fl": "verb"
 			}
 		]
 	},
@@ -157373,124 +146568,11 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"mass of roots",
+					"Deleuze and Guattari use the term (from Ancient Greek ::: mass of roots) to describe theory and research that allows for multiple, non-hierarchical entry and exit points in data representation and interpretation."
 				],
-				"fl": "unknown"
+				"fl": "adjective"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -157543,124 +146625,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"to exhibit or produce resonance or resonant effects"
 				],
-				"fl": "unknown"
+				"fl": "verb"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -158182,7 +147150,7 @@ module.exports = [
 				"shortdef": [
 					"—used to express praise, joy, or thanks"
 				],
-				"fl": "interjection"
+				"fl": "verb"
 			},
 			{
 				"shortdef": [
@@ -158415,7 +147383,7 @@ module.exports = [
 				"shortdef": [
 					"a branch of genomics that uses various techniques (such as RNA interference and mass spectrometry) to analyze the function of genes and the proteins they produce"
 				],
-				"fl": "noun, plural in form but singular in construction"
+				"fl": "noun"
 			},
 			{
 				"shortdef": [
@@ -158503,47 +147471,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"former country of southern Africa comprising South Rhodesia, North Rhodesia, and Nyasaland; a federal state within the Commonwealth of Nations; dissolved in 1963"
-				],
-				"fl": "geographical name"
-			},
-			{
-				"shortdef": [
-					"former British protectorate comprising the crown colony of Aden and numerous semi-independent Arab sultanates and emirates"
-				],
-				"fl": "geographical name"
-			},
-			{
-				"shortdef": [
-					"independent state comprising the historical regions of Bosnia and Herzegovina and now divided on the basis of ethnicity and religion into the Federation of Bosnia and Herzegovina, which shares its western and southern borders with Croatia, and the Republika Srpska, which shares its northern border with Croatia and its eastern border with Montenegro and Serbia; capital Sarajevo area 19,767 square miles (51,197 square kilometers), population 3,850,000"
-				],
-				"fl": "geographical name"
-			},
-			{
-				"shortdef": [
-					"malay peninsula",
-					"british malaya",
-					"former country in southeastern Asia; a British dominion 1957—63, since 1963 a territory of Malaysia; capital Kuala Lumpur area 50,690 square miles (131,794 square kilometers)"
-				],
-				"fl": "geographical name"
-			},
-			{
-				"shortdef": [
-					"independent country in eastern Europe and northern Asia bordering on the Arctic and Pacific oceans and on the Baltic and Black seas and covering the largest area of any country in the world; capital Moscow area 6,601,668 square miles (17,098,242 square kilometers), population 142,123,000",
-					"the Soviet Union —a common usage despite the fact that the Soviet Union included other republics besides Russia",
-					"former empire in eastern Europe and northern Asia coextensive (except for Finland and Kars, a mountainous region now in northeastern Turkey) with the Soviet Union; capital Saint Petersburg"
-				],
-				"fl": "geographical name"
-			},
-			{
-				"shortdef": [
-					"the islands lying between southeastern North America and northern South America bordering the Caribbean Sea and the Atlantic and comprising the Greater Antilles, Lesser Antilles, and Bahamas",
-					"former country including all of the British West Indies except the Bahamas and the British Virgin Islands"
-				],
-				"fl": "geographical name"
-			}
 		]
 	},
 	{
@@ -158953,124 +147880,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"capable of being composed"
 				],
-				"fl": "unknown"
+				"fl": "adjective"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -159127,147 +147940,6 @@ module.exports = [
 					"the precision, regularity, or absence of variation associated with a clock or clockwork —used in the phrase like clockwork to describe something that happens or works in a regular and exact way"
 				],
 				"fl": "noun"
-			}
-		]
-	},
-	{
-		"n": 10,
-		"count": 1,
-		"text": "chlorophyl",
-		"books": [
-			{
-				"book": "fieldNotes",
-				"count": 1
-			}
-		],
-		"vowels": {
-			"a": 0,
-			"e": 0,
-			"i": 0,
-			"o": 2,
-			"u": 0
-		},
-		"nvowels": 2,
-		"def": [
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
 			}
 		]
 	},
@@ -160798,124 +149470,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"Overlays are usually applied in two or three coats which may include a primer, a second coat, and a super fine top coat"
 				],
-				"fl": "unknown"
+				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -160972,12 +149530,6 @@ module.exports = [
 				],
 				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"—used for a meditation technique"
-				],
-				"fl": "service mark"
-			}
 		]
 	},
 	{
@@ -161096,7 +149648,7 @@ module.exports = [
 				"shortdef": [
 					"the study of human speech including the units, nature, structure, and modification of language"
 				],
-				"fl": "noun, plural in form but singular in construction"
+				"fl": "noun"
 			}
 		]
 	},
@@ -161153,9 +149705,6 @@ module.exports = [
 					"consisting of or containing a stop in articulation"
 				],
 				"fl": "adjective"
-			},
-			{
-				"shortdef": []
 			},
 			{
 				"shortdef": [
@@ -161330,124 +149879,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"living in a certain place as an inhabitant"
 				],
-				"fl": "unknown"
+				"fl": "verb"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -161542,7 +149977,7 @@ module.exports = [
 				"shortdef": [
 					"someone who owns or manages a large, successful business or company"
 				],
-				"fl": "noun phrase"
+				"fl": "noun"
 			},
 			{
 				"shortdef": [
@@ -161866,7 +150301,7 @@ module.exports = [
 				"shortdef": [
 					"the science of communication and control theory that is concerned especially with the comparative study of automatic control systems (such as the nervous system and brain and mechanical-electrical communication systems)"
 				],
-				"fl": "noun, plural in form but singular in construction"
+				"fl": "noun"
 			}
 		]
 	},
@@ -161927,124 +150362,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"In food webs, the level of connectance is related to the statistical distribution of the links per species"
 				],
-				"fl": "unknown"
+				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -162454,124 +150775,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"Resemblance; likeness; appearance", "An assembling; assemblage"
 				],
-				"fl": "unknown"
+				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -163212,124 +151419,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"blossoming, flowering"
 				],
-				"fl": "unknown"
+				"fl": "adjective"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -163360,12 +151453,6 @@ module.exports = [
 			},
 			{
 				"shortdef": [
-					"city in western Missouri east of Kansas City population 116,830"
-				],
-				"fl": "geographical name"
-			},
-			{
-				"shortdef": [
 					"a civil holiday for the celebration of the anniversary of the beginnings of national independence; specifically : July 4 observed as a legal holiday in the U.S. in commemoration of the adoption of the Declaration of Independence in 1776"
 				],
 				"fl": "noun"
@@ -163378,28 +151465,10 @@ module.exports = [
 			},
 			{
 				"shortdef": [
-					"March 2 observed as the anniversary of the declaration of independence of Texas from Mexico in 1836 and also as the birthday of Sam Houston"
-				],
-				"fl": "noun"
-			},
-			{
-				"shortdef": [
-					"the war of 1775-83 in which 13 British colonies in North America broke free from British rule and became the United States of America"
-				],
-				"fl": "noun phrase"
-			},
-			{
-				"shortdef": [
 					"to say that one no longer accepts the rule of another"
 				],
 				"fl": "idiom"
 			},
-			{
-				"shortdef": [
-					"a war that is fought to gain independence"
-				],
-				"fl": "noun phrase"
-			}
 		]
 	},
 	{
@@ -163577,124 +151646,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"being embedded"
 				],
-				"fl": "unknown"
+				"fl": "noun"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -164226,124 +152181,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"Thermoelastic behavior is defined by stating that the thermodynamic functions e and s as well as the stress tensor, σ, are one-to-one functions of the independent state variables ɛ and T"
 				],
-				"fl": "unknown"
+				"fl": "adjective"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	},
 	{
@@ -165092,94 +152933,10 @@ module.exports = [
 		"def": [
 			{
 				"shortdef": [
-					"nothingness"
+					"un synchronize"
 				],
-				"fl": "unknown"
+				"fl": "verb"
 			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			},
-			{
-				"shortdef": [
-					"nothingness"
-				],
-				"fl": "unknown"
-			}
 		]
 	}
 ]
