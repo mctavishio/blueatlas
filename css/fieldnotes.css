@@ -556,14 +556,15 @@ h5 {
 	flex-basis: auto; /* or a value 150px; */
 	align-self:  auto; /* || flex-start || flex-end || center || baseline || stretch */
 }
+
+ul.circle li, ol.circle li, dl.circle dt { 
+	display: list-item;
+	padding-bottom: .6em;
+}
 ul.circle, ol.circle, dl.circle {
 	margin-left:2em;
 	list-style-type: circle;
 	list-style-position: outside;
-}
-ul.circle li, ol.circle li, dl.circle dt { 
-	display: list-item;
-	padding-bottom: .6em;
 }
 ul.stanza {
 	margin-bottom: 1em;

@@ -21,7 +21,7 @@ const randominteger = (min, max) => {
 };
 const alphabet = 'abcdefghijklmnopqrstuvwxyz'.split('');
 const vowels = 'aeiou'.split('');
-let symbols = '.|:+-.&~_|::=<>:#x=&&∴'.split('');
+let symbols = '.|:+-.&~_|::=<>:#x=&&^'.split('');
 
 
 //Fisher-Yates (aka Knuth) Shuffle

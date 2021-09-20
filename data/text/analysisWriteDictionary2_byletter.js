@@ -20,7 +20,7 @@ const randominteger = (min, max) => {
 };
 const alphabet = 'abcdefghijklmnopqrstuvwxyz'.split('');
 const vowels = 'aeiou'.split('');
-let symbols = '.|:+-.&~_|::=<>:#x=&&∴'.split('');
+let symbols = '.|:+-.&~_|::=<>:#x=&&^'.split('');
 
 //Fisher-Yates (aka Knuth) Shuffle
 const shufflearray = array => {
@@ -76,7 +76,7 @@ fs.writeFile('outputDictionary' + '_' +rawdatestr + '.html', `
 		${poem}
 		<hr/>
 		<dl>
-		<dt>words pulled from books ::: </dt><dd> ${books.join(" || ")}</dd>
+		<dt>words pulled from books ::: </dt><dd> ${books.join(" || ") + "& <a href='https://dictionaryapi.com/products/json'>merriam-webster</a>" }</dd>
 		<dt>generated on ::: </dt><dd>  ${datestr}</dd>
 		</dl>
 		<hr/><hr/>
