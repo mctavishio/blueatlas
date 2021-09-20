@@ -15,7 +15,6 @@ const now = new Date();
 const rawdatestr = now.getTime();
 const datestr = now.toISOString();
 
-const goals = ["letterman", "tickertape", "abecedarium", "justify", "flying geese", "living stanza", "dictionary", "index"];
 const randominteger = (min, max) => {
 		return Math.floor( min + Math.random()*(max-min));
 };
@@ -47,41 +46,38 @@ let wordsx = words;
 // 	});
 // 	return acc;
 // }, []);
-let poem = "";
-[...Array(nstanzas).keys()].forEach( s => {
-
-	vowels.map( vowel => {
-		let wvow = wordsx.filter( word => { return word.vowels[vowel]>0 && word.nvowels===word.vowels[vowel]}).map(w => w.text);
-
-		let stanza = "";
-		// let stanza = `<p>-- # <span class="red bold">${vowel}</span> :|.| =>  <= ...</p><p>`;
-
-		while(stanza.length < nstanzachars) {
-				stanza = stanza + wvow[randominteger(0,wvow.length)] + " ";
-				if(randominteger(0,10) < 2) {
-					[...Array(randominteger(1,4)).keys()].forEach( j => { stanza = stanza + symbols[randominteger(0,symbols.length)]} )
-					stanza = stanza + " ";
-				}
-
-		}
-		poem = poem + "<p>" + stanza + "</p><hr/>";
-	});
+let poem = "<dl>";
+words.map(word => {
+	if(word.nvowels !== 0) {
+		let books = word.books || [ {book: "all", books: d.books}];
+		let bookstr = books.map(b =>  { return b.book +" (" + b.count +")"}).join(", ");
+		poem = poem + `<dt>${word.text} (${word.count})</dt><dd><span class="books">in books ::: ${bookstr}</span><br/>`
+		word.def.map( d => {
+			// if(d.shortdef[0] !== ".||.") {
+				let shortdef = d.shortdef || [". . ."];
+				poem = poem + `<span class="fl">(${d.fl})</span> ${shortdef.join(", ")}<br/>`
+			// }
+		})
+		poem = poem + ` </dd>`;
+	}
 });
-	// fs.writeFile('outputVowelsPoem_' + book + '_' + vowel + '_'+ Date.now() + '.html', `
-	fs.writeFile('outputVowelsPoem3_allbooks' + '_' + rawdatestr + '.html', `
-	<html>
-		<link rel="stylesheet" href="analysis.css"/>
-		<body>
-			<h1>vowel poems :::</h1>
-			<h2>all texts</h2>
-			<p><i>abecedarium .| . . . |. hash</i></p>
-			<p><a href = "/analysis.html">[] . +.+ => <= go back</a></p>
-			<hr/>
-			${poem}
-			<hr/>
-				<dl>
-				<dt>from ::: </dt><dd>  ${books.join(" || ")}</dd>
-				<dt>generated on ::: </dt><dd>  ${datestr}</dd>
-				</dl>
-			<hr/><hr/>
-			</body></html>`, 'utf8', e => {console.log("done")});
+poem = poem + "</dl>";
+// fs.writeFile('outputVowelsPoem_' + book + '_' + vowel + '_'+ Date.now() + '.html', `
+console.log(datestr);
+fs.writeFile('outputDictionary' + '_' +rawdatestr + '.html', `
+<html>
+	<link rel="stylesheet" href="analysis.css"/>
+	<body>
+		<h1>dictionary :::</h1>
+		<h2>all texts</h2>
+		<p><i>word collection .| . . . |. nets</i></p>
+		<p><a href = "/analysis.html">[] . +.+ => <= go back</a></p>
+		<hr/>
+		${poem}
+		<hr/>
+		<dl>
+		<dt>words pulled from books ::: </dt><dd> ${books.join(" || ")}</dd>
+		<dt>generated on ::: </dt><dd>  ${datestr}</dd>
+		</dl>
+		<hr/><hr/>
+		</body></html>`, 'utf8', e => {console.log("done")});

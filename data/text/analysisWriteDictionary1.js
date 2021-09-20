@@ -11,8 +11,10 @@ const nstanzalines = 4;
 const linelength = 48;
 const nstanzachars = nstanzalines*linelength;
 const partsOfSpeech = ["noun", "verb", "adjective", "adverb", "symbol", "unknown"];
+const now = new Date();
+const rawdatestr = now.getTime();
+const datestr = now.toISOString();
 
-const goals = ["letterman", "tickertape", "abecedarium", "justify", "flying geese", "living stanza", "dictionary", "index"];
 const randominteger = (min, max) => {
 		return Math.floor( min + Math.random()*(max-min));
 };
@@ -48,7 +50,8 @@ let poem = "<dl>";
 words.map(word => {
 	if(word.nvowels !== 0) {
 		let books = word.books || [ {book: "all", books: d.books}];
-		poem = poem + `<dt>${word.text}</dt><dd><span class="books">in books ::: ${books.map(b => b.book).join(", ")}</span><br/>`
+		let bookstr = books.map(b =>  { return b.book +" (" + b.count +")"}).join(", ");
+		poem = poem + `<dt>${word.text} (${word.count})</dt><dd><span class="books">in books ::: ${bookstr}</span><br/>`
 		word.def.map( d => {
 			// if(d.shortdef[0] !== ".||.") {
 				let shortdef = d.shortdef || [". . ."];
@@ -60,59 +63,9 @@ words.map(word => {
 });
 poem = poem + "</dl>";
 // fs.writeFile('outputVowelsPoem_' + book + '_' + vowel + '_'+ Date.now() + '.html', `
-fs.writeFile('outputDictionary' + Date.now() + '.html', `
+fs.writeFile('outputDictionary' + '_' +rawdatestr + '.html', `
 <html>
 	<style>
-	:root {
-	  --red: #9a0000;
-	  --yellow: #ffcc00;
-	  --black: #000000;
-	  --warmblack: #191918;
-	  --warmgray: #4b4b44;
-	  --warmlightgray: #656560;
-	}
-	html {
-	    border-left: solid 1em #9a0000;
-	    border-right: dashed 1rem #191918;
-	    border-left: solid 1em var(--red);
-	    border-right: dashed 1rem var(--warmblack);
-	    padding:2rem;
-	}
-	body {
-	  color: var(--warmblack);
-	  background: var(--warmwhite);
-	  font-family:courier;
-	  font-size: clamp(0.9rem, 2vw, 2rem);
-	  line-height: 1.8em; 
-	}
-	p {
-	  text-align: justify;
-	  text-align-last: justify;
-	  text-justify: inter-word;
-	  width: clamp(50ch, 55ch, 100%);
-	}
-	hr {
-	  border-bottom: solid 4px var(--warmgray);
-	}
-	a {
-	  font-weight:bold;
-	  text-decoration: none;
-	  color: #fcfbe3;
-	  color: var(--warmwhite);
-	}
-	a:before {
-	  color: #fcfbe3;
-	  color: var(--warmwhite);
-	  font-weight:bolder;
-	  content: ":> ";
-	}
-	dt {
-		color: var(--red);
-		font-weight: bold;
-	}
-	dd {
-		font-size: 0.8em;
-	}
 	span.books {
 		color: var(--warmlightgray);
 		font-style: italic;
@@ -121,12 +74,6 @@ fs.writeFile('outputDictionary' + Date.now() + '.html', `
 		color: var(--warmblack);
 		font-style: italic;
 		font-weight: bold;
-	}
-	a:hover, a:focus {
-	  color: var(--warmwhite);
-	  text-decoration: underline solid 2px var(--red);
-	  outline: solid 4px var(--warmblack);
-	  outline-offset: 0.5em;
 	}
 	</style>
 	<body>
@@ -137,7 +84,9 @@ fs.writeFile('outputDictionary' + Date.now() + '.html', `
 		<hr/>
 		${poem}
 		<hr/>
-		<p>words puuled from ${books.join(" || ")}</p>
-		<p>generated on ::  ${new Date().toISOString()}</p>
+		<dl>
+		<dt>words pulled from books ::: </dt><dd> ${books.join(" || ")}</dd>
+		<dt>generated on ::: </dt><dd>  ${datestr}</dd>
+		</dl>
 		<hr/><hr/>
 		</body></html>`, 'utf8', e => {console.log("done")});

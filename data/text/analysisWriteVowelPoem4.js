@@ -6,7 +6,7 @@ const words = require('./wordsAllPoems_withDictionary');
 const books = ["birdland","blueWindow","artist","fieldNotes"];
 const booktitles = ["birdland", "night train blue window", "artist self", "blue atlas ::: field notes"];
 // const books = [,"artist"];
-const nstanzas = 8;
+const nstanzas = 42;
 const nstanzalines = 4;
 const linelength = 48;
 const nstanzachars = nstanzalines*linelength;
@@ -39,7 +39,7 @@ const shufflearray = array => {
 }
 
 const maxcount = 40;
-let wordsx = words;
+
 // let wordsx = words.reduce( (acc, word, index) => {
 // 	let count = Math.max(word.count, maxcount*2);
 // 	[...Array(count).keys()].map( j => {
@@ -48,33 +48,30 @@ let wordsx = words;
 // 	return acc;
 // }, []);
 let poem = "";
-[...Array(nstanzas).keys()].forEach( s => {
+[...Array(nstanzas).keys()].forEach( ( s, count ) => {
+	let c = count%8;
+		let wordsx = words.filter(word => word.nvowels ===  c).map(w => w.text);
 
-	vowels.map( vowel => {
-		let wvow = wordsx.filter( word => { return word.vowels[vowel]>0 && word.nvowels===word.vowels[vowel]}).map(w => w.text);
-
-		let stanza = "";
-		// let stanza = `<p>-- # <span class="red bold">${vowel}</span> :|.| =>  <= ...</p><p>`;
-
+		let stanza = `<p>-- # <span class="red bold">${c}</span> :|.| =>  <= ...</p><p>`;
 		while(stanza.length < nstanzachars) {
-				stanza = stanza + wvow[randominteger(0,wvow.length)] + " ";
+				stanza = stanza + wordsx[randominteger(0,wordsx.length)] + " ";
 				if(randominteger(0,10) < 2) {
 					[...Array(randominteger(1,4)).keys()].forEach( j => { stanza = stanza + symbols[randominteger(0,symbols.length)]} )
 					stanza = stanza + " ";
 				}
 
 		}
-		poem = poem + "<p>" + stanza + "</p><hr/>";
-	});
+		poem = poem + stanza + "</p><hr/>";
+	// });
 });
 	// fs.writeFile('outputVowelsPoem_' + book + '_' + vowel + '_'+ Date.now() + '.html', `
-	fs.writeFile('outputVowelsPoem3_allbooks' + '_' + rawdatestr + '.html', `
+	fs.writeFile('outputVowelsPoem4_allbooks' + '_' + rawdatestr + '.html', `
 	<html>
 		<link rel="stylesheet" href="analysis.css"/>
 		<body>
 			<h1>vowel poems :::</h1>
-			<h2>all texts</h2>
-			<p><i>abecedarium .| . . . |. hash</i></p>
+			<h2> # 0 => 7</h2>
+			<p><i>vowel +.+ count .| . . . |. hash</i></p>
 			<p><a href = "/analysis.html">[] . +.+ => <= go back</a></p>
 			<hr/>
 			${poem}
@@ -82,6 +79,5 @@ let poem = "";
 				<dl>
 				<dt>from ::: </dt><dd>  ${books.join(" || ")}</dd>
 				<dt>generated on ::: </dt><dd>  ${datestr}</dd>
-				</dl>
-			<hr/><hr/>
+				</dl>			<hr/><hr/>
 			</body></html>`, 'utf8', e => {console.log("done")});

@@ -11,6 +11,11 @@ const nstanzalines = 18;
 const linelength = 48;
 const nstanzachars = nstanzalines*nstanzas;
 
+
+const now = new Date();
+const rawdatestr = now.getTime();
+const datestr = now.toISOString();
+
 const goals = ["letterman", "tickertape", "abecedarium", "justify", "flying geese", "living stanza", "dictionary", "index"];
 const randominteger = (min, max) => {
 		return Math.floor( min + Math.random()*(max-min));
@@ -38,6 +43,7 @@ books.forEach( (book,j) => {
 		return word.books.filter( b => b.book===book ).length > 0
 	});
 
+	// let wordsx = words;
 	let wordsx = wordsBook.reduce( (acc, word, index) => {
 		let count = word.books.filter( b => b.book===book )[0].count;
 		[...Array(count).keys()].map( j => {
@@ -77,69 +83,20 @@ books.forEach( (book,j) => {
 		poem = poem + "<p>"+stanza+"</p><hr/>";
 
 	});
-	fs.writeFile('outputJustifyPoem_' + book + '_' + Date.now() + '.html', `
+	fs.writeFile('outputJustifyPoem_' + book + '_' + rawdatestr + '.html', `
 	<html>
-		<style>
-		:root {
-		  --red: #9a0000;
-		  --yellow: #ffcc00;
-		  --black: #000000;
-		  --warmblack: #191918;
-		  --warmgray: #4b4b44;
-		  --warmlightgray: #656560;
-		}
-		html {
-		    border-left: solid 1em #9a0000;
-		    border-right: dashed 1rem #191918;
-		    border-left: solid 1em var(--red);
-		    border-right: dashed 1rem var(--warmblack);
-		    padding:2rem;
-		}
-		body {
-		  color: var(--warmblack);
-		  background: var(--warmwhite);
-		  font-family:courier;
-		  font-size: clamp(0.9rem, 2vw, 2rem);
-		  line-height: 1.8em; 
-		}
-		p {
-		  text-align: justify;
-		  text-align-last: justify;
-		  text-justify: inter-word;
-		  width: clamp(50ch, 55ch, 100%);
-		}
-		hr {
-		  border-bottom: solid 4px var(--warmgray);
-		}
-		a {
-		  font-weight:bold;
-		  text-decoration: none;
-		  color: #fcfbe3;
-		  color: var(--warmwhite);
-		}
-		a:before {
-		  color: #fcfbe3;
-		  color: var(--warmwhite);
-		  font-weight:bolder;
-		  content: ":> ";
-		}
-		a:hover, a:focus {
-		  color: var(--warmwhite);
-		  text-decoration: underline solid 2px var(--red);
-		  outline: solid 4px var(--warmblack);
-		  outline-offset: 0.5em;
-		}
-		</style>
+		<link rel="stylesheet" href="analysis.css"/>
 		<body>
 			<h1>justify :::</h1>
 			<h2>${booktitle}</h2>
 			<p><i>probability .| . . . |. hash</i></p>
 			<p><a href = "/analysis.html">[] . +.+ => <= go back</a></p>
-
 			${poem}
 			<hr/>
-			<p>excerpts from ${booktitle}</p>
-			<p>generated on ::  ${new Date().toISOString()}</p>
+				<dl>
+				<dt>from book ::: </dt><dd> ${booktitle}</dd>
+				<dt>generated on ::: </dt><dd>  ${datestr}</dd>
+				</dl>
 			<hr/><hr/>
 			</body></html>`, 'utf8', e => {console.log("done")});
 });
