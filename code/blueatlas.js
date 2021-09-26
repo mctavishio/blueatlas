@@ -904,6 +904,6 @@ window.addEventListener('load', e => {
   // window.setTimeout(() => { document.querySelector("#contentframe").style.opacity = 1.0 }, 1800);
   // window.setTimeout(() => { document.querySelector("#controls").style.backgroundColor = "rgba(0,0,0,0.0)" }, 6800);
 });
-window.addEventListener('beforeunload', e => {
-	window.scroll(0,0);
-});
+// window.addEventListener('beforeunload', e => {
+// 	window.scroll(0,0);
+// });
