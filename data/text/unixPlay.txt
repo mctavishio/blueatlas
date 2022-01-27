@@ -40,7 +40,7 @@ replace with: , text:"$1"},
 **** final
 or bash findWords.sh
 replace ^[\s]*([0-9]*) with {count:$1, text: "
-then text: "([0-9a-zA-Z|()&.=>:*!]{2})$ with text: "$1", n:2},
+then text: "([0-9a-zA-Z|()&.=>:*!-]{2})$ with text: "$1", n:2},
 etc
 
 sculpture of associations
