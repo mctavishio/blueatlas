@@ -67,12 +67,17 @@ caption, th, td {
 	font-weight: normal;
 	vertical-align: middle;
 }
-q, blockquote {
-	quotes: none;
+blockquote {
+	font-size:.9em;
+	margin-left:1em; margin-right:1em;
 }
-q:before, q:after, blockquote:before, blockquote:after {
-	content: "";
-	content: none;
+blockquote::before {
+  content: open-quote;
+  font-size:2em;
+}
+blockquote::after {
+  content: close-quote;
+  font-size:2em;
 }
 a img {
 	border: none;
